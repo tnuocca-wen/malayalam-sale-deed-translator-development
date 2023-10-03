@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>മലയാളം തീറാധാര പരിഭാഷകൻ</title>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <style>
+        .head {
+            /* text-align: center; */
+            padding-bottom: 3%;
+            padding-top: 1%;
+        }
+        .loading {
+            width: 17px;
+            height: 17px;
+            margin:auto;
+            display:table;
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            right:0;
+            top: 50%;
+            border:1px solid;
+            transform:translateY(337%);
+            /* transform:translateX(150%); */
+            animation-name: loading;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-left: -(50% of width);
+        }
+        @keyframes loading {
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:rgb(243, 243, 61); left:30px; top:0px;}
+            50%  {background-color:rgb(64, 64, 200); left:30px; top:30px;}
+            75%  {background-color:rgb(31, 236, 31); left:0px; top:30px;}
+            100% {background-color:red; left:0px; top:0px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+    <h1 class="head">മലയാളം തീറാധാര പരിഭാഷകൻ</h1>
+    <br>
+    <div class="" id="animation"></div>
+    <div class="row justify-content-center">
+    <div class="col" id="result" style="position: absolute; z-index: 1;"></div>
+    </div>
+    <br>
+    <br>
+    <!-- <a class="btn btn-primary" id="disp_btn" href="/display">Display PDF</a> -->
+    <div class="row justify-content-around">
+    <!-- <div id="buttonsDiv" class="col-4"> -->
+    <form id="pdfForm" class="col-4" enctype="multipart/form-data" method="post">
+                <input type="file" style="display: none;" name="file" id="pdfFile" accept=".pdf" required>
+                <a class="btn btn-outline-secondary" id="fileSelect">Click Select a File to upload</a>
+                <button class="btn btn-primary" id="submitBtn" type="button">Get OCR</button>
+            </form>
+    <!-- </div> -->
+    <div class="col-4" id="tranDiv">
+    </div>
+    <div class="col-4">
+        <button class="btn btn-warning" id="cancelBtn" type="button">Cancel</button>
+    </div>
+    </div>
+    <br>    
+    <hr>
+    <div class="row justify-content-around">
+        <div class="col">
+        <!-- <h1 id="pdfPath" style="display: none;">{{ pdf_path() }}</h1> -->
+        <embed src="" id="pdfView" height="1000vh" width="700vw">
+        </div>
+        <div class="col">
+            <textarea name="ocrText" id="ocrText" cols="75" rows="40" style="resize: none; border: none;"></textarea>
+        </div>
+
+</div>
+</body>
+</form>
+<a id="downloadLink" style="display: none;" download="output.txt">Download Text</a>
+</div>
+<script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
