@@ -142,9 +142,11 @@ def convert_pdf():
         ocr_done = True
         return
 
-      
+@app.route('/translate', methods=['POST'])
 def translate():
-    global sentences
+    data = request.get_json()
+    print(data)
+    sentences = data['sentences']
     translated = []
     for sent in sentences:
         print(sent)
@@ -152,10 +154,11 @@ def translate():
         translated.append(clnd)
         print(clnd)
 
-    with open('output.txt', 'w', encoding='utf-8') as text_file:
-        text_file.write("\n".join(translated))
+    return jsonify({'status': 'success', 'message': 'Translated Successfully', 'translated': translated})
+    # with open('output.txt', 'w', encoding='utf-8') as text_file:
+    #     text_file.write("\n".join(translated))
 
-    return send_file('output.txt', as_attachment=True, download_name=f'{fname}.txt')
+    # return send_file('output.txt', as_attachment=True, download_name=f'{fname}.txt')
 
 # loc_path = None
 # @app.route('/display')

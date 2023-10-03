@@ -26,6 +26,7 @@ if(textArea.value.trim() != ''){
         //     elem.parentNode.removeChild(elem)
         // }
         document.getElementById("tranDiv").appendChild(tran);
+        translate_btn_press = document.getElementById("translateBtn").addEventListener("click", sendDataToTranslate);
     }
     }
 }
@@ -54,7 +55,7 @@ fileElem.addEventListener(
         var pdfFile = pdfFileInput.files[0];
         console.log(pdfFile.name)
         if(pdfFile){
-            document.getElementById("fileSelect").innerHTML = "the selected file is" + "<br><mark style=\"background-color: beige;\">" + pdfFile.name + "</mark>";
+            document.getElementById("fileSelect").innerHTML = "<mark style=\"background-color: beige;\">" + pdfFile.name + "</mark>";
         }
     },
     false,
@@ -90,15 +91,51 @@ const loader = document.getElementById("animation");
         loader.classList.remove("loading");
    }  
 
+// if (document.getElementById("translateBtn")){
+function sendDataToTranslate() {
+    console.log("sending Data to translate");
+    text = document.getElementById("ocrText").value;
+    // console.log(text);
+    cool = JSON.stringify({sentences:text})
+    console.log(cool)
+    textarr = text.split('`~>');
+    fetch('/translate',{
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({sentences:textarr}),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        if (data.status === 'success')
+        {
+            document.getElementById("result").textContent = data.message;
+            translatedTxt = data.translated;
+            for(let i=0; i<translatedTxt.length; i++){
+                console.log("ദി:" + translatedTxt[i]);
+            }
+            document.getElementById("ocrText").value = data.translated;
+        }
+    });
+    // .catch(error => {
+    //     console.error('Error:', error);
+    // });
+
+}
+// }
    
    document.getElementById("submitBtn").addEventListener("click", function() {
-    if (document.getElementById(''))
     var pdfFileInput = document.getElementById("pdfFile");
     var pdfFile = pdfFileInput.files[0];
     console.log(pdfFile.name)
     if (pdfFile) {
         displayLoading();
         document.getElementById("submitBtn").disabled = true;
+        if (document.getElementById('translateBtn')){
+            document.getElementById('translateBtn').disabled = true;
+        }
         var formData = new FormData();
         formData.append("pdf_file", pdfFile);
         pdf_view = document.getElementById("pdfView");
@@ -125,21 +162,23 @@ const loader = document.getElementById("animation");
                         document.getElementById("ocrText").value = data.sentences;
                         var sentences_list = data.sentences_list;
                         document.getElementById("submitBtn").disabled = false;
+                        if (document.getElementById('translateBtn')){
+                            document.getElementById('translateBtn').disabled = false;
+                        }
                         // tranDiv = document.createElement("div");
                         // tranDiv.classList.add("col-4")
                         // tranDiv.id = "tranDiv"
                         // document.getElementById("buttonsDiv").appendChild(tranDiv);
-                        tran = document.createElement("button");
-                        tran.type = "button"
-                        tran.id = "translateBtn"
-                        tran.classList.add("btn")
-                        tran.classList.add("btn-success")
-                        tran.innerHTML = "Translate to English";
-                        if (document.getElementById('translateBtn')){
-                            elem = document.getElementById('translateBtn');
-                            elem.parentNode.removeChild(elem)
-                        }
-                        document.getElementById("tranDiv").appendChild(tran);
+                        if (!document.getElementById('translateBtn')){
+                            tran = document.createElement("button");
+                            tran.type = "button"
+                            tran.id = "translateBtn"
+                            tran.classList.add("btn")
+                            tran.classList.add("btn-success")
+                            tran.innerHTML = "Translate to English";
+                            document.getElementById("tranDiv").appendChild(tran);
+                            translate_btn_press = document.getElementById("translateBtn").addEventListener("click", sendDataToTranslate);
+                    }
                         // alert(data.message);
                     } else {
                         alert('Failed to update text area');

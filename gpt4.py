@@ -114,7 +114,7 @@ def chatGPT_Trans(text):
 
   example_prompt = PromptTemplate(input_variables=["malayalam_sent", "translation"], template="Translate to English : {malayalam_sent}\n{translation}")
 
-  llm = ChatOpenAI(model = 'gpt-4', temperature=0)
+  llm = ChatOpenAI(model = 'gpt-3.5-turbo-16k', temperature=0)
 
   dictionary = dictionary_search(text)
 
