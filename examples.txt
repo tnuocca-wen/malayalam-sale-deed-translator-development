@@ -80,8 +80,8 @@
     {'malayalam_sent': '''സ്വസ്ഥം''',
     'translation': '''unemployed'''},
 
-    {'malayalam_sent': '''പേർക്ക് എഴുതിക്കൊടുത്ത സെറ്റിൽമെന്റാധാരം.''',
-    'translation': '''Sale deed written to'''},
+    {'malayalam_sent': '''ബെൻ പേർക്ക് എഴുതിക്കൊടുത്ത സെറ്റിൽമെന്റാധാരം.''',
+    'translation': '''Settlement deed executed in favor of Ben'''},
 
     {'malayalam_sent': '''താഴെ പട്ടികയിൽ വിശദമായി വിവരിച്ചു ഈ ആധാരപ്രകാരം താങ്കൾക്കു വിലയ്ക്ക് തരുന്നതുൾപ്പെടെയുള്ള വസ്തുവകകൾ''',
     'translation': '''Properties detailed in the table below, which includes properties being sold to you by this sale deed'''},
@@ -165,6 +165,781 @@
     'translation': '''As mentioned above, if you suffer any damages in relation to the properties listed in the table and sold to you as per this sale deed, contrary to the assurances to you, I hereby commit to fully compensate you for any such losses incurred and I agree to utilize all of my assets to cover these losses, and I fully agree that I will not contest or object to the recovery of such losses from my assets or from me personally.'''},
 
     {'malayalam_sent': '''പട്ടികവസ്തുക്കളുടെ മുന്നാധാരങ്ങളും കരം തീർത്ത രസീതും ഇതുസഹിതം തന്നിരിക്കുന്നു''',
-    'translation': '''The prior sale deeds and the tax receipts in respect of the properties detailed in the table are hereby handed over. '''}
+    'translation': '''The prior sale deeds and the tax receipts in respect of the properties detailed in the table are hereby handed over. '''},
+
+    {'malayalam_sent': '''ടി''',
+    'translation': '''aforementioned'''},
+
+    {'malayalam_sent': '''ഗോപാലൻ പേർക്ക് ടി കരയിൽ വേലിയ്ക്കകത്ത് വീട്ടിൽ വർഗീസ്സ് മകൻ സ്വസ്ഥം എൺപത്തിഒന്ന് വയസുള്ള ജോസഫ് എഴുതിക്കൊടുത്ത തീറാധാരം''',
+    'translation': '''Sale deed executed by Joseph, aged 81, son of Varghese, residing at Velikkakath Veedu of the aforesaid Kara in favor of Gopalan'''},
+	
+	{'malayalam_sent': '''നത്തുകലല് കരയിൽ വേലിയ്ക്കകത്ത് വീട്ടിൽ മാത്യു മകൻ ടോണി മാത്യു പേർക്ക് ടി കരയിൽ വേലിയ്ക്കകത്ത് വീട്ടിൽ ദേവസ്യാ മകൻ ആഗസ്തി എഴുതിക്കൊടുത്ത തീറാധാരം''',
+    'translation': '''Sale deed executed by Augusti, son of Devasya, residing at Velikkakath Veedu of the Nathukallu Kara, in favor of Tony Mathew, aged 19, son of Mathew, residing at Velikkakath Veedu of the aforesaid Kara.'''},
+
+    {'malayalam_sent': '''പട്ടികവസ്തുവകകൾക്ക് നമ്മുടെ പരസ്പര സമ്മതപ്രകാരം തീറുവില നിശ്ചയിച്ച രൂപ 90, 000 ടി രൂപാ തൊണ്ണൂറായിരവും നാളിത് നിങ്ങൾ വശം ഞാൻ രൊക്കം പറ്റി ബോദ്ധ്യപ്പെട്ടിരിക്കയാൽ പട്ടികവസ്തുവകകൾ ഇന്നു മുതൽ നിങ്ങൾ കൈവശം വച്ചും കരം നിങ്ങളുടെ പേരിൽ കൂട്ടി തീർത്തും ക്രയവിക്രയ സർവ്വസ്വാതന്ത്ര്യമായി എന്നാളും തീറായി അനുഭവിച്ചുകൊളളുന്നതിന് ഞാൻ ഇതിനാൽ പൂർണ്ണമായി സമ്മതിച്ചിരിക്കുന്നു.''',
+    'translation': '''According to our mutual agreement, the schedule properties are sold to you for a fixed price of 90,000 rupees, which you have paid in full. I fully agree that today onwards, you have full ownership of these properties, and you can pay taxes in your name, sell, and enjoy complete freedom with these properties.'''},
+
+    {'malayalam_sent': '''പട്ടിക വസ്തുവിൽ സ്ഥാപിച്ച് യാതൊരുവിധ കടബാദ്ധ്യതകളും ജപ്തി, ജാമ്യം മുതലായ കോർട്ട് തടങ്കലുകളും ഞാൻ അല്ലാതെ മറ്റുവകാശികളും അവകാശന്യുനതയും ഇല്ലന്നും പട്ടികവസ്തു നിക്ഷിപ്തവനഭൂമിയിലോ പട്ടികവർഗ്ഗസെറ്റിൽമെന്റിലോ പെട്ടതല്ലന്നും കേരള ഭൂപരിഷ്കരണ നിയമമനുസരിച്ച് പരിധിയിൽ കവിഞ്ഞഭൂമി ഇല്ലന്നും മിച്ചഭൂമി സംബന്ധമായി കേസ്സുകൾ ഒന്നും നിലവിൽ ഇല്ലന്നും ഞാൻ നിങ്ങളെ ഇതിനാൽ ഉറപ്പായി പറഞ്ഞു വിശ്വസിപ്പിച്ചിരിക്കുന്നു.''',
+    'translation': '''I assure you that there are no debts, court seizures, or other legal issues associated with the schedule properties. I assure you that apart from me no other person has any claim or right to these properties. I assure you that the properties are not listed as excess land under the Kerala Land Reforms Act, nor are they involved in any cases related to excess land.'''},
+
+    {'malayalam_sent': '''അതിനു വിപരീതമായോ മറ്റു വിധേനയോ ഈ തീറാധാരപ്രകാരം നിങ്ങൾക്കും സിദ്ധിച്ചിട്ടുള്ള അവകാശത്തിനോ കൈവശത്തിനോ എന്തെങ്കിലും ന്യൂനത നേരിട്ട് നിങ്ങൾക്ക് വല്ല മുതൽ നഷ്ടത്തിനോ കഷ്ടനഷ്ടത്തിനോ ഇടയാകുന്നതായാൽ ആയതിലേക്ക് ഞാനും എന്റെ വക ഇതര സ്ഥാവരജംഗമ സ്വത്തുക്കളും നിങ്ങളോട് എക്കാലവും എല്ലാപ്രകാരേണയും നഷ്ടടോത്തരവാദിത്വം ചെയ്തുകൊള്ളാമെന്നും ഞാൻ ഇതിനാൽ പൂർണ്ണാമയി സമ്മതിച്ചിരിക്കുന്നു.''',
+    'translation': '''I fully agree that, if contrary to this, you suffer any loss or hardship due to the rights or possession granted to you under this deed, I and my other immovable and movable properties will fully compensate you for all such losses in every possible way.'''},
+
+    {'malayalam_sent': '''അടിയിൽ പട്ടികയിൽ വിവരിക്കുന്ന 30 ആർ 68 ചഃമീറ്റർ വസ്തുവകകൾ ഞാൻ സർക്കാർ വക തരിശുഭൂമി കൈവശപ്പെടുത്തി എടുത്ത് അനുഭവിച്ചുവരവെ നെടുംകണ്ടം ലാന്റ് അസൈൻമെന്റ് സ്പെഷ്യൽ തഹസീൽദാർ ആഫീസിൽ നിന്നും എൽ. എ 374/70-ാം നമ്പരായി കേസ്എഴുത്ത് ടി ആഫീസിൽ നിന്നും 20. 9. 1971ൽ എന്റെ പേരിൽ സ്ഥിരപട്ടയംകിട്ടിയതും മേൽനമ്പർ പട്ടയപ്രകാരമുള്ള വസ്തുക്കൾ എനിക്കുവേണ്ടി എന്റെ മുക്ത്യാറുകാരൻ മാത്യു അഗസ്റ്റിൻ നത്തുകല്ല് കരയിൽ വേലിയ്ക്കകത്ത് വീട്ടിൽ മാതൃ ഭാര്യ മാളിമാത്യുവിന്റെ പേരിൽ 2003ൽ കട്ടപ്പന സബ്ബ് രജിസ്റ്ററിൽ ഒന്നാം പുസ്തകം 757-ാംവാല്യം 23മുതൽ 26വരെ വശങ്ങളിൽ 274-ാംനമ്പരായി ഒരുതീറാധാരം രജിസ്റ്റർ ചെയ്തുകൊടുത്തിരുന്നതും 21. 8. 04ൽ ബഹുമാനപ്പെട്ട കട്ടപ്പനസബ്ബ് കോടതിയുടെ ഒ.എസ്. 51/03-ാം നമ്പർ കേസിന്റെവിധിയും ടി വിധിക്ക് ബഹുമാനപ്പെട്ട തൊടുപുഴ ജില്ലാകോടതിയുടെ 31.01.2006-ാം തീയതിയിലെ അപ്പീൽ വിധി പ്രകാരം ടി 274/2003-ാംനമ്പർ ആധാരം റദ്ദ് ചെയ്തിട്ടുള്ളതും വസ്തു വകകൾ ഞാൻ തന്നെ കൈവശം വച്ചും കട്ടപ്പന വില്ലേജിലെ 1004/61-ാംനമ്പർ റീസർവ്വെതണ്ടപ്പേരുപടി കരംതീർത്തും നിരാക്ഷേപം അനുഭവിച്ചുവരുന്ന 59ആറിൽ ഉൾപ്പെട്ടതുമാകുന്നു.''',
+    'translation': '''The 30 ares and 68 sq meter(s) of schedule land'''},
+
+    {'malayalam_sent': '''അടിയിൽ പട്ടികയിൽ വിവരിക്കുന്ന 30 ആർ 68 ചഃമീറ്റർ വസ്തുവകകൾ ഞാൻ സർക്കാർ വക തരിശുഭൂമി കൈവശപ്പെടുത്തി എടുത്ത് അനുഭവിച്ചുവരവെ''',
+    'translation': '''While I was enjoying the barren land, as described in the schedule below, measuring 30 ares and 68 sq meters, which I had acquired from the government'''},
+
+    {'malayalam_sent': '''നെടുംകണ്ടം ലാന്റ് അസൈൻമെന്റ് സ്പെഷ്യൽ തഹസീൽദാർ ആഫീസിൽ നിന്നും എൽ. എ 374/70-ാം നമ്പരായി കേസ്എടുത്ത് ടി ആഫീസിൽ നിന്നും 20. 9. 1971ൽ എന്റെ പേരിൽ സ്ഥിരപട്ടയം കിട്ടി''',
+    'translation': '''I obtained the permanent title deed on 20.9.1971, based on case number L.A 374/70 of the office of Nedunkandam Land Assignment Special Tahsildar.'''},
+    
+    {'malayalam_sent': '''മേൽനമ്പർ പട്ടയപ്രകാരമുള്ള വസ്തുക്കൾ എനിക്കുവേണ്ടി എന്റെ മുക്ത്യാറുകാരൻ മാത്യു അഗസ്റ്റിൻ നത്തുകല്ല് കരയിൽ വേലിയ്ക്കകത്ത് വീട്ടിൽ മാത്യു ഭാര്യ മോളിമാത്യുവിന്റെ പേരിൽ 2003ൽ കട്ടപ്പന സബ്ബ് രജിസ്റ്ററിൽ ഒന്നാം പുസ്തകം 757-ാംവാല്യം 23മുതൽ 26വരെ വശങ്ങളിൽ 274-ാംനമ്പരായി ഒരുതീറാധാരം രജിസ്റ്റർ ചെയ്തുകൊടുത്തിരുന്നു.''',
+    'translation': '''In 2003, at the Kattappana Sub Register, in the 757th Volume of the first book, my agent, Mathew Augustine, executed Sale Deed Number 274 on my behalf, transferring ownership to Molly Mathew, wife of Mathew, residing at Velikkakthu Veedu, Nathukallu Kara. This transaction is documented on Pages 23 to 26 of the register.'''},
+
+    {'malayalam_sent': '''21. 8. 04 ൽ ബഹുമാനപ്പെട്ട കട്ടപ്പനസബ്ബ് കോടതിയുടെ ഒ.എസ്. 51/03-ാം നമ്പർ കേസിന്റെ വിധിയും ടി വിധിക്ക് ബഹുമാനപ്പെട്ട തൊടുപുഴ ജില്ലാകോടതിയുടെ 31.01.2006-ാം തീയതിയിലെ അപ്പീൽ വിധി പ്രകാരം ടി 274/2003-ാംനമ്പർ ആധാരം റദ്ദ് ചെയ്തിട്ടുണ്ട്. ''',
+    'translation': '''In accordance with the verdict of the respected Kattappana Sub Court's O.S. 51/03 case on 21.8.04 and the appeal verdict of the respected Thodupuzha District Court on 31.01.2006 the above said sale deed numbered 274/2003 has been invalidated.'''},
+
+    {'malayalam_sent': '''മുക്ത്യാർ''',
+    'translation': '''Power of Attorney'''},
+
+    {'malayalam_sent': '''മുക്ത്യാർ നാമം''',
+    'translation': '''Deed of Power of Attorney'''},
+
+    {'malayalam_sent': '''ഗോവിന്ദൻ സ്വസ്ഥം''',
+    'translation': '''Govindan, unemployed'''},
+
+    {'malayalam_sent': '''ലക്ഷ്മി സ്വസ്ഥം''',
+    'translation': '''Lakshmi, unemployed'''},
+
+    {'malayalam_sent': '''എന്നവര്''',
+    'translation': ''''''},
+
+    {'malayalam_sent': '''മേനോൻ എന്നവര്''',
+    'translation': '''Menon'''},
+
+    {'malayalam_sent': '''സജിത''',
+    'translation': '''Sajitha'''},
+
+    {'malayalam_sent': '''രണ്ടായിരത്തി പതിനഞ്ച് നവംബർ പതിനെട്ടാം തിയ്യതി തളിപ്പറമ്പ് താലൂക്ക് ഏരുവേശ്ശി അംശം ദേശത്ത് ഏരുവേശ്ശി ഗ്രാമപഞ്ചായത്ത് പി. ഒ. ചെമ്പേരി പിൻ 670632 എന്ന വിലാസത്തിൽ താമസിക്കും (ഇലക്ഷൻ ഐഡന്റിറ്റി കാർഡ് നമ്പർ KL/02/006/204276) ചാത്തുകുട്ടി എന്നവര് ഭാര്യ സ്വസ്ഥം 90 വയസ്സ് ചെങ്കുന്നുമ്മൽ കുഞ്ഞുമ്പിടുക്ക ലക്ഷ്മി അമ്മ ഇരിട്ടി താലൂക്ക് താലൂക്ക് പടിയൂർ അംശം ദേശത്ത് പടിയൂർ ഗ്രാമ പഞ്ചായത്ത് പുലിക്കാട് എന്ന സ്ഥലത്ത് പി. ഒ. പടിയൂർ പിൻ 670703 എന്ന വിലാസത്തിൽ താമസിക്കും (ഇലക്ഷൻ ഐഡന്റിറ്റി കാർഡ് നമ്പർ LKR1300904) തന്റെ മകൻ കരുണാകരന്റെ മകളും ഗിരീഷ് ഭാര്യയുമായ സ്വസ്ഥം 36 വയസ്സ് വടക്കേക്കുറ്റ് സജിത പേർക്ക് എഴുതിക്കൊടുത്ത മുക്ത്യാർ നാമം.
+    ''',
+    'translation': '''This is the Power of Attorney deed executed by Chattukutty's wife, Lakshmi Amma, aged 90, unemployed, residing at Eravesshi Desom, Eravesshi Grama Panchayat, P.O. Chemperi, Pin 670632, Taliparamba Taluk (Election Identity Card No. KL/02/006/204276), in favour of her granddaughter Smt. Vadakkekutt Sajitha, unemployed, aged 36 years, daughter of her son Karunakaran and wife of Girish, residing at Padiyur Amsom Desom, Padiyur Grama Panchayat, Pulikkad, P.O Padiyur, Pin 670703, Iritty Taluk (Election Identity Card No. LKR1300904), on this the eighteenth day of November 2015.'''},
+
+    {'malayalam_sent': '''ഇരിക്കൂർ II ലാന്റ് ട്രൈബ്യൂണലിലെ SM2379/75 നമ്പ്ര സ്വമേധയായുള്ള നടപടിയിന്മേലുണ്ടായ വിധി പ്രകാരം ജന്മാവകാശം അനുവദിച്ചുകൊണ്ട് 1982 ലെ 17-ാം നമ്പ്രായി ക്രയസർട്ടിഫിക്കറ്റ് ലഭിച്ച വഴിക്ക് എന്റെ സ്വന്തം ജന്മവും കൈവശവും ആയിട്ടുള്ള വസ്തുവിൽ നിന്നും''',
+    'translation': '''In the property that I own and possess on account of the 'Purchase Certificate' No 17 of 1982, received as per the verdict of the Irikkur II Land Tribunal in proceeding number SM2379/75'''},
+
+    {'malayalam_sent': '''ഞാൻ കൈവിട്ടതു കഴിച്ച് ബാക്കിയുള്ളതും ഏരുവേശ്ശി അംശം ദേശത്ത് റി.സ 88/11ൽപ്പെട്ടതുമായ 20.23 ആർ വസ്തു''',
+    'translation': '''the '20.23 are' property included in R.S 88/11 that I have remining in Eruvessy amsam desam'''},
+
+    {'malayalam_sent': '''മേൽ വസ്തുവിൽ നിന്നും ഞാൻ കൈവിട്ടതു കഴിച്ച് ബാക്കിയുള്ളതും ഏരുവേശ്ശി അംശം ദേശത്ത് റി.സ 88/11ൽപ്പെട്ടതുമായ 20.23 ആർ വസ്തു പണയപ്പെടുത്തി ഫെഡറൽ ബേങ്കിന്റെ ചെമ്പേരി ശാഖയിൽ നിന്നും ലോൺ എടുക്കുവാൻ''',
+    'translation': '''To secure a loan from the Chemberi Branch of the Federal Bank, by mortgaging the aforesaid property leaving out the portion I have already relinquished, which is located within Eruvessi Amsom Desom R.S 88/11 and admeasures 20.23 Ares'''},
+
+    {'malayalam_sent': '''വസ്തു പണയപ്പെടുത്തി ഫെഡറൽ ബേങ്കിന്റെ ചെമ്പേരി ശാഖയിൽ നിന്നും ലോൺ എടുക്കുവാനും ആയതിനാവശ്യമായ അപേക്ഷകൾ സമർപ്പിക്കുവാനും രേഖകൾ ഹാജരാക്കുവാനും തിരിച്ചുവാങ്ങുവാനും പണയാധാരങ്ങൾ തയ്യാറാക്കിച്ചും എഴുതിച്ചും ഒപ്പിട്ട് സബ്ബ്-രജിസ്ട്രാർ ആഫീസ്സിൽ ഹാജരാക്കി രജിസ്ട്രാക്കിച്ച് കൊടുക്കുവാനും ബേങ്കുകളിലും എല്ലാവിധ രേഖകളിലും ഒപ്പിട്ട് കൊടുക്കുവാനും പണയതുകകൾ ബേങ്കിൽ നിന്നും അതാതു ഗഡുക്കൾക്ക് കൈപ്പറ്റുവാനും തിരിച്ചടക്കുവാനും ബേങ്കിന്റെ നിർദ്ദേശാനുസരണം ഉള്ള പ്രവൃത്തികൾ ചെയ്യുവാനും ലോൺ സംബന്ധമായി ബേങ്കിൽ വേണ്ടപ്പെട്ട എല്ലാ കാര്യങ്ങൾ ചെയ്യുവാനും വരവ് ചിലവ് കണക്കുകൾ എന്നെ ബോദ്ധ്യപ്പെടുത്തുവാനും വേണ്ടി ഇതിനാൽ ഞാൻ നിന്നെ എന്റെ മുക്ത്യാർ ഏജന്റായി നിശ്ചയിച്ച് അധികാരം നൽകിയിരിക്കുന്നു.''',
+    'translation': '''To mortgage the property and apply for a loan from the Federal Bank's Chemberry branch, to prepare and submit the necessary applications and records, to buy back and prepare the mortgage documents, to present and register them at the Sub-Registrar's office, to sign and submit in all types of records in the banks, to receive and repay the loan amounts from the bank as per the bank's instructions, to carry out all the activities as per the bank's instructions related to the loan, to inform me about the income and expenditure accounts, I hereby appoint you as my Power of Attorney agent.'''},
+
+    {'malayalam_sent': '''ഈ മുക്ത്യാർ ബലത്തിന്മേൽ മേൽ പ്രകാരം എനിക്കു വേണ്ടി നീ പ്രവർത്തിക്കുന്നതൊക്കെയും ഞാൻ നേരിട്ട് പ്രവർത്തിച്ചതുപോലെ എന്നെന്നും ബലത്തിലും ഫലത്തിലും ഇരിക്കുന്നതാണെന്നും നിശ്ചയിച്ചും സമ്മതിച്ചും ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിന്റെ അധികാര പരിധിയിൽപെട്ട വയത്തൂരംശം ദേശത്ത് വെച്ച് താഴെ ഒപ്പിടുന്ന സാക്ഷികൾ മുമ്പാകെ ഞാൻ ഈ മുക്ത്യാർനാമം ഒപ്പിടുകയും രജിസ്ത്രർ ചെയ്യുവാനായി ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിൽ ഹാജരാക്കുവാൻ തീരുമാനിക്കുകയും ചെയ്തിരിക്കുന്നു.''',
+    'translation': '''Under this Power of Attorney, you will act on my behalf in all matters as if I were acting directly, and I confirm and agree that it will always be valid and effective. I am signing this Power of Attorney and have decided to present it for registration at the Ulikkal Sub-Registrar's office, within the jurisdiction of the Vayathur Amsom Desom, in the presence of the witnesses signing below.'''},
+
+    {'malayalam_sent': '''ആയതിനാൽ''',
+    'translation': '''Therefore'''},
+
+    {'malayalam_sent': '''ആവശ്യമായ അപേക്ഷകൾ സമർപ്പിക്കുവാൻ''',
+    'translation': '''To submit the necessary applications'''},
+
+    {'malayalam_sent': '''രേഖകൾ ഹാജരാക്കുവാൻ ''',
+    'translation': '''To submit documents'''},
+
+    {'malayalam_sent': '''തിരിച്ചുവാങ്ങുവാൻ ''',
+    'translation': '''To withdraw'''},
+
+    {'malayalam_sent': '''പണയാധാരങ്ങൾ തയ്യാറാക്കുവാൻ ''',
+    'translation': '''To prepare promissory notes'''},
+
+    {'malayalam_sent': '''എഴുതിച്ചും''',
+    'translation': '''To write'''},
+
+    {'malayalam_sent': '''ഒപ്പിട്ട് ''',
+    'translation': '''To sign'''},
+
+    {'malayalam_sent': '''സബ്ബ്-രജിസ്ട്രാർ ആഫീസ്സിൽ ഹാജരാക്കി''',
+    'translation': '''To submit to the sub-registrar's office'''},
+
+    {'malayalam_sent': '''രജിസ്ട്രാക്കിച്ച് കൊടുക്കുവാനും ''',
+    'translation': '''To register and give'''},
+
+    {'malayalam_sent': '''ബേങ്കുകളിലും എല്ലാവിധ രേഖകളിലും ഒപ്പിട്ട് കൊടുക്കുവാനും''',
+    'translation': '''To sign all documents in banks'''},
+
+    {'malayalam_sent': '''പണയതുകകൾ ബേങ്കിൽ നിന്നും അതാതു ഗഡുക്കൾക്ക് കൈപ്പറ്റുവാനും ''',
+    'translation': '''To receive the loan amounts from the bank in installments'''},
+
+    {'malayalam_sent': '''തിരിച്ചടക്കുവാനും''',
+    'translation': '''To repay'''},
+
+    {'malayalam_sent': '''ബേങ്കിന്റെ നിർദ്ദേശാനുസരണം ഉള്ള പ്രവൃത്തികൾ ചെയ്യുവാനും ''',
+    'translation': '''To perform the activities as per the instructions of the bank'''},
+
+    {'malayalam_sent': '''ലോൺ സംബന്ധമായി ബേങ്കിൽ വേണ്ടപ്പെട്ട എല്ലാ കാര്യങ്ങൾ ചെയ്യുവാനും''',
+    'translation': '''To do all necessary things in the bank related to the loan'''},
+
+    {'malayalam_sent': '''വരവ് ചിലവ് കണക്കുകൾ എന്നെ ബോദ്ധ്യപ്പെടുത്തുവാനും''',
+    'translation': '''To convince me of the income and expenditure accounts'''},
+
+    {'malayalam_sent': '''വേണ്ടി ഇതിനാൽ ഞാൻ നിന്നെ എന്റെ മുക്ത്യാർ ഏജന്റായി നിശ്ചയിച്ച് അധികാരം നൽകിയിരിക്കുന്നു''',
+    'translation': '''Therefore, I appoint you as my attorney-in-fact and grant you the authority'''},
+
+    {'malayalam_sent': '''രണ്ടായിരത്തി പതിമൂന്നാമാണ്ട് ഡിസംബർ മാസം പതിനാലാം തീയതി ''',
+    'translation': '''This fourteenth day of December, two thousand and thirteen'''},
+
+    {'malayalam_sent': '''കോട്ടയം താലൂക്ക് അതിരമ്പുഴ വില്ലേജ് പടിഞ്ഞാറ്റും ഭാഗം കരയിൽ ശ്രീകണ്ഠമംഗലം പി.ഒ, പിൻ-686562 ''',
+    'translation': '''Sreekandamangalam P.O., Athirampuzha taluk, Kottayam district, Kerala PIN 686562'''},
+
+    {'malayalam_sent': '''പഴയപുരയ്ക്കൽ താഴത്ത് വീട്ടിൽ ദേവസ്യ മകൻ കമ്പനി ജോലി അൻപത്തിമൂന്നു വയസ്സുള്ള ജോസ് സെബാസ്റ്റ്യൻ (പാൻകാർഡ് നമ്പർ BYNPS9227B)''',
+    'translation': '''Jose Sebastian, son of Devasya, a resident of Puzhayapurakkal Thazhathu Veetthil, Athirampuzha, Kottayam district, Kerala, aged fifty-three years, working in a company, with PAN card number BYNPS9227B'''},
+
+    {'malayalam_sent': '''ചേർത്തല താലൂക്ക് പള്ളിപ്പുറം വില്ലേജ് പള്ളിപ്പുറം കരയിൽ പള്ളിപ്പുറം പി.ഒ, പിൻ-688541''',
+    'translation': '''Pallippuram village, Pallippuram Kara, Pallippuram PO, Cherthala taluk, PIN 688541'''},
+
+    {'malayalam_sent': '''തമ്പുരാങ്കൽ വീട്ടിൽ ഗോപിനാഥ് മൊഹാദ് മകൻ ബിസിനസ് നാല്പ്പത്തിമൂന്ന് വയസ്സുള്ള രാജേഷ് ഗോപിനാഥ് (പാൻ കാർഡ് നമ്പർ ATAPG8560C)''',
+    'translation': '''Rajesh Gopinath, son Gopinath Mohad, a resident of Thampurankal Veedu, aged forty-three years, engaged in business, with PAN card number ATAPG8560C'''},
+
+    {'malayalam_sent': '''എഴുതി കൊടുത്ത തീറാധാരം''',
+    'translation': '''Sale Deed'''},
+
+    {'malayalam_sent': '''പട്ടികയിലെ വഹകൾ''',
+    'translation': '''Schedule property'''},
+
+    {'malayalam_sent': '''ഇന്നു മുതൽക്ക്''',
+    'translation': '''From today onwards'''},
+
+    {'malayalam_sent': '''താൻ സ്വന്തമായി കൈവശം വെച്ചും''',
+    'translation': '''You keep in your own possession'''},
+
+    {'malayalam_sent': '''നികുതി അടച്ചും''',
+    'translation': '''Pay taxes'''},
+
+    {'malayalam_sent': '''അനുഭവിക്കുന്നതിനും ''',
+    'translation': '''Enjoy them'''},
+
+    {'malayalam_sent': '''ക്രയവിക്രയം ചെയ്യുന്നതിനും ''',
+    'translation': '''To trade in'''},
+
+    {'malayalam_sent': '''തനിക്ക് പൂർണ്ണ അധികാരമുള്ളതും''',
+    'translation': '''You have the full authority'''},
+
+    {'malayalam_sent': '''എനിക്ക് യാതൊരവകാശവും ഇല്ലാ''',
+    'translation': '''I have no right whatsoever'''},
+
+    {'malayalam_sent': '''മേൽപ്രകാരം''',
+    'translation': '''As mentioned above'''},
+
+    {'malayalam_sent': '''വിലക്കുള്ളതും''',
+    'translation': '''Worth'''},
+
+    {'malayalam_sent': '''താഴെ പട്ടികയിൽ പറയുന്നതുമായ''',
+    'translation': '''Listed below'''},
+
+    {'malayalam_sent': '''വഹകൾ''',
+    'translation': '''Properties'''},
+
+    {'malayalam_sent': '''അതിൽ ഉള്ള ജന്മം''',
+    'translation': '''Ownership'''},
+
+    {'malayalam_sent': '''കുഴിക്കൂർ ചമയം''',
+    'translation': '''Burial rights'''},
+
+    {'malayalam_sent': '''കൈവശം മുതലായ''',
+    'translation': '''Including possession'''},
+
+    {'malayalam_sent': '''സകലവിധ അവകാശങ്ങളോടും കൂടി''',
+    'translation': '''Along with all the rights'''},
+
+    {'malayalam_sent': '''എന്റെ ഭാര്യയും''',
+    'translation': '''My wife'''},
+
+    {'malayalam_sent': '''എന്നെ മാത്രം ആശ്രയിച്ചു ജിവിച്ചു വരുന്നവളും''',
+    'translation': '''Who is dependent on me alone'''},
+
+    {'malayalam_sent': '''വേറെ യാതൊരു മുതലും ഇല്ലാത്തവളുമായ''',
+    'translation': '''Who has no other property'''},
+
+    {'malayalam_sent': '''തനിക്ക്''',
+    'translation': '''To her or him'''},
+
+    {'malayalam_sent': '''തന്റെ മേലാലത്തെ കഴിച്ചിലിനും''',
+    'translation': '''For her future livelihood'''},
+
+    {'malayalam_sent': '''ക്ഷേമാഭിവൃദ്ധിക്കും വേണ്ടി''',
+    'translation': '''For the well-being'''},
+
+    {'malayalam_sent': '''തന്നോട് എനിക്കുള്ള സ്നേഹവാത്സല്യം നിമിത്തം''',
+    'translation': '''Out of my love and affection for her'''},
+
+    {'malayalam_sent': '''ഇതിനാൽ തനിക്ക് സെറ്റിൽമെന്റ് ചെയ്ത് തരികയും''',
+    'translation': '''I hereby settle and hand over to her'''},
+
+    {'malayalam_sent': '''പട്ടികയിലെ വഹകൾ വിട്ടൊഴിഞ്ഞ് കൈവശം തരികയും ചെയ്തിരിക്കുന്നു''',
+    'translation': '''The schedule property, along with all the rights is hander over.'''},
+
+    {'malayalam_sent': '''ടിയിൽ വിനോദ്''',
+    'translation': '''Vinod living at the aforesaid address'''},
+
+    {'malayalam_sent': '''ആയിരത്തി തൊള്ളായിരത്തിത്തൊണ്ണൂറ്റാറ് ജൂലൈ പതിനെട്ടാം തീയതി പാലക്കുഴി വിലേജ് കോഴിപ്പുള്ളി കരയിൽ രണ്ടിലാവുങ്കൽ പുത്തന് പുരയില് മത്തായി മകൻ കൃഷി ഇരുപത്തൊൻപത് വയസ് ഷിബു പേർക്ക് പിതാമഹൻ ടിയിൽ വർകി മകൻ കൃഷി എൺപത്തിയേഴ് വയസ് അവിരാ എഴുത്തിക്കൊടുത്ത ധനനിശ്ചയാധാരം.''',
+    'translation': '''On this the eighteenth day of July, Ninteen Hundred and Ninty Six,  Avira, aged Eighty-seven, son of Varki, a farmer, residing at Randilavunkal Puthanpurayil, Kozhippully Kara, Palakkuzhi Village, executed this deed of settlement in favor of his grandson, Shibu, aged twenty-nine, son of Mathai, a farmer, residing at the aforesaid address.'''},
+
+{'malayalam_sent': '''വ്യാപാരമുദ്രകൾ ആക്റ്റ്, (1999 ലെ 47-ാം  നമ്പർ) 1999 ഡിസംബർ, 30 വ്യാപാരമുദ്രകളെ സംബന്ധിച്ച നിയമം ഭേദഗതി ചെയ്യുന്നതിനും ഏകീകരിക്കുന്നതിനും, ചരക്കുകളുടേയും സേവനങ്ങളുടേയും വ്യാപാരമുദ്രകളുടെ രജിസ്ട്രേഷനും മെച്ചപ്പെട്ട സംരക്ഷണവും വ്യാജമുദ്രകളുടെ ഉപയോഗം തടയലും വ്യവസ്ഥ ചെയ്യുന്നതിന് വേണ്ടിയുള്ള ഒരു ആക്റ്റ് ഭാരത റിപ്പബ്ലിക്കിന്റെ അൻപത-ാം  സംവത്സരത്തിൽ പാർലമെന്റ് താഴെ പറയും പ്രകാരം നിയമമുണ്ടാക്കിയിരിക്കുന്നു:''',
+    'translation': '''An Act to amend and consolidate the law relating to trade marks, to provide for registration and better protection of trade marks for goods and services and for the prevention of the use of fraudulent marks be it enacted by Parliament in the Fiftieth Year of the Republic of India as follows:- '''},
+
+    {'malayalam_sent': '''അദ്ധ്യായം 1''',
+    'translation': '''Chapter 1'''},
+
+    {'malayalam_sent': '''പ്രാരംഭികം''',
+    'translation': '''Preliminary'''},
+
+    {'malayalam_sent': '''ചുരുക്കപ്പേരും വ്യാപ്തിയും പ്രാരംഭവും.''',
+    'translation': '''Short title, extent and commencement.'''},
+
+    {'malayalam_sent': '''(1) ഈ ആക്റ്റിന് വ്യാപാരമുദ്രകൾ ആക്റ്റ്, 1999 എന്ന് പേർ പറയാവുന്നതാണ്.''',
+    'translation': '''(1) This Act may be called the Trade Marks Act, 1999.'''},
+
+    {'malayalam_sent': '''(2) ഇതിന് ഭാരതം മുഴുവനും വ്യാപ്തിയുണ്ടായിരിക്കുന്നതാണ്.''',
+    'translation': '''(2) It extends to the whole of India.'''},
+
+    {'malayalam_sent': '''(3) ഇത്, കേന്ദ്ര സർക്കാർ ഔദ്യോഗിക ഗസറ്റിൽ, വിജ്ഞാപനം വഴി നിശ്ചയിക്കുന്ന അങ്ങനെയുള്ള തീയതിയിൽ പ്രാബല്യത്തിൽ വരുന്നതാണ് : എന്നാൽ, ഈ ആക്റ്റിലെ വ്യത്യസ്ത വ്യവസ്ഥകൾക്ക് വ്യത്യസ്ത തീയതികൾ നിശ്ചയിക്കാവു ന്നതും, അങ്ങനെയുള്ള ഏതെങ്കിലും വ്യവസ്ഥയിലെ ഈ ആക്റ്റിന്റെ പ്രാരംഭത്തെ സംബന്ധിച്ച ഏതെങ്കിലും പരാമർശത്തിന് ആ വ്യവസ്ഥ പ്രാബല്യത്തിൽ വരുന്ന ഒരു പരാമർശമായി അർത്ഥം കൽപ്പിക്കേണ്ടതാണ്.''',
+    'translation': '''(3) It shall come into force on such date1 as the Central Government may, by notification in the Official Gazette, appoint: Provided that different dates may be appointed for different provisions of this Act, and any reference in any such provision to the commencement of this Act shall be construed as a reference to the coming into force of that provision.'''},
+
+    {'malayalam_sent': '''നിർവചനങ്ങളും വ്യാഖ്യാനങ്ങളും.''',
+    'translation': '''Definitions and interpretation.'''},
+                                                            
+    {'malayalam_sent': '''അദ്ധ്യായം II രജിസ്റ്ററും രജിസ്ട്രേഷനുള്ള നിബന്ധനകളും''',
+    'translation': '''CHAPTER II THE REGISTER AND CONDITIONS FOR REGISTRATION'''},
+
+    {'malayalam_sent': '''രജിസ്ട്രാറുടെയും മറ്റ് ആഫീസർമാരുടെയും നിയമനം.''',
+    'translation': '''Appointment of Registrar and other officers.'''},
+
+    {'malayalam_sent': '''(1) കേന്ദ്ര സർക്കാരിന് ഔദ്യോഗിക ഗസറ്റിൽ വിജ്ഞാപനം വഴി, പേറ്റന്റുകളുടെയും ഡിസൈനുകളുടെയും വ്യാപാരമുദ്രകളു ടേയും കൺട്രോളർ ജനറൽ എന്നറിയപ്പെടുന്ന ഒരാളെ നിയമിക്കാവുന്നതും, അദ്ദേഹം ഈ ആക്റ്റിന്റെ ആവശ്യങ്ങൾക്കായി രജിസ്ട്രാർ ആയിരിക്കുന്നതുമാകുന്നു.''',
+    'translation': '''(1) The Central Government may, by notification in the Official Gazette, appoint a person to be known as the Controller-General of Patents, Designs and Trade Marks, who shall be the Registrar of Trade Marks for the purposes of this Act.'''},
+
+    {'malayalam_sent': '''(2) കേന്ദ്ര സർക്കാരിന്, ഈ ആക്റ്റ് പ്രകാരമുള്ള രജിസ്ട്രാറുടെ ചുമതലകൾ അദ്ദേഹത്തിന്റെ മേൽനോട്ടത്തിലും നിർദ്ദേശത്തിനും കീഴിൽ നിർവ്വഹിക്കുന്നതിന് അദ്ദേഹം സമയാസമയങ്ങളിൽ അധികാരപ്പെടുത്തുന്ന അങ്ങനെയുള്ള ചുമതലകൾ നിർവ്വഹിക്കുന്നതിനായി അതിന് യുക്തമെന്ന് തോന്നുന്ന അങ്ങനെയുള്ള പദവിയിലുള്ള മറ്റ് ആഫീസർമാരെ നിയമിക്കാവുന്നതാണ്.''',
+    'translation': '''(2) The Central Government may appoint such other officers with such designations as it thinks fit for the purpose of discharging, under the superintendence and direction of the Registrar, such functions of the Registrar under this Act as he may from time to time authorise them to discharge.'''},
+
+    {'malayalam_sent': '''കേസുകൾ പിൻവലിക്കുന്നതിനോ അല്ലെങ്കിൽ മാറ്റുന്നതിനോ മുതലായവയ്ക്ക് രജിസ്ട്രാറുടെ അധികാരം.---3-ാം  വകുപ്പ് (2)-ാം  ഉപവകുപ്പിലെ വ്യവസ്ഥകളുടെ സാമാന്യതയ്ക്ക് ഭംഗം വരാതെ, രജിസ്ട്രാർക്ക്, കാരണങ്ങൾ കാണിച്ചുകൊണ്ടുള്ള ലിഖിതമായ ഉത്തരവ് വഴി, പ്രസ്തുത (2) ഉപ വകുപ്പു പ്രകാരം നിയമിച്ച ഒരു ആഫീസറുടെ മുമ്പാകെ നിലവിലിരിക്കുന്ന ഏതെങ്കിലും സംഗതി പിൻവലിക്കാവുന്നതും, പ്രസ്തുത സംഗതി ഒന്നുകിൽ പുതുതായോ അല്ലെങ്കിൽ അപ്രകാരം പിൻവലിച്ച് ഘട്ടം മുതൽക്കോ അദ്ദേഹത്തിന് കൈകാര്യം ചെയ്യാവുന്നതും അല്ലെങ്കിൽ അപ്രകാരം നിയമിച്ച മറ്റൊരു ആഫീസർക്ക് അത് കൈമാറാവുന്നതും, അദ്ദേഹം, കൈമാറ്റ ഉത്തരവിലെ പ്രത്യേക നിർദ്ദേശങ്ങൾക്കു വിധേയമായി, സംഗതി ഒന്നുകിൽ പുതുതായോ അല്ലെങ്കിൽ അപ്രകാരം കൈമാറിയ ഘട്ടം മുതൽക്കോ തുടർന്നുകൊണ്ടു പോകാവുന്നതും ആകുന്നു.''',
+    'translation': '''Power of Registrar to withdraw or transfer cases, etc.-Without prejudice to the generality of the provisions of sub-section (2) of section 3, the Registrar may, by order in writing and for reasons to be recorded therein, withdraw any matter pending before an officer appointed under the said sub-section (2) and deal with such matter himself either de novo or from the stage it was so withdrawn or transfer the same to another officer so appointed who may, subject to special directions in the order of transfer, proceed with the matter either de novo or from the stage it was so transferred.'''},
+
+    {'malayalam_sent': '''വ്യാപാരമുദ്രകൾ രജിസ്ട്രിയും അതിന്റെ ആഫീസുകളും.-(1) ഈ ആക്റ്റിന്റെ ആവശ്യ ങ്ങൾക്കായി, ഒരു വ്യാപാരമുദ്രകൾ രജിസ്ട്രി ഉണ്ടായിരിക്കേണ്ടതും, ട്രേഡ് ആന്റ് മെർക്കൻഡസ് ആക്റ്റ്, 1958 (1958-ലെ 43) പ്രകാരം സ്ഥാപിക്കപ്പെട്ട വ്യാപാരമുദ്രകൾ രജിസ്ട്രി ഈ ആക്റ്റ് പ്രകാരമുള്ള വ്യാപാരമുദ്രകൾ രജിസ്ട്രി ആയിരിക്കുന്നതുമാകുന്നു.''',
+    'translation': '''Trade Marks Registry and offices thereof.-(1) For the purposes of this Act, there shall be a trade marks registry and the Trade Marks Registry established under the Trade and Merchandise Marks Act, 1958 (43 of 1958) shall be the Trade Marks Registry under this Act.'''},
+
+    {'malayalam_sent': '''വ്യാപാരമുദ്രകൾ രജിസ്ട്രിയുടെ ഹെഡ് ആഫീസ് കേന്ദ്ര സർക്കാർ വിനിർദ്ദേശിക്കുന്ന അങ്ങനെയുള്ള സ്ഥലത്തായിരിക്കുന്നതും, വ്യാപാരമുദ്രകളുടെ രജിസ്ട്രേഷൻ സുഗമമാക്കുന്ന ആവശ്യ ത്തിനായി കേന്ദ്ര സർക്കാരിന് യുക്തമെന്ന് തോന്നുന്ന അങ്ങനെയുള്ള സ്ഥലങ്ങളിൽ വ്യാപാരമുദ്രകൾ രജിസ്ട്രിയുടെ ബ്രാഞ്ച് ആഫീസുകൾ സ്ഥാപിക്കാവുന്നതുമാണ്.''',
+    'translation': '''The head office of the Trade Marks Registry shall be at such place as the Central Government may specify, and for the purpose of facilitating the registration of trade marks, there may be established at such places as the Central Government may think fit branch offices of the Trade Marks Registry.'''},
+
+    {'malayalam_sent': '''(3) കേന്ദ്ര സർക്കാരിന്, ഔദ്യോഗിക ഗസറ്റിൽ വിജ്ഞാപനം വഴി, വ്യാപാരമുദ്രകൾ രജിസ്ട്രി യുടെ ഒരു ആഫീസ് ഏത് പ്രാദേശികാതിർത്തിക്കുള്ളിലാണ് അതിന്റെ ചുമതലകൾ നിർവ്വഹിക്കേണ്ട തെന്ന് നിർവചിക്കാവുന്നതാണ്.''',
+    'translation': '''(3) The Central Government may, by notification in the Official Gazette, define the territorial limits within which an office of the Trade Marks Registry may exercise its functions.'''},
+
+    {'malayalam_sent': '''(4) വ്യാപാരമുദ്രകൾ രജിസ്ട്രിയുടെ ഒരു സീൽ ഉണ്ടായിരിക്കേണ്ടതാണ്.''',
+    'translation': '''(4) There shall be a seal of the Trade Marks Registry.'''},
+
+    {'malayalam_sent': '''വ്യാപാരമുദ്രകളുടെ രജിസ്റ്റർ.''',
+    'translation': '''The Register of Trade Marks'''},
+
+    {'malayalam_sent': '''(1) ഈ ആക്റ്റിലെ ആവശ്യങ്ങൾക്കായി, വ്യാപാരമുദ്രകൾ രജിസ്റ്റർ എന്നു പറയുന്ന ഒരു റിക്കാർഡ് ഹെഡ് ആഫീസിൽ സൂക്ഷിക്കേണ്ടതും അതിൽ ഉടമകളുടെ പേരുകൾ, വിലാസങ്ങൾ സഹിതം രജിസ്റ്റർ ചെയ്യപ്പെട്ട എല്ലാ വ്യാപാരമുദ്രകളും വിജ്ഞാപനങ്ങളും എത്തിച്ചുകൊടുക്കലും രജിസ്റ്റർ ചെയ്യപ്പെട്ട ഉപയോക്താക്കളുടെ പേരുകളും വിലാസങ്ങളും വിവരണ ങ്ങളും ഉപാധികളും പരിമിതികളും രജിസ്റ്റർ ചെയ്യപ്പെട്ട വ്യാപാരമുദ്രകളെ സംബന്ധിച്ച് അങ്ങനെയുള്ള മറ്റു സംഗതികളും രേഖപ്പെടുത്തേണ്ടതുമാണ്.''',
+    'translation': '''(1) For the purposes of this Act, a record called the Register of Trade Marks shall be kept at the head office of the Trade Marks Registry, wherein shall be entered all registered trade marks with the names, addresses and description of the proprietors, notifications of assignment and transmissions, the names, addresses and descriptions of registered users, conditions, limitations and such other matter relating to registered trade marks as may be prescribed.'''},
+
+    {'malayalam_sent': '''(2) (1)--ാം  ഉപവകുപ്പിൽ എന്തുതന്നെ അടങ്ങിയിരുന്നാലും, രജിസ്ട്രാർ റിക്കാർഡുകൾ പൂർണ്ണ മായോ ഭാഗികമായോ നിർണ്ണയിക്കപ്പെടാവുന്ന അങ്ങനെയുള്ള സുരക്ഷാകരുതലുകൾക്ക് വിധേയമായി, കമ്പ്യൂട്ടർ ഫ്ളോപ്പികളിലോ ഡിസ്ക്കറ്റുകളിലോ അല്ലെങ്കിൽ മറ്റേതെങ്കിലും ഇലക്ട്രോണിക് ഫോമിലോ സൂക്ഷിക്കുന്നത് നിയമാനുസൃതമായിരിക്കുന്നതാണ്.''',
+    'translation': '''(2) Notwithstanding anything contained in sub-section (1), it shall be lawful for the Registrar to keep the records wholly or partly in computer floppies diskettes or in any other electronic form subject to such safeguards as may be prescribed.'''},
+
+    {'malayalam_sent': '''(3) (2)--ാം  ഉപവകുപ്പു പ്രകാരം അങ്ങനെയുള്ള രജിസ്റ്റർ പൂർണ്ണമായോ ഭാഗികമായോ കമ്പ്യൂട്ടറിൽ സൂക്ഷിച്ചിരിക്കുന്നിടത്ത്, രജിസ്റ്ററിലെ ഉൾക്കുറിപ്പിന് ഈ ആക്റ്റിലെ ഏതെങ്കിലും പരാമർശം കമ്പ്യൂട്ടറിലോ അല്ലെങ്കിൽ മറ്റേതെങ്കിലും ഇലക്ട്രോണിക് ഫോമിലോ സൂക്ഷിച്ച പ്രകാരമുള്ള ഏതെങ്കിലും ഉൾക്കുറിപ്പിനുള്ള പരാമർശമായി അർത്ഥം കല്പിക്കേണ്ടതാണ്.''',
+    'translation': '''(3) Where such register is maintained wholly or partly on computer under sub-section (2) any reference in this Act to entry in the Register shall be construed as the reference to any entry as maintained on computer or in any other electronic form.'''},
+
+    {'malayalam_sent': '''(4) ഏതെങ്കിലും ട്രസ്റ്റിന്റെ, പ്രത്യക്ഷമോ, പരോക്ഷമോ അല്ലെങ്കിൽ നിയമ കല്പിതമോ ആയ യാതൊരു നോട്ടീസും രജിസ്റ്ററിൽ ഉൾപ്പെടുത്താൻ പാടില്ലാത്തതും അങ്ങനെയുള്ള യാതൊരു നോട്ടീസും രജിസ്ട്രാർ സ്വീകരിക്കാൻ പാടില്ലാത്തതുമാകുന്നു.''',
+    'translation': '''(4) No notice of any trust, express or implied or constructive, shall be entered in the register and no such notice shall be receivable by the Registrar.'''},
+
+    {'malayalam_sent': '''(5) രജിസ്ട്രാറുടെ നിയന്ത്രണത്തിനും നടത്തിപ്പിനും കീഴിൽ രജിസ്റ്റർ സൂക്ഷിക്കേണ്ടതാണ്.''',
+    'translation': '''(5) The register shall be kept under the control and management of the Registrar.'''},
+
+    {'malayalam_sent': '''(6) വ്യാപാരമുദ്രകൾ രജിസ്ട്രിയുടെ ഓരോ ബ്രാഞ്ചോഫീസിലും രജിസ്റ്ററിന്റെ ഒരു പകർപ്പും, കേന്ദ്ര സർക്കാർ, ഔദ്യോഗിക ഗസറ്റിൽ വിജ്ഞാപനം വഴി നിർദ്ദേശിക്കുന്ന 148-ാം  വകുപ്പിൽ  സൂചിപ്പിച്ച പ്രകാരം അങ്ങനെയുള്ള മറ്റു രേഖകളും സൂക്ഷിക്കേണ്ടതാണ്.''',
+    'translation': '''(6) There shall be kept at each branch office of the Trade Marks Registry a copy of the register and such of the other documents mentioned in section 148 as the Central Government may, by notification in the Official Gazette, direct.'''},
+
+    {'malayalam_sent': '''(7) ഈ ആക്റ്റിന്റെ പ്രാരംഭത്തിൽ നിലവിലിരുന്ന വ്യാപാരമുദ്രകൾ രജിസ്റ്ററിന്റെ ക ഭാഗവും ഖ ഭാഗവും ഈ ആക്റ്റ് പ്രകാരമുള്ള രജിസ്റ്ററിൽ ഉൾക്കൊള്ളിക്കേണ്ടതും അത് ആ രജിസ്റ്ററിന്റെ ഭാഗമായി രിക്കുന്നതുമാണ്.''',
+    'translation': '''(7) The Register of Trade Marks, both Part A and Part B, existing at the commencement of this Act, shall be incorporated in and form part of the register under this Act.'''},
+
+    {'malayalam_sent': '''ചരക്കുകളുടേയും സേവനങ്ങളുടേയും തരം തിരിക്കൽ.''',
+    'translation': '''Classification of goods and services.'''},
+
+    {'malayalam_sent': '''(1) രജിസ്ട്രാർ, ചരക്കുകളും, സേവനങ്ങളും, വ്യാപാരമുദ്രകളുടെ രജിസ്ട്രേഷന്റെ ആവശ്യങ്ങൾക്കായി, കഴിയുന്നിടത്തോളം ചരക്കുക ളുടേയും സേവനങ്ങളുടേയും അന്തർ ദേശീയ തരംതിരിക്കലിന് അനുസൃതമായി തരം തിരിക്കേണ്ടതാണ്.''',
+    'translation': '''(1) The Registrar shall classify goods and services, as far as may be, in accordance with the International classification of goods and services for the purposes of registration of trade marks.'''},
+
+    {'malayalam_sent': ''' (2) ഏതെങ്കിലും ചരക്കുകളോ, സേവനങ്ങളോ ഏതു തരത്തിൽപ്പെടുന്നുവെന്നതു സംബന്ധിച്ച് ഉൽഭവിക്കുന്ന ഏതൊരു ചോദ്യവും രജിസ്ട്രാർ തീരുമാനിക്കേണ്ടതും, അദ്ദേഹത്തിന്റെ തീരുമാനം അന്തിമമായിരിക്കുന്നതുമാകുന്നു.''',
+    'translation': ''' (2) Any question arising as to the class within which any goods or services falls shall be determined by the Registrar whose decision shall be final.'''},
+
+    {'malayalam_sent': ''' അക്ഷരമാല സൂചിക പ്രസിദ്ധപ്പെടുത്തൽ.
+    (1) രജിസ്ട്രാർ, 7-ാം  വകുപ്പിൽ പരാമർശിച്ചിട്ടുള്ള ചരക്കുകളുടേയും സേവനങ്ങളുടേയും തരംതിരിക്കലിന്റെ ഒരു അക്ഷരമാല സൂചിക നിർണ്ണയിക്കപ്പെട്ട രീതിയിൽ പ്രസിദ്ധപ്പെടുത്തേണ്ടതാണ്.''',
+    'translation': '''Publication of alphabetical index.-(1) The Registrar may publish in the prescribed manner an 
+    alphabetical index of classification of goods and services referred to in section 7. '''},
+
+    {'malayalam_sent': '''(2) (1)-ാം  ഉപവകുപ്പു പ്രകാരം പ്രസിദ്ധപ്പെടുത്തിയ ചരക്കുകളുടേയും സേവനങ്ങളുടേയും അക്ഷരമാല സൂചികയിൽ ഏതെങ്കിലും ചരക്കുകളേയും സേവനങ്ങളേയും സംബന്ധിച്ച് വിനിർദ്ദേ ശിച്ചിട്ടില്ലാത്തപക്ഷം, ചരക്കുകളുടേയും സേവനങ്ങളുടേയും തരംതിരിക്കൽ 7-ാം  വകുപ്പ് (2)-ാം  ഉപ വകുപ്പിനനുസൃതമായി രജിസ്ട്രാർ തീരുമാനിക്കേണ്ടതാണ്. ''',
+    'translation': ''' (2) Where any goods or services are not specified in the alphabetical index of goods and services published under sub-section (1), the classification of goods or services shall be determined by the 
+    Registrar in accordance with sub-section (2) of section 7.'''},
+
+    {'malayalam_sent': '''രജിസ്ട്രേഷൻ നിരസിക്കുന്നതിനുള്ള വ്യക്തമായ കാരണങ്ങൾ.
+    (1) (ക) എന്തെങ്കിലും പ്രത്യേക സ്വഭാവം ഇല്ലാതിരിക്കുകയും, എന്ന് പറഞ്ഞാൽ, ഒരാളിന്റെ ചരക്കുകളേയും സേവനങ്ങളേയും മറ്റൊരാളുടേതിൽ നിന്നും വേർതിരിച്ചറിയാൻ കഴിയാതിരിക്കുകയും ; (ഖ ഇനം, ഗുണം, അളവ്, ഉദ്ദിഷ്ടാവശ്യം, മൂല്യങ്ങൾ, ഭൂമിശാസ്ത്രപരമായ ഉൽപ്പത്തി അല്ലെങ്കിൽ ചരക്കുകളുടെ ഉൽപ്പാദനത്തിന്റെയോ സേവനങ്ങൾ നൽകലിന്റെയോ സമയം അല്ലെങ്കിൽ ചരക്കുകളുടേയോ സേവനങ്ങളുടേയോ മറ്റ് സവിശേഷതകൾ ഇവ വ്യാപാരത്തിൽ പ്രത്യേകമായി കാണിക്കാൻ ഉതകുന്ന അനന്യമായ മുദ്രകളോ സൂചനകളോ അടങ്ങുകയും ; (ഗ) വ്യാപാരത്തിന്റെ നടപ്പുഭാഷയിലോ അല്ലെങ്കിൽ ഉത്തമ വിശ്വാസത്താലും സ്ഥാപിത സമ്പ്രദായങ്ങളാലും, ആചാരപരമായി തീർന്ന അനന്യമായ മുദ്രകളോ സൂചനകളോ അടങ്ങുകയും, ചെയ്യുന്ന വ്യാപാരമുദ്രകൾ രജിസ്റ്റർ ചെയ്യുവാൻ പാടുള്ളതല്ല : എന്നാൽ, ഒരു വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷൻ, രജിസ്ട്രേഷനുള്ള അപേക്ഷാതീയതിക്ക് മുൻപ് അതിന്റെ ഉപയോഗഫലമായി ഒരു പ്രത്യേക സ്വഭാവം ആർജ്ജിക്കുകയോ അല്ലെങ്കിൽ അത് അറിയപ്പെടുന്ന വ്യാപാരമുദ്ര ആയിരിക്കുകയോ ചെയ്യുന്നപക്ഷം, നിരസിക്കാൻ പാടുള്ളതല്ല. ''',
+    'translation': '''Absolute grounds for refusal of registration.-(1) The trade marks- (a) which are devoid of any distinctive character, that is to say, not capable of distinguishing the goods or services of one person from those of another person; 
+    (b) which consist exclusively of marks or indications which may serve in trade to designate the kind, quality, quantity, intended purpose, values, geographical origin or the time of production of the goods or rendering of the service or other characteristics of the goods or service; 
+    (c) which consist exclusively of marks or indications which have become customary in the current language or in the bona fide and established practices of the trade, shall not be registered: 
+    Provided that a trade mark shall not be refused registration if before the date of application for registration it has acquired a distinctive character as a result of the use made of it or is a well-known trade 
+    mark. '''},
+
+    {'malayalam_sent': ''' (2) ഒരു മുദ്ര (ക അത് പൊതുജനത്തെ കബളിപ്പിക്കുന്നതോ അല്ലെങ്കിൽ ചിന്താകുഴപ്പത്തിനിടയാക്കു ന്നതോ ആയ സ്വഭാവത്തോടുകൂടിയതോ ; (ഖ) ഭാരതപൗരൻമാരുടെ ഏതെങ്കിലും ഭാഗത്തിന്റെയോ വിഭാഗത്തിന്റെയോ മതവികാര ങ്ങളെ വ്രണപ്പെടുത്താൻ ഏതെങ്കിലും സംഗതികൾ അതിൽ ഉൾപ്പെടുകയോ അടങ്ങുകയോ ; (ഗ) അതിൽ അപവാദപരമോ അശ്ലീലപരമോ ആയ സംഗതികൾ ഉൾപ്പെടുകയോ അടങ്ങി യിരിക്കുകയോ ; (ഘ) എംബ്ലങ്ങളും പേരുകളും (അനുചിതമായ ഉപയോഗം തടയൽ) ആക്റ്റ്, 1950 (1950-ലെ 12) പ്രകാരം അതിന്റെ ഉപയോഗം നിരോധിച്ചിരിക്കുകയോ ; ചെയ്തിട്ടുണ്ടെങ്കിൽ, ഒരു മുദ്ര വ്യാപാരമുദ്രയായി രജിസ്റ്റർ ചെയ്യുവാൻ പാടുള്ളതല്ല.''',
+    'translation': ''' (2) A mark shall not be registered as a trade mark if- (a) it is of such nature as to deceive the public or cause confusion; 
+    (b) it contains or comprises of any matter likely to hurt the religious susceptibilities of any class or section of the citizens of India; 
+    (c) it comprises or contains scandalous or obscene matter; 
+    (d) its use is prohibited under the Emblems and Names (Prevention of Improper Use) Act, 1950 (12 of 1950).'''},
+
+    {'malayalam_sent': '''(3) ഒരു മു (ക) ചരക്കുകളുടെ തന്നെ പ്രകൃതത്തിൽ നിന്നുണ്ടാകുന്ന ചരക്കുകളുടെ ആകൃതി (1) ഒരു സാങ്കേതികഫലം ലഭിക്കുന്നതിന് ആവശ്യമായ ചരക്കുകളുടെ ആകൃതി അല്ലെങ്കിൽ അല്ലെങ്കിൽ 23 (ഗ) ചരക്കുകൾക്ക് ഗണ്യമായ മൂല്യം നൽകുന്ന ആകൃതി, എന്നിവ അതിൽ അനന്യമായി ഉൾക്കൊണ്ടിട്ടുള്ളപക്ഷം, അത് ഒരു വ്യാപാരമുദ്രയായി രജിസ്റ്റർ ചെയ്യാൻ പാടുള്ളതല്ല. ''',
+    'translation': '''(3) A mark shall not be registered as a trade mark if it consists exclusively of- 
+    (a) the shape of goods which results from the nature of the goods themselves; or 
+    (b) the shape of goods which is necessary to obtain a technical result; or 
+    (c) the shape which gives substantial value to the goods. '''},
+
+    {'malayalam_sent': ''' വിശദീകരണം. ഈ വകുപ്പിന്റെ ആവശ്യങ്ങൾക്കുവേണ്ടി, വ്യാപാരമുദ്ര ഉപയോഗിക്കുന്നതോ അല്ലെങ്കിൽ ഉപയോഗിക്കുന്നതിനുദ്ദേശിക്കുന്നതോ സംബന്ധിച്ചുള്ള ചരക്കുകളുടെയോ അല്ലെങ്കിൽ സേവനങ്ങളുടേയോ സ്വഭാവം രജിസ്ട്രേഷൻ നിരസിക്കുന്നതിനുള്ള ഒരു കാരണമാകാൻ പാടുള്ളതല്ല.''',
+    'translation': ''' Explanation.-For the purposes of this section, the nature of goods or services in relation to which 
+    the trade mark is used or proposed to be used shall not be a ground for refusal of registration'''},
+
+
+    {'malayalam_sent': '''10 നിറത്തെ സംബന്ധിച്ച പരിമിതി (1) ഒരു വ്യാപാരമുദ്ര പൂർണ്ണമായോ ഭാഗികമായോ നിറങ്ങളുടെ ഏതെങ്കിലും സങ്കലനവുമായി പരിമിതപ്പെടുത്താവുന്നതും, ഒരു വ്യാപാരമുദ്രയുടെ പ്രത്യേക സ്വഭാവത്തെ സംബന്ധിച്ച് തീരുമാനമെടുക്കേണ്ടതായ ട്രിബ്യൂണൽ അങ്ങനെയുള്ള ഏതെങ്കിലും പരിമിതപ്പെടുത്തൽ പരിഗണനയിലെടുക്കേണ്ടതാണ്.
+    (2) നിറത്തിന്റെ പരിമിതിയില്ലാതെ ഒരു വ്യാപാരമുദ്ര രജിസ്റ്റർ ചെയ്തിരിക്കുന്നിടത്തോളം, അത് എല്ലാ നിറങ്ങൾക്കുമായി രജിസ്റ്റർ ചെയ്യപ്പെട്ടതായി കരുതപ്പെടേണ്ടതാണ്. ''',
+    'translation': '''10 Limitation as to colour.-(1) A trade mark may be limited wholly or in part to any combination of colours and any such limitation shall be taken into consideration by the tribunal having to decide on the distinctive character of the trade mark.
+    (2) So far as a trade mark is registered without limitation of colour, it shall be deemed to be registered for all colours. '''},
+
+
+    {'malayalam_sent': '''രജിസ്ട്രേഷൻ നിരസിക്കുന്നതിന് ആപേക്ഷികമായ കാരണങ്ങൾ.-(1) 12-ാം  വകുപ്പിൽ വ്യവസ്ഥ ചെയ്തപ്രകാരമൊഴികെ (ക) നേരത്തെയുള്ള ഒരു വ്യാപാരമുദ്രയുമായി താദാത്മ്യമുള്ളതിനാലും ആ വ്യാപാരമുദ്ര യിൽ ഉൾപ്പെട്ടിട്ടുള്ള ചരക്കുകളുമായോ സേവനങ്ങളുമായോ സാമ്യമുള്ള കാരണത്താലും ; അല്ലെങ്കിൽ (ഖ) നേരത്തെയുള്ള ഒരു വ്യാപാരമുദ്രയുമായി അതിനുള്ള സാമ്യവും ആ വ്യാപാരമുദ്ര യിൽ ഉൾപ്പെട്ടിട്ടുള്ള ചരക്കുകളുടേയോ സേവനങ്ങളുടേയോ താദാത്മ്യമോ സാമ്യമോ ഉള്ള കാരണങ്ങ ളാലും പൊതുജനങ്ങൾക്ക്, നേരത്തെയുള്ള വ്യാപാരമുദ്രയുമായി കൂട്ടുചേരലിനുള്ള സാദ്ധ്യത ഉൾപ്പെ ടെയുള്ള ചിന്താക്കുഴപ്പത്തിനുള്ള സാദ്ധ്യത നിലനിൽക്കുന്ന പക്ഷം, ഒരു വ്യാപാരമുദ്ര രജിസ്റ്റർ ചെയ്യാൻ പാടുള്ളതല്ല. ''',
+    'translation': '''Relative grounds for refusal of registration.-(1) Save as provided in section 12, a trade mark shall not be registered if, because of- (a) its identity with an earlier trade mark and similarity of goods or services covered by the trade mark; or 
+    (b) its similarity to an earlier trade mark and the identity or similarity of the goods or services covered by the trade mark, 
+    there exists a likelihood of confusion on the part of the public, which includes the likelihood of association with the earlier trade mark. '''},
+
+    {'malayalam_sent': ''' (2) ഒരു വ്യാപാരമുദ അത് നേരത്തെയുള്ള വ്യാപാരമുദ്രയുമായി താദാത്മ്യമുള്ളതും അല്ലെങ്കിൽ സാമ്യമുള്ളതും ; (ഖ) ഏത് ചരക്കുകൾക്കോ സേവനങ്ങൾക്കോ വേണ്ടിയാണോ ഒരു വ്യാപാരമുദ്ര മറ്റൊരു ഉടമസ്ഥന്റെ പേരിൽ രജിസ്റ്റർ ചെയ്യപ്പെട്ടിട്ടുള്ളത്, ആ ചരക്കുകളോ സേവനങ്ങളോ ആയി സാമ്യമില്ലാ വയ്ക്കുവേണ്ടി അത് രജിസ്റ്റർ ചെയ്യേണ്ടതായിട്ടുള്ളതും ; PO നേരത്തെയുള്ള വ്യാപാരമുദ്ര ഭാരതത്തിൽ അറിയപ്പെടുന്ന ഒരു വ്യാപാരമുദ്ര ആയിരിക്കുകയും പിന്നീടുള്ള മുദ്രയുടെ ഉപയോഗം മതിയായ കാരണം കൂടാതെ നേരത്തെയുള്ള വ്യാപാരമുദ്രയിൽ നിന്നും അന്യായമായ നേട്ടം ഉണ്ടാക്കുന്ന പക്ഷമോ ഉണ്ടാക്കുന്നിടത്തോളമോ അല്ലെങ്കിൽ അതിന്റെ പ്രത്യേക സ്വഭാവത്തിനോ പ്രശസ്തിക്കോ ഹാനികരമാകുന്ന പക്ഷമോ അല്ലെങ്കിൽ അത്രത്തോളമോ, രജിസ്റ്റർ ചെയ്യാൻ പാടുള്ളതല്ല.''',
+    'translation': '''(2) A trade mark which- 
+    (a) is identical with or similar to an earlier trade mark; and 
+    (b) is to be registered for goods or services which are not similar to those for which the earlier 
+    trade mark is registered in the name of a different proprietor, 
+    shall not be registered if or to the extent the earlier trade mark is a well-known trade mark in India and the 
+    use of the later mark without due cause would take unfair advantage of or be detrimental to the distinctive 
+    character or repute of the earlier trade mark. '''},
+
+    {'malayalam_sent': '''(3) ഒരു വ്യാപാരമുദ്ര, (ക) ഏതെങ്കിലും നിയമത്തിന്റെ പ്രത്യേകിച്ചും, വ്യാപാരവേളയിൽ ഉപയോഗിച്ചിട്ടുള്ള രജിസ്റ്റർ ചെയ്യപ്പെടാത്ത ഒരു വ്യാപാരമുദ്രയെ സംരക്ഷിക്കുന്ന തെറ്റിദ്ധരിപ്പിക്കുന്ന നിയമത്തിന്റെ ബലത്തിൽ; അല്ലെങ്കിൽ (ഖ) പകർപ്പവകാശ നിയമത്തിന്റെ ബലത്തിലോ ; അതിന്റെ ഭാരതത്തിലെ ഉപയോഗം തടയപ്പെടുന്നതിന് സാധ്യത ഉള്ള പക്ഷമോ അല്ലെങ്കിൽ അത്രത്തോളമോ രജിസ്റ്റർ ചെയ്യുവാൻ പാടുള്ളതല്ല. ''',
+    'translation': ''' (3) A trade mark shall not be registered if, or to the extent that, its use in India is liable to be prevented- 
+    (a) by virtue of any law in particular the law of passing off protecting an unregistered trade mark used in the course of trade; or 
+    (b) by virtue of law of copyright.'''},
+
+    {'malayalam_sent': '''(4) ഈ വകുപ്പിലുള്ള യാതൊന്നും നേരത്തേയുള്ള വ്യാപാരമുദ്രയുടേയോ അല്ലെങ്കിൽ നേരത്തെയുള്ള മറ്റ് അവകാശത്തിന്റെയോ ഉടമസ്ഥൻ രജിസ്ട്രേഷന് സമ്മതിക്കുന്നപക്ഷം, ഒരു വ്യാപാര മുദ്രയുടെ രജിസ്ട്രേഷൻ തടയുന്നതല്ലാത്തതും അങ്ങനെയുള്ള സംഗതിയിൽ 12-ാം  വകുപ്പു പ്രകാരമുള്ള പ്രത്യേക സാഹചര്യങ്ങൾക്ക് അനുസൃതമായി രജിസ്ട്രാർക്ക് ആ മുദ രജിസ്റ്റർ ചെയ്യാവുന്നതുമാണ്. ''',
+    'translation': '''(4) Nothing in this section shall prevent the registration of a trade mark where the proprietor of the earlier trade mark or other earlier right consents to the registration, and in such case the Registrar may register the mark under special circumstances under section 12. '''},
+
+
+    {'malayalam_sent': '''24 വിശദീകരണം. ഈ വകുപ്പിന്റെ ആവശ്യങ്ങൾക്കായി, നേരത്തെയുള്ള വ്യാപാര മുദ എന്നാൽ (ക) രജിസ്റ്റർ ചെയ്ത ഒരു വ്യാപാരമുദ്രയും അല്ലെങ്കിൽ ഉചിതമായിട്ടുള്ളിടത്ത്, വ്യാപാര മുദ്രയെ സംബന്ധിച്ച് അവകാശപ്പെട്ടിട്ടുള്ള മുൻഗണനകളും കണക്കിലെടുത്ത് തർക്കത്തിലിരിക്കുന്ന വ്യാപാരമുദ്രയ്ക്കുള്ള അപേക്ഷ തീയതിക്കും മുൻപേയുള്ള തീയതിയിലുള്ള 154-ാം  വകുപ്പിൽ പരാമർശി ച്ചിട്ടുള്ള ഒരു കൺവെൻഷൻ അപേക്ഷയും; (1) തർക്കത്തിലിരിക്കുന്ന വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷന് വേണ്ടിയുള്ള അപക്ഷാതീയതി യിലോ അല്ലെങ്കിൽ ഉചിതമായിട്ടുള്ളിടത്ത് അപേക്ഷ സംബന്ധിച്ച് മുൻഗണന് അവകാശപ്പെടുന്നിടത്തോ, ഒരു പ്രശസ്തമായ വ്യാപാരമുദ്രയെന്ന നിലയിലുള്ള സംരക്ഷണത്തിന് അർഹതയുള്ള ഒരു വ്യാപാര മുദ്രയും ; എന്നർത്ഥമാകുന്നു. ''',
+    'translation': ''' Explanation.-For the purposes of this section, earlier trade mark means- 
+    (a) a registered trade mark or an application under section 18 bearing an earlier date of filing or an international registration referred to in section 36E or convention application referred to in  section 154 which has a date of application earlier than that of the trade mark in question, taking account, where appropriate, of the priorities claimed in respect of the trade marks; 
+    (b) a trade mark which, on the date of the application for registration of the trade mark in question, or where appropriate, of the priority claimed in respect of the application, was entitled to protection as a well-known trade mark.'''},
+
+
+    {'malayalam_sent': '''(5) നേരത്തേയുള്ള വ്യാപാരമുദ്രയുടെ ഉടമസ്ഥൻ എതിർ നടപടിയിൽ (2)-ഉം (3)-ഉം ഉപവകുപ്പുകളിൽ വിനിർദ്ദേശിച്ചിട്ടുള്ള ഏതെങ്കിലും ഒന്നോ അതിലധികമോ കാരണങ്ങളിൽ ആക്ഷേപം ഉന്നയിച്ചാലല്ലാത്തപക്ഷം, ആ ഉപവകുപ്പുകളിൽ പറഞ്ഞിട്ടുള്ള കാരണങ്ങളിൻമേൽ ഒരു വ്യാപാര മുദ്രയുടെ രജിസ്ട്രേഷൻ നിരസിക്കാൻ പാടുള്ളതല്ല. ''',
+    'translation': '''(5) A trade mark shall not be refused registration on the grounds specified in sub-sections (2) and (3), unless objection on any one or more of those grounds is raised in opposition proceedings by the proprietor of the earlier trade mark. '''},
+
+
+    {'malayalam_sent': '''(6) ഒരു വ്യാപാരമുദ്ര പ്രശസ്തമായ വ്യാപാരമുദ്രയാണോ എന്ന് തീരുമാനിക്കുമ്പോൾ, രജിസ്ട്രാർ (i) ആ വ്യാപാര മുദ്രയ്ക്ക് ബന്ധപ്പെട്ട പൊതു ജന വിഭാഗത്തിലുള്ള അറിവോ അംഗീകാരമോ, ആ വ്യാപാരമുദ്രയുടെ പ്രചാരത്തിന്റെ ഫലമായി ഭാരതത്തിൽ ലഭിച്ച അറിവ് ഉൾപ്പെടെ ആ വ്യാപാരമുദ്രയുടെ ഏതെങ്കിലും ഉപയോഗത്തിന്റെ കാലയളവും വ്യാപ്തിയും ഭൂപ്രദേശവും ; (iii) ആ വ്യാപാരമുള്ള പ്രയോഗിക്കുന്ന ചരക്കുകളോ സേവനങ്ങളോ മേളകളിലോ പ്രദർശനങ്ങളിലോ പരസ്യപ്പെടുത്തുന്നതും അല്ലെങ്കിൽ പ്രചരണവും അവതരണവും ഉൾപ്പെടെ ആ വ്യാപാരമുദ്രയുടെ ഏതെങ്കിലും പ്രചരണത്തിന്റെ കാലയളവും വ്യാപ്തിയും ഭൂപ്രദേശവും ; (iv) ഈ ആക്റ്റ് പ്രകാരം ആ വ്യാപാരമുദ്രയുടെ ഏതെങ്കിലും രജിസ്ട്രേഷന്റെയോ അല്ലെങ്കിൽ രജിസ്ട്രേഷനുള്ള അപേക്ഷയുടേയോ കാലയളവും ഭൂപ്രദേശവും അവ ആ വ്യാപാരമുദ്ര യുടെ ഉപയോഗത്തേയോ അംഗീകാരത്തേയോ പ്രതിഫലിപ്പിക്കുന്ന അത്രത്തോളം ; (v) ആ വ്യാപാരമുദ്രയിലുള്ള അവകാശം തൃപ്തികരമായി പ്രാബല്യത്തിൽ കൊണ്ടു വന്നതിന്റെ റിക്കാർഡ്, പ്രത്യേകിച്ചും, ആ റിക്കാർഡ് പ്രകാരം ഏതെങ്കിലും കോടതിയോ രജിസ്ട്രാറോ ആ വ്യാപാരമുദ്രയെ പ്രശസ്തമായ ഒരു വ്യാപാരമുദ്രയായി അംഗീകരിച്ചിട്ടുള്ളത്രയും ; ഉൾപ്പെടെ അദ്ദേഹം പ്രസക്തമെന്ന് കരുതുന്ന ഏതെങ്കിലും വസ്തുതകൾ കണക്കിലെടുക്കേണ്ടതാണ്. ''',
+    'translation': '''(6) The Registrar shall, while determining whether a trade mark is a well-known trade mark, take into account any fact which he considers relevant for determining a trade mark as a well-known trade mark 
+    including- 
+    (i) the knowledge or recognition of that trade mark in the relevant section of the public including knowledge in India obtained as a result of promotion of the trade mark; 
+    (ii) the duration, extent and geographical area of any use of that trade mark; 
+    (iii) the duration, extent and geographical area of any promotion of the trade mark, including advertising or publicity and presentation, at fairs or exhibition of the goods or services to which the trade mark applies; 
+    (iv) the duration and geographical area of any registration of or any application for registration of that trade mark under this Act to the extent that they reflect the use or recognition of the trade mark; 
+    (v) the record of successful enforcement of the rights in that trade mark, in particular the extent to which the trade mark has been recognised as a well-known trade mark by any court or Registrar under 
+    that record. '''},
+
+
+    {'malayalam_sent': '''(7) രജിസ്ട്രാർ, (6)-ാം  ഉപവകുപ്പിന്റെ ആവശ്യങ്ങൾക്കായി, ഒരു വ്യാപാരമുദ്ര ബന്ധപ്പെട്ട പൊതു ജനവിഭാഗം അറിയുന്നതോ അംഗീകരിക്കുന്നതോ ആണോ എന്ന് തീരുമാനിക്കുമ്പോൾ, ആ വ്യാപാരമുദ്ര പ്രയോഗിക്കുന്ന ... (i) ചരക്കുകളുടേയോ അല്ലെങ്കിൽ സേവനങ്ങളുടേയോ യഥാർത്ഥമോ അല്ലെങ്കിൽ ശേഷി യുള്ളതോ ആയ ഉപഭോക്താക്കളുടെ എണ്ണവും (ii) ചരക്കുകളുടേയോ സേവനങ്ങളുടേയോ വിതരണ ശൃംഖലയിൽ ഉൾപ്പെട്ടിട്ടുള്ള ആളുകളുടെ എണ്ണവും ; (iii) ചരക്കുകളോ സേവനങ്ങളോ കൈകാര്യം ചെയ്യുന്ന ബിസിനസ്സ് വൃത്തങ്ങളും കണക്കിലെടുക്കേണ്ടതാണ്. ''',
+    'translation': ''' (7) The Registrar shall, while determining as to whether a trade mark is known or recognised in a relevant section of the public for the purposes of sub-section (6), take into account- 
+    (i) the number of actual or potential consumers of the goods or services; 
+    (ii) the number of persons involved in the channels of distribution of the goods or services;                                                            
+    (iii) the business circles dealing with the goods or services, 
+    to which that trade mark applies.'''},
+
+
+    {'malayalam_sent': '''(8) ഏതെങ്കിലും കോടതിയോ അല്ലെങ്കിൽ രജിസ്ട്രാറോ ഒരു വ്യാപാരമുദ്ര കുറഞ്ഞപക്ഷം ഭാരതത്തിലെ ബന്ധപ്പെട്ട ഒരു പൊതുജനവിഭാഗത്തിലെങ്കിലും പ്രശസ്തമായതാണെന്ന് തീരുമാനിച്ചി ട്ടുള്ളപക്ഷം, രജിസ്ട്രാർ, ഈ ആക്റ്റ് പ്രകാരം ആ വ്യാപാരമുള്ള ഒരു പ്രശസ്തമായ വ്യാപാരമുദ്രയാ യുള്ള രജിസ്ട്രേഷനുവേണ്ടി പരിഗണിക്കേണ്ടതാണ്. ''',
+    'translation': '''(8) Where a trade mark has been determined to be well known in at least one relevant section of the public in India by any court or Registrar, the Registrar shall consider that trade mark as a well-known 
+    trade mark for registration under this Act. '''},
+
+
+    {'malayalam_sent': ''' (9) ഒരു വ്യാപാരമുദ്ര പ്രശസ്തമായ ഒരു വ്യാപാരമുദ്രയാണോ എന്ന് തീരുമാനിക്കുന്നതിന് രജിസ്ട്രാർ താഴെപ്പറയുന്നവയിൽ യാതൊന്നും ഒരു ഉപാധിയായി ആവശ്യപ്പെടാൻ പാടുള്ളതല്ല, അതായത്:- (i) ആ വ്യാപാരമുദ്ര ഭാരതത്തിൽ ഉപയോഗിച്ചിട്ടുണ്ടെന്ന് (ii) ആ വ്യാപാരമുദ്ര രജിസ്റ്റർ ചെയ്തിട്ടുണ്ടെന്ന് ; (iii) വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷന് വേണ്ടിയുള്ള അപേക്ഷ ഭാരതത്തിൽ ഫയൽ ചെയ്തിട്ടുണ്ടെന്ന് (iv) ആ വ്യാപാരമുദ്ര ഭാരതത്തിലല്ലാത്ത ഏതെങ്കിലും അധികാരാതിർത്തിയിൽ (ക) പ്രശസ്തമായതാണെന്ന് ; അല്ലെങ്കിൽ  (ഖ) രജിസ്റ്റർ ചെയ്തിട്ടുണ്ടെന്ന് ; അല്ലെങ്കിൽ (ഗ) അതിനെ സംബന്ധിച്ച് രജിസ്ട്രേഷനുവേണ്ടിയുള്ള അപേക്ഷ ഫയൽ ചെയ്തി (v) ആ വ്യാപാരമുദ്ര ഭാരതത്തിലെ പൊതുജനങ്ങളിൽ ബഹുഭൂരിപക്ഷത്തിനിടയിലും പ്രശസ്തമായതാണെന്ന്.''',
+    'translation': '''(9) The Registrar shall not require as a condition, for determining whether a trade mark is a well-known trade mark, any of the following, namely:- 
+    (i) that the trade mark has been used in India; 
+    (ii) that the trade mark has been registered; 
+    (iii) that the application for registration of the trade mark has been filed in India; 
+    (iv) that the trade mark- 
+    (a) is well-known in; or 
+    (b) has been registered in; or 
+    (c) in respect of which an application for registration has been filed in, 
+    any jurisdiction other than India, or 
+    (v) that the trade mark is well-known to the public at large in India. '''},
+
+
+    {'malayalam_sent': '''(10) ഒരു വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷനുള്ള ഒരു അപേക്ഷയും അത് സംബന്ധിച്ച് ഫയൽ ചെയ്ത ഒരു തടസ്സവും പരിഗണിക്കുമ്പോൾ, രജിസ്ട്രാർ (i) സമാനമായതോ സാമ്യമുള്ളതോ ആയ ഒരു വ്യാപാരമുദ്രക്കെതിരെ പ്രശസ്തമായ ഒരു വ്യാപാരമുദ്രയെ സംരക്ഷിക്കേണ്ടതാണ് ; (ii) ആ വ്യാപാരമുദ്രയുമായി ബന്ധപ്പെട്ട അവകാശത്തെ ബാധിക്കുന്ന അപേക്ഷകനിലോ തടസ്സക്കാരനിലോ ഉള്ള ദുരുദ്ദേശം പരിഗണനയിലെടുക്കേണ്ടതാണ്. ''',
+    'translation': '''(10) While considering an application for registration of a trade mark and opposition filed in respect 
+    thereof, the Registrar shall- 
+    (i) protect a well-known trade mark against the identical or similar trade marks; 
+    (ii) take into consideration the bad faith involved either of the applicant or the opponent affecting the right relating to the trade mark. '''},
+
+
+    {'malayalam_sent': ''' (11) സാരവത്തായ വിവരങ്ങൾ രജിസ്ട്രാറോട് വെളിപ്പെടുത്തിക്കൊണ്ട് ഉത്തമവിശ്വാസപൂർവ്വം ഒരു വ്യാപാരമുദ്ര രജിസ്റ്റർ ചെയ്തിട്ടുള്ളിടത്തോ അല്ലെങ്കിൽ ഈ ആക്റ്റിന്റെ പ്രാരംഭത്തിനു മുൻപ് ഉത്തമ വിശ്വാസപൂർവ്വമായ ഉപയോഗത്താൽ ഒരു വ്യാപാരമുദ്രയിൽ അവകാശം നേടിയിട്ടുള്ളിടത്തോ, ഈ ആക്റ്റിലെ യാതൊന്നും തന്നെ, അങ്ങനെയുള്ള വ്യാപാരമുദ്രയ്ക്ക് പ്രശസ്തമായ ഒരു വ്യാപാര മുദ്രയോട് സമാനതയോ സാമ്യമോ ഉണ്ടെന്നുള്ള കാരണത്താൽ ആ വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷന്റെ സാധുതയേയോ ആ വ്യാപാരമുദ്ര ഉപയോഗിക്കുന്നതിനുള്ള അവകാശത്തേയോ ഹനിക്കുന്നതല്ല.''',
+    'translation': ''' (11) Where a trade mark has been registered in good faith disclosing the material informations to the Registrar or where right to a trade mark has been acquired through use in good faith before the 
+    commencement of this Act, then, nothing in this Act shall prejudice the validity of the registration of that trade mark or right to use that trade mark on the ground that such trade mark is identical with or similar to 
+    a well-known trade mark.'''},
+
+    {'malayalam_sent': '''സത്യസന്ധമായ യോജിച്ചുള്ള ഉപയോഗം മുതലായ സംഗതികളിലുള്ള രജിസ്ട്രേഷൻ. ''',
+    'translation': ''' Registration in the case of honest concurrent use, etc'''},
+
+    {'malayalam_sent': '''സത്യസന്ധമായ യോജിച്ചുള്ള ഉപയോഗത്തിന്റേയോ അല്ലെങ്കിൽ മറ്റു പ്രത്യേക സാഹചര്യങ്ങളുടേയോ സംഗതിയിൽ, രജിസ്ട്രാറുടെ അഭിപ്രായത്തിൽ, അപ്രകാരം ചെയ്യുന്നത് ഉചിതമെന്ന് തോന്നിയാൽ, ഒരേ പോലുള്ളതോ അല്ലെങ്കിൽ സാമ്യമുള്ളതോ ആയ ചരക്കുകൾക്കോ സേവനങ്ങൾക്കോ, ചുമത്തുന്നത് യുക്തമെന്ന് രജിസ്ട്രാർക്ക് തോന്നുന്ന അങ്ങനെയുള്ള ഉപാധികൾക്കും പരിമിതികൾക്കും ഏതെങ്കിലു മുണ്ടെങ്കിൽ, അതിനു വിധേയമായി, ഒരേപോലുള്ളതോ അല്ലെങ്കിൽ സാമ്യമുള്ളതോ ആയ വ്യാപാര മുദ്രകളുടെ രജിസ്ട്രേഷൻ (അങ്ങനെയുള്ള ഏതെങ്കിലും വ്യാപാരമുദ്ര നേരത്തെതന്നെ രജിസ്റ്റർ ചെയ്ത താണെങ്കിലും അല്ലെങ്കിലും ഒന്നിലധികം ഉടമസ്ഥർക്ക് അനുവദിച്ചു കൊടുക്കാവുന്നതാണ്. ''',
+    'translation': ''' In the case of honest concurrent use or of other special circumstances which in the opinion of the Registrar, make it proper so to do, he may permit the registration by more than one proprietor of the trade marks which are identical or similar (whether any such trade mark is already registered or not) in respect of the same or similar goods or services, subject to such conditions and limitations, if any, as the Registrar may think fit to impose'''},
+
+    {'malayalam_sent': ''' രാസമൂലകങ്ങളുടെ പേരുകളുടേയോ അന്തർദേശീയമായി ഉടമാവകാശമില്ലാത്ത പേരുകളു ടേയോ രജിസ്ട്രേഷന്റെ നിരോധനം.''',
+    'translation': '''Prohibition of registration of names of chemical elements or international non-proprietary names.'''},
+
+    {'malayalam_sent': ''' (ക) ഒരു രാസ പദാർത്ഥത്തേയോ തയ്യാറിപ്പിനേയോ സംബന്ധിച്ച് ഏതെങ്കിലും ഒരൊറ്റ രാസമൂലകമോ അല്ലെങ്കിൽ ഏതെങ്കിലും ഒരൊറ്റ രാസസംയുക്തമോ (ഒരു മിശ്രിതത്തിൽ നിന്നും തിരിച്ചറിയുന്ന പ്രകാരം) സാധാരണയായി ഉപയോഗിക്കുകയും സ്വീകരി ക്കുകയും ചെയ്യുന്ന പേരോ ; അല്ലെങ്കിൽ''',
+    'translation': '''(a) which is the commonly used and accepted name of any single chemical element or any single chemical compound (as distinguished from a mixture) in respect of a chemical substance or preparation, or  '''},
+
+    {'malayalam_sent': '''(ഖ) ലോകാരോഗ്യ സംഘടന പ്രഖ്യാപിച്ചിട്ടുള്ളതും രജിസ്ട്രാർ, സമയാസമയങ്ങളിൽ, നിർണ്ണയി ക്കപ്പെട്ട രീതിയിൽ വിജ്ഞാപനം ചെയ്തിട്ടുള്ളതുമായ അന്തർദേശീയമായി ഉടമാവകാശമില്ലാത്ത 33107 26 ഒരു പേരോ അല്ലെങ്കിൽ അങ്ങനെയുള്ള പേരിനോട് കബളിപ്പിക്കപ്പെടാവുന്ന സാമ്യമുള്ളതായ പേരോ ആയ യാതൊരു വാക്കും ഒരു വ്യാപാര മുദ്രയായി രജിസ്റ്റർ ചെയ്യാൻ പാടുള്ളതല്ലാത്തതും, അങ്ങനെയുള്ള ഏതെങ്കിലും രജിസ്ട്രേഷൻ 57-ാം  വകുപ്പിന്റെ ആവശ്യങ്ങൾക്കായി, മതിയായ കാരണ ങ്ങളില്ലാതെ രജിസ്റ്ററിൽ ഉൾക്കൊള്ളിച്ചിട്ടുള്ള ഒരു ഉൾക്കുറിപ്പായോ അല്ലെങ്കിൽ സാഹചര്യങ്ങൾ ആവശ്യ പ്പെടുന്ന പ്രകാരം, രജിസ്റ്ററിൽ തെറ്റായി അവശേഷിക്കുന്ന ഒരു ഉൾക്കുറിപ്പായോ കരുതപ്പെടേണ്ടതാണ്. ''',
+    'translation': ''' (b) which is declared by the World Health Organisation and notified in the prescribed manner by the Registrar from time to time, as an international non-proprietary name or which is deceptively similar to such name, shall not be registered as a trade mark and any such registration shall be deemed for the purpose of section 57 to be an entry made in the register without sufficient cause or an entry wrongly remaining on the register, as the circumstances may require.'''},
+
+    {'malayalam_sent': '''ജീവിച്ചിരിക്കുന്ന ആളുകളുടേയോ അടുത്തകാലത്ത് മരിച്ച ആളുകളുടേയോ പേരുകളും സൂചനകളും ഉപയോഗിക്കൽ ഒരു വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷനുവേണ്ടി നൽകിയ ഒരു അപേക്ഷയിൽ ജീവിച്ചിരിക്കുന്ന ഏതെങ്കിലും ഒരാളുമായി ഒരു ബന്ധമുണ്ടെന്ന് തെറ്റായി ധ്വനിപ്പിക്കുന്നതോ അല്ലെങ്കിൽ വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷനുള്ള അപേക്ഷാ തീയതിക്ക് മുൻപുള്ള ഇരുപതു വർഷത്തിനകം 3 മരണം സംഭവിച്ചിട്ടുള്ളിടത്തോ, രജിസ്ട്രാർക്ക്, അദ്ദേഹം അപേക്ഷാ നടപടികളുമായി മുന്നോട്ടു പോകുന്നതിനു മുമ്പ്, അപേക്ഷകനോട് ജീവിച്ചിരിക്കുന്ന ആ ആളിൽ നിന്നോ അല്ലെങ്കിൽ, അതതു സംഗതിപോലെ, മരിച്ചുപോയ ആളിന്റെ നിയമാനുസൃത പ്രതിനിധിയിൽ നിന്നോ ആ വ്യാപാരമുദ മേൽക്കാണുന്ന ബന്ധത്തിന് ലിഖിതമായ സമ്മതം നൽകുവാൻ ആവശ്യപ്പെടാവുന്നതും അപേക്ഷകൻ അങ്ങനെയുള്ള സമ്മതം രജിസ്ട്രാർക്ക് നൽകാത്തപക്ഷം, അപേക്ഷാ നടപടിയുമായി മുന്നോട്ടു പോകുവാൻ വിസമ്മതിക്കാവുന്നതുമാണ്. ''',
+    'translation': ''' Use of names and representations of living persons or persons recently dead.-Where an application is made for the registration of a trade mark which falsely suggests a connection with any living person, or a person whose death took place within twenty years prior to the date of application for registration of the trade mark, the Registrar may, before he proceeds with the application, require the applicant to furnish him with the consent in writing of such living person or, as the case may be, of the legal representative of the deceased person to the connection appearing on the trade mark, and may refuse to proceed with the application unless the applicant furnishes the Registrar with such consent.'''},
+
+    {'malayalam_sent': '''വ്യാപാര മുദ്രകളുടെ ഭാഗങ്ങളുടേയും വ്യാപാര മുദ്രകൾ ഒരു പരമ്പരയായും ഉള്ള രജിസ്ട്രേഷൻ.
+    (1) ഒരു വ്യാപാരമുദ്രയുടെ ഉടമ പ്രത്യേകമായി അതിന്റെ ഏതെങ്കിലും ഭാഗത്തിന്റെ അനന്യമായ ഉപയോഗത്തിന് അർഹതയുണ്ടെന്ന് അവകാശപ്പെടുന്നിടത്ത്, അത് മുഴുവനായും ഭാഗമായും പ്രത്യേക വ്യാപാരമുദ്രകളായി രജിസ്റ്റർ ചെയ്യുന്നതിന് അയാൾക്ക് അപേക്ഷിക്കാവുന്നതാണ്.
+    (2) അങ്ങനെയുള്ള ഓരോ പ്രത്യേക വ്യാപാരമുദ്രയും ഒരു സ്വതന്ത്ര വ്യാപാരമുദ്രക്ക് ബാധക മായിട്ടുള്ള എല്ലാ ഉപാധികളും പാലിച്ചിരിക്കേണ്ടതും എല്ലാ അനുബന്ധ സംഗതികളും ഉണ്ടായിരിക്കേണ്ട തുമാണ്.
+    (3) ഒരേ ചരക്കുകളോ സേവനങ്ങളോ അല്ലെങ്കിൽ അവയുമായി സാമ്യമുള്ളവയോ അല്ലെങ്കിൽ ചരക്കുകളുടെ വിവരണമോ സേവനങ്ങളുടെ വിവരണമോ സംബന്ധിച്ച് അനേകം വ്യാപാരമുദ്രയുടെ ഉടമയെന്ന് അവകാശപ്പെടുന്ന ഒരാൾ, അവയുടെ സാരവത്തായ സവിശേഷതകൾ അന്യോന്യം സദൃശമായിരിക്കുമ്പോൾ തന്നേയും (ക) ഏത് ചരക്കുകളോ സേവനങ്ങളോ ആണോ യഥാക്രമം ഉപയോഗിച്ചിട്ടുള്ളതോ അല്ലെങ്കിൽ ഉപയോഗിക്കാൻ ഉദ്ദേശിച്ചിട്ടുള്ളതോ അവയെ സംബന്ധിച്ചുള്ള പ്രസ്താവന അല്ലെങ്കിൽ (ഖ) നമ്പർ, വില, ഗുണം അല്ലെങ്കിൽ സ്ഥലപ്പേരുകൾ ഇവയുടെ പ്രസ്താവന ; അല്ലെങ്കിൽ (ഗ) വ്യാപാരമുദ്രയുടെ തിരിച്ചറിയലിനെ സാരവത്തായി ബാധിക്കാത്ത സവിശേഷ സ്വഭാവമില്ലാത്ത മറ്റു സംഗതി; അല്ലെങ്കിൽ (ഘ നിറം, എന്നിവ സംബന്ധിച്ച് വ്യത്യാസപ്പെട്ടിരിക്കുകയും ആ വ്യാപാരമുദ്രകൾ രജിസ്റ്റർ ചെയ്യുവാൻ ആവശ്യ പ്പെടുകയും ചെയ്യുമ്പോൾ അവ ഒരു രജിസ്ട്രേഷനിൽ ഒരു പരമ്പരയായി രജിസ്റ്റർ ചെയ്യാവുന്നതാണ്. ''',
+    'translation': '''Registration of parts of trade marks and of trade marks as a series.-(1) Where the proprietor of a trade mark claims to be entitled to the exclusive use of any part thereof separately, he may apply to register the whole and the part as separate trade marks.
+    (2) Each such separate trade mark shall satisfy all the conditions applying to and have all the incidents of, an independent trade mark.
+    (3) Where a person claiming to be the proprietor of several trade marks in respect of the same or similar goods or services or description of goods or description of services, which, while resembling each other in the material particulars thereof, yet differ in respect of- 
+    (a) statement of the goods or services in relation to which they are respectively used or proposed to be used; or 
+    (b) statement of number, price, quality or names of places; or 
+    (c) other matter of a non-distinctive character which does not substantially affect the identity of the trade mark; or 
+    (d) colour, seeks to register those trade marks, they may be registered as a series in one registration. '''},
+
+    {'malayalam_sent': '''കൂട്ട് വ്യാപാരമുദ്രകളായി വ്യാപാരമുദ്രകളുടെ രജിസ്ട്രേഷൻ.
+    (1) ഏതെങ്കിലും ചരക്കുകളോ അല്ലെങ്കിൽ സേവനങ്ങളോ സംബന്ധിച്ച് രജിസ്റ്റർ ചെയ്തതോ അല്ലെങ്കിൽ രജിസ്ട്രേഷനുള്ള അപേക്ഷ യിലെ വിഷയമായതോ ആയ ഒരു വ്യാപാരമുദ്ര, അതേ ചരക്കുകളോ അല്ലെങ്കിൽ ചരക്കുകളുടെ വിവരണങ്ങളോ അല്ലെങ്കിൽ അതേ സേവനങ്ങളോ അല്ലെങ്കിൽ സേവനങ്ങളുടെ വിവരണങ്ങളോ സംബന്ധിച്ച അതേ ഉടമയുടെ പേരിൽ രജിസ്റ്റർ ചെയ്തതോ, അല്ലെങ്കിൽ രജിസ്ട്രേഷനുള്ള അപേക്ഷ യിലെ വിഷയമായതോ ആയ മറ്റൊരു വ്യാപാരമുദ്രയുമായി സമാനതയുള്ളതോ അല്ലെങ്കിൽ ഉടമയ ല്ലാത്ത മറ്റേതെങ്കിലും ആൾ ഉപയോഗിച്ചാൽ അത് കബളിക്കപ്പെടുന്നതിനോ ചിന്താക്കുഴപ്പം ഉണ്ടാക്കു ന്നതിനോ ഇടയാക്കുന്ന വിധത്തിൽ അടുത്ത സാമ്യമുള്ളപക്ഷം, രജിസ്ട്രാർക്ക്, ഏതുസമയത്തും ആ വ്യാപാരമുദ്രകൾ കൂട്ടുവ്യാപാരമുദ്രകളായി രജിസ്റ്ററിൽ ചേർക്കാൻ ആവശ്യപ്പെടാവുന്നതാണ്.
+    (2) ആ ചരക്കുകളോട് അല്ലെങ്കിൽ ആ വിവരണത്തോടുകൂടിയ ചരക്കുകളോടും ആ സേവന ങ്ങളോടും അല്ലെങ്കിൽ ആ വിവരണങ്ങളോടുകൂടിയ സേവനങ്ങളോടും കൂട്ടുചേർന്നുള്ള ചരക്കു കളേയും സേവനങ്ങളേയും സംബന്ധിച്ച് അതേ ഉടമയുടെ പേരിൽ രജിസ്റ്റർ ചെയ്തിട്ടുള്ളതോ അല്ലെങ്കിൽ രജിസ്ട്രേഷനുള്ള അപേക്ഷയിലെ വിഷയമായതോ ആയ വ്യാപാര മുദ്രകളുമായി സമാനതയോ അല്ലെങ്കിൽ അടുത്ത സാമ്യമോ ഉള്ളിടത്ത്, അതേ സാധനങ്ങളേയോ അല്ലെങ്കിൽ ചരക്കു കളെയോ വിവരണങ്ങളേയോ അല്ലെങ്കിൽ സേവനങ്ങളേയോ അല്ലെങ്കിൽ സേവനങ്ങളുടെ വിവരണ ത്തേയോ സംബന്ധിച്ച് അതേ ഉടമയുടെ പേരിൽ രജിസ്റ്റർ ചെയ്തതോ അല്ലെങ്കിൽ രജിസ്ട്രേഷനുള്ള അപേക്ഷയിലെ വിഷയമായതോ ആയ മുദ്രകളുമായി സമാനതയോ അല്ലെങ്കിൽ അടുത്ത സാമ്യമോ ഉള്ളിടത്ത്, (1)-ാം  ഉപവകുപ്പ് ബാധകമാകുന്നതുപോലെതന്നെ ബാധകമാകുന്നതാണ്.
+    (3) ഒരു വ്യാപാരമുദ്രയും അതിന്റെ ഏതെങ്കിലും ഭാഗവും 15-ാം  വകുപ്പ് (1)-ാം  ഉപവകുപ്പിലെ വ്യവസ്ഥകൾക്കനുസൃതമായി ഒരേ ഉടമയുടെ പേരിൽ പ്രത്യേക വ്യാപാരമുദ്രകളായി രജിസ്റ്റർ ചെയ്തി ട്ടുള്ളിടത്ത് അവ കൂട്ടുവ്യാപാരമുദ്രകളായി കരുതപ്പെടേണ്ടതും രജിസ്റ്റർ ചെയ്യപ്പെടേണ്ടതുമാണ്.
+    (4) 15-ാം  വകുപ്പ് (3-ാം  ഉപവകുപ്പിലെ വ്യവസ്ഥകൾക്ക് അനുസൃതമായി ഒരു രജിസ്ട്രേഷ നിൽ ഒരു പരമ്പരയായി രജിസ്റ്റർ ചെയ്തിട്ടുള്ള എല്ലാ വ്യാപാരമുദ്രകളും കൂട്ടുവ്യാപാരമുദ്രകളായി കരുതപ്പെടേണ്ടതും രജിസ്റ്റർ ചെയ്യപ്പെടേണ്ടതുമാണ്.
+    (5) രണ്ടോ അതിലധികമോ വ്യാപാരമുദ്രകൾ കൂട്ടുവ്യാപാരമുദ്രകളായി രജിസ്റ്റർ ചെയ്തിട്ടുള്ള ഉടമ, നിർണ്ണയിക്കപ്പെട്ട രീതിയിൽ നൽകിയ അപേക്ഷയിൻമേൽ, അത് രജിസ്റ്റർ ചെയ്യപ്പെട്ടത് സംബന്ധിച്ച് ഏതെങ്കിലും ചരക്കുകളുമായോ സേവനങ്ങളുമായോ അല്ലെങ്കിൽ രണ്ടുമായോ ബന്ധപ്പെട്ട ആ വ്യാപാരമുദ്ര മറ്റേതെങ്കിലും ആൾ ഉപയോഗിക്കുന്നപക്ഷം കബളിപ്പിക്കപ്പെടുന്നതിനോ ചിന്താക്കുഴ പ്പമുണ്ടാക്കുന്നതിനോ സാദ്ധ്യതയില്ലെന്ന് രജിസ്ട്രാർക്ക് ബോദ്ധ്യപ്പെടുന്ന പക്ഷം, അദ്ദേഹത്തിന് അവയിലേതെങ്കിലും ഒന്നിനെ സംബന്ധിച്ച് കൂട്ടുചേരൽ വേർപെടുത്താവുന്നതാണ്.''',
+    'translation': '''Registration of trade marks as associated trade marks.-(1) Where a trade mark which is registered, or is the subject of an application for registration, in respect of any goods or services is identical with another trade mark which is registered, or is the subject of an application for registration, in 
+    the name of the same proprietor in respect of the same goods or description of goods or same services or description of services or so nearly resembles it as to be likely to deceive or cause confusion if used by a person other than the proprietor, the Registrar may, at any time, require that the trade marks shall be 
+    entered on the register as associated trade marks.
+    (2) Where there is an identity or near resemblance of marks that are registered, or are the subject of applications for registration in the name of the same proprietor, in respect of goods and services which are associated with those goods or services, or goods or services of that description, sub-section (1) shall 
+    apply as it applies as where there is an identity or near resemblance of marks that are registered, or are the subject of applications for registration, in the name of the same proprietor in respect of the same goods or description of goods or same services or description of services. 
+    (3) Where a trade mark and any part thereof are, in accordance with the provisions of sub-section (1) of section 15, registered as separate trade marks in the name of the same proprietor, they shall be deemed to be, and shall be registered as, associated trade marks.
+    (4) All trade marks registered in accordance with the provisions of sub-section (3) of section 15 as a series in one registration shall be deemed to be, and shall be registered as, associated trade marks.
+    (5) On application made in the prescribed manner by the registered proprietor of two or more trade marks registered as associated trade marks, the Registrar may dissolve the association as respects any of them if he is satisfied that there would be no likelihood of deception or confusion being caused if that 
+    trade mark were used by any other person in relation to any of the goods or services or both in respect of which it is registered, and may amend the register accordingly. '''},
+
+    {'malayalam_sent': '''ഒരു മുദ്രയുടെ ഭാഗങ്ങളുടെ രജിസ്ട്രേഷന്റെ ഫലം.
+    (1) ഒരു വ്യാപാരമുദ്രയിൽ പല സംഗതികൾ ഉൾക്കൊണ്ടിരിക്കുമ്പോൾ, അതിന്റെ രജിസ്ട്രേഷൻ വ്യാപാരമുദ്ര മുഴുവനായി എടുത്താൽ എന്നപോലുള്ള ഉപയോഗത്തിന് അനന്യമായ അവകാശം അതിന്റെ ഉടമയ്ക്ക് നൽകുന്നതാണ്.
+    (2) (1)-ാം  ഉപവകുപ്പിൽ എന്തുതന്നെ അടങ്ങിയിരുന്നാലും, ഒരു വ്യാപാരമുദ്രയിൽ (ക) (i) ഒരു വ്യാപാരമുദ്രയായുള്ള രജിസ്ട്രേഷനുള്ള ഉടമയുടെ ഒരു പ്രത്യേക അപേക്ഷ യിലെ വിഷയമല്ലാത്തതോ , അല്ലെങ്കിൽ (ii) ഒരു വ്യാപാരമുദ്രയായി ഉടമ പ്രത്യേകം രജിസ്റ്റർ ചെയ്യാത്തതോ ആയ ഏതെങ്കിലും ഭാഗം അടങ്ങുകയോ ; അല്ലെങ്കിൽ (ഖ) വ്യാപാരത്തിന് പൊതുവായതോ അല്ലെങ്കിൽ മറ്റുവിധത്തിൽ ഒരു സവിശേഷമല്ലാത്ത സ്വഭാവത്തോടുകൂടിയതോ ആയ ഏതെങ്കിലും സംഗതി അടങ്ങുകയോ ; ചെയ്യുമ്പോൾ, അതിന്റെ രജിസ്ട്രേഷൻ, അങ്ങനെ രജിസ്റ്റർ ചെയ്ത് മുഴുവനായ വ്യാപാരമുദ്രയുടെ ഒരു ഭാഗം മാത്രമായിത്തീരുന്ന സംഗതിയിൽ അനന്യമായ യാതൊരു അവകാശവും നൽകുന്നതല്ല. ''',
+    'translation': '''Effect of registration of parts of a mark.-(1) When a trade mark consists of several matters, its registration shall confer on the proprietor exclusive right to the use of the trade mark taken as a whole.
+    (2) Notwithstanding anything contained in sub-section (1), when a trade mark- 
+    (a) contains any part- 
+    (i) which is not the subject of a separate application by the proprietor for registration as a trade mark; or 
+    (ii) which is not separately registered by the proprietor as a trade mark; or 
+    (b) contains any matter which is common to the trade or is otherwise of a non-distinctive character, the registration thereof shall not confer any exclusive right in the matter forming only a part of the whole of the trade mark so registered. '''},
+
+    {'malayalam_sent': ''' അദ്ധ്യായം''',
+    'translation': ''' Chapter'''},
+
+    {'malayalam_sent': '''  രജിസ്ട്രേഷന്റെ നടപടിക്രമവും കാലയളവും രജിസ്ട്രേഷനുള്ള അപേക്ഷ.''',
+    'translation': '''PROCEDURE FOR AND DURATION OF REGISTRATION  '''},
+
+    {'malayalam_sent': '''(1) ഉപയോഗിച്ചതോ അല്ലെങ്കിൽ താൻ ഉപയോഗിക്കാൻ ഉദ്ദേശിച്ചതോ ആയ വ്യാപാരമുദ്രയുടെ ഉടമയെന്ന് അവകാശപ്പെടുന്നതും അത് രജിസ്റ്റർ ചെയ്യാൻ ആഗ്രഹിക്കുന്നതുമായ ഏതൊരാളും തന്റെ വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷന് വേണ്ടി നിർണ്ണയിക്കപ്പെട്ട രീതിയിൽ ലിഖിതമായി രജിസ്ട്രാർക്ക് അപേക്ഷ നൽകേണ്ടതാണ്. ''',
+    'translation': '''(1) Any person claiming to be the proprietor of a trade mark used or proposed to be used by him, who is desirous of registering it, shall apply in writing to the Registrar in the prescribed manner for the registration of his trade mark. '''},
+
+    {'malayalam_sent': '''(2) വ്യത്യസ്ത വിഭാഗത്തിലുള്ള ചരക്കുകളുടേയോ സേവനങ്ങളുടേയോ വ്യാപാരമുദ്രയ്ക്കുള്ള രജിസ്ട്രേഷന് ഒരൊറ്റ അപേക്ഷ നൽകാവുന്നതും അതിലേക്ക് നൽകേണ്ടതായ ഫീസ് അങ്ങനെയുള്ള ഓരോ വിഭാഗത്തിലേയും ചരക്കുകളേയോ സേവനങ്ങളേയോ സംബന്ധിച്ചുള്ളതായിരിക്കണം. ''',
+    'translation': '''(2) A single application may be made for registration of a trade mark for different classes of goods and services and fee payable therefore shall be in respect of each such class of goods or services. '''},
+
+    {'malayalam_sent': '''(1)-ാം  ഉപവകുപ്പു പ്രകാരമുള്ള ഓരോ അപേക്ഷയും, അപേക്ഷകന്റെ, ഭാരതത്തിലെ ബിസിനസ്സിന്റെ പ്രധാന സ്ഥലത്തെ പ്രാദേശാതിർത്തിക്കുള്ളിലോ അല്ലെങ്കിൽ കുട്ടപേക്ഷകരുടെ സംഗതിയിൽ ഭാരതത്തിൽ ഒരു ബിസിനസ്സ് സ്ഥലം ഉള്ളതായി അപേക്ഷയിൽ ആദ്യം പേരു പറഞ്ഞിട്ടുള്ള അപേക്ഷകന്റെ ഭാരതത്തിലെ പ്രധാന ബിസിനസ്സ് സ്ഥലത്തോ സ്ഥിതിചെയ്യുന്ന വ്യാപാരമുദ്രകൾ രജിസി ആഫീസിൽ ഫയൽ ചെയ്യേണ്ടതാണ് എന്നാൽ, അപേക്ഷകനോ അല്ലെങ്കിൽ കൂട്ട പേക്ഷകരിൽ ആരെങ്കിലുമോ ഭാരതത്തിൽ ബിസിനസ്സ് നടത്തുന്നില്ലായെങ്കിൽ, അപേക്ഷയിൽ വെളിപ്പെടുത്തിയിട്ടുള്ളതുപ്രകാരം, ഭാരതത്തിൽ സർവ്വീസ് നടത്തുന്നതിന് പറഞ്ഞിട്ടുള്ള മേൽവിലാസത്തിലെ പ്രാദേശികാതിർത്തിക്കുള്ളിൽ സ്ഥിതി ചെയ്യുന്ന വ്യാപാരമുദ്രകൾ രജിസ്ട്രി ഓഫീസിൽ അപേക്ഷ ഫയൽ ചെയ്യേണ്ടതാണ്. ''',
+    'translation': '''(3) Every application under sub-section (1) shall be filed in the office of the Trade Marks Registry within whose territorial limits the principal place of business in India of the applicant or in the case of 
+    joint applicants the principal place of business in India of the applicant whose name is first mentioned in the application as having a place of business in India, is situate: 
+    Provided that where the applicant or any of the joint applicants does not carry on business in India, the application shall be filed in the office of the Trade Marks Registry within whose territorial limits the place mentioned in the address for service in India as disclosed in the application, is situate. '''},
+
+    {'malayalam_sent': ''' (4) ഈ ആക്റ്റിലെ വ്യവസ്ഥകൾക്ക് വിധേയ മാ യി, രജിസ്ട്രാർക്ക്, അപേക്ഷ നിരസിക്കുകയോ അല്ലെങ്കിൽ അത് പൂർണ്ണമായോ അല്ലെങ്കിൽ അദ്ദേഹത്തിന് യുക്തമെന്ന് തോന്നുന്ന പ്രകാരം അങ്ങനെയുള്ള ഭേദഗതികൾക്കോ രൂപഭേദപ്പെടുത്തലുകൾക്കോ, ഉപാധികൾക്കോ അല്ലെങ്കിൽ പരിമിതികൾക്കോ ഏതെങ്കിലുമുണ്ടെങ്കിൽ, അതിന് വിധേയമായോ സ്വീകരിക്കുകയോ ചെയ്യാവുന്നതാണ്.''',
+    'translation': '''(4) Subject to the provisions of this Act, the Registrar may refuse the application or may accept it absolutely or subject to such amendments, modifications, conditions or limitations, if any, as he may think fit. '''},
+
+    {'malayalam_sent': '''(5) ഒരു അപേക്ഷ നിരസിക്കുകയോ അല്ലെങ്കിൽ ഉപാധികളോടെ സ്വീകരിക്കുകയോ ചെയ്യുന്ന സംഗതിയിൽ, രജിസ്ട്രാർ, അങ്ങനെയുള്ള നിരസിക്കലിന്റെയോ അല്ലെങ്കിൽ ഉപാധിക ളോടെയുള്ള സ്വീകരിക്കലിന്റെയോ കാരണങ്ങളും അദ്ദേഹം തന്റെ തീരുമാനത്തിലെത്തുന്നതിനുവേണ്ടി ഉപയോഗിച്ച് വിവരങ്ങളും ലിഖിതമായി രേഖപ്പെടുത്തേണ്ടതാണ്. ''',
+    'translation': '''(5) In the case of a refusal or conditional acceptance of an application, the Registrar shall record in writing the grounds for such refusal or conditional acceptance and the materials used by him in arriving at his decision. '''},
+
+    {'malayalam_sent': '''സ്വീകരിച്ചത് പിൻവലിക്കൽ ഒരു വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷനുള്ള ഒരു അപേക്ഷ സ്വീകരിച്ചശേഷം, എന്നാൽ അതിന്റെ രജിസ്ട്രേഷന് മുമ്പ് ഇത് വായ (ക) അപേക്ഷ തെറ്റായി സ്വീകരിച്ചതാണെന്നോ, അല്ലെങ്കിൽ (ഖ ആ സംഗതിയുടെ സാഹചര്യങ്ങളിൽ വ്യാപാരമുദ്ര രജിസ്റ്റർ ചെയ്യരുതാത്തതാണെന്നോ അല്ലെങ്കിൽ ഉപാധികൾക്കോ പരിമിതികൾക്കോ വിധേയമായി ചെയ്യേണ്ടതാണെന്നോ അല്ലെങ്കിൽ അപേക്ഷ സ്വീകരിച്ചത് ഏത് ഉപാധികൾക്കും പരിമിതികൾക്കും വിധേയമായാണോ അതിൽ കൂടുതലായതോ അതിൽനിന്നും വ്യത്യസ്തമായതോ ആയ ഉപാധികൾക്കും പരിമിതികൾക്കും വിധേയ മായി അപേക്ഷ രജിസ്റ്റർ ചെയ്യേണ്ടതാണെന്നോ, രജിസ്ട്രാർക്ക് ബോദ്ധ്യപ്പെടുന്ന പക്ഷം, രജിസ്ട്രാർക്ക്, അപേക്ഷകൻ അപ്രകാരം ആഗ്രഹിക്കുന്നപക്ഷം, അയാളെ കേട്ടതിനുശേഷം, അപേക്ഷ സ്വീകരിച്ചത് പിൻവലിക്കാവുന്നതും അത് സ്വീകരിച്ചിട്ടില്ലായിരുന്നുവെന്നപോലെ നടപടികൾ തുടരാവുന്നതുമാണ്. ''',
+    'translation': '''Withdrawal of acceptance.-Where, after the acceptance of an application for registration of a trade mark but before its registration, the Registrar is satisfied- 
+    (a) that the application has been accepted in error; or 
+    (b) that in the circumstances of the case the trade mark should not be registered or should be registered subject to conditions or limitations or to conditions additional to or different from the conditions or limitations subject to which the application has been accepted, the Registrar may, after hearing the applicant if he so desires, withdraw the acceptance and proceed as if 
+    the application had not been accepted. '''},
+
+    {'malayalam_sent': '''അപേക്ഷയുടെ പരസ്യം.- (1) ഒരു വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷനു വേണ്ടിയുള്ള നിരുപാധികമായോ അല്ലെങ്കിൽ ഉപാധികൾക്കും പരിമിതികൾക്കും വിധേയമായി സ്വീകരിച്ചിട്ടുള്ളപ്പോൾ, രജിസ്ട്രാർ, അത് സ്വീകരിച്ചതിനുശേഷം, കഴിയുന്നത് വേഗത്തിൽ, അങ്ങനെ സ്വീകരിച്ച അപേക്ഷ, അത് സ്വീകരിച്ചത് ഏത് ഉപാധികൾക്കോ, പരിമിതികൾക്കോ, ഏതെങ്കിലുമുണ്ടെങ്കിൽ, വിധേയമായി ട്ടാണോ, അത് സഹിതം നിർണ്ണയിക്കപ്പെട്ട രീതിയിൽ പരസ്യം ചെയ്യിക്കേണ്ടതാണ് .
+    എന്നാൽ, 9-ാം  വകുപ്പ് (1)-ാം  ഉപവകുപ്പും 11-ാം  വകുപ്പ് (1)-ഉം (2) ഉം ഉപവകുപ്പുകളും ബാധകമായിട്ടുള്ള ഒരു വ്യാപാരമുദ്രയെ സംബന്ധിച്ച അപേക്ഷയാണെങ്കിലോ അല്ലെങ്കിൽ മറ്റേതെങ്കിലും സംഗതിയിൽ, ഏതെങ്കിലും അസാധാരണ സാഹചര്യങ്ങളാലുള്ള കാരണങ്ങളാൽ അപ്രകാരം ചെയ്യേണ്ടത് ഉചിതമാണെന്ന് അദ്ദേഹത്തിന് തോന്നുന്ന പക്ഷം, രജിസ്ട്രാർക്ക് ഒരു അപേക്ഷ സ്വീകരിക്കുന്നതിന് മുൻപുതന്നെ അത് പരസ്യം ചെയ്യിക്കാവുന്നതാണ്. ''',
+    'translation': '''Advertisement of application.-(1) When an application for registration of a trade mark has been accepted, whether absolutely or subject to conditions or limitations, the Registrar shall, as soon as may be after acceptance, cause the application as accepted together with the conditions or limitations, if 
+    any, subject to which it has been accepted, to be advertised in the prescribed manner: 
+    Provided that the Registrar may cause the application to be advertised before acceptance if it relates to a trade mark to which sub-section (1) of section 9 and sub-sections (1) and (2) of section 11 apply, or in any other case where it appears to him that it is expedient by reason of any exceptional circumstances so 
+    to do. '''},
+
+
+    {'malayalam_sent': '''(2) (ക) ഒരു അപേക്ഷ (1)-ാം  ഉപവകുപ്പു പ്രകാരം സ്വീകരിക്കുന്നതിന് മുമ്പുതന്നെ പരസ്യം ചെയ്തിട്ടുള്ളിടത്തോ ; അല്ലെങ്കിൽ (ഖ) ഒരു അപേക്ഷയുടെ പരസ്യത്തിന് ശേഷം, (i) അപേക്ഷയിലുള്ള ഒരു തെറ്റ് തിരുത്തിയിട്ടുള്ളിടത്തോ ; അല്ലെങ്കിൽ 22-ാം  വകുപ്പു പ്രകാരം അപേക്ഷ ഭേദഗതി ചെയ്യുന്നതിന് അനുവദിച്ചിട്ടുള്ളിടത്തോ, രജിസ്ട്രാർക്ക്, തന്റെ വിവേചനാധികാരത്തിൽ അപേക്ഷ വീണ്ടും പരസ്യം ചെയ്യിക്കുകയോ അല്ലെങ്കിൽ (ഖ) ഖണ്ഡത്തിൻ കീഴിൽ വരുന്ന മറ്റേതെങ്കിലും സംഗതിയിൽ, അപേക്ഷ വീണ്ടും പരസ്യം ചെയ്യിക്കുന്ന തിന് പകരം അപേക്ഷയിൽ വരുത്തിയിട്ടുള്ള തിരുത്തലോ ഭേദഗതിയോ നിർണ്ണയിക്കപ്പെടുന്ന രീതിയിൽ വിജ്ഞാനപ്പെടുത്തുകയോ ചെയ്യാവുന്നതാണ്. ''',
+    'translation': '''(2) Where- 
+    (a) an application has been advertised before acceptance under sub-section (1); or 
+    (b) after advertisement of an application,- 
+    (i) an error in the application has been corrected; or 
+    (ii) the application has been permitted to be amended under section 22, the Registrar may in his discretion cause the application to be advertised again or in any case falling under clause (b) may, instead of causing the application to be advertised again, notify in the prescribed manner the correction or amendment made in the application. '''},
+
+
+    {'malayalam_sent': '''രജിസ്ട്രേഷനുള്ള എതിർപ്പ്.
+    (1) ഏതൊരാളും, രജിസ്ട്രേഷനുള്ള ഒരു അപേക്ഷയുടെ പരസ്യത്തിന്റെയോ പുനഃപരസ്യത്തിന്റെയോ തീയതി മുതൽ നാല് മാസത്തിനകം  നിർണ്ണയിക്കപ്പെട്ട രീതിയിലും നിർണ്ണയിക്കപ്പെട്ട ഫീസ് നൽകിയും  രജിസ്ട്രേഷന്റെ എതിർപ്പിനുള്ള നോട്ടീസ് ലിഖിതമായി നിർണ്ണയിക്കപ്പെട്ട രീതിയിൽ രജിസ്ട്രാർക്ക് നൽകേണ്ടതാണ്. ''',
+    'translation': ''' Opposition to registration.(1) Any person may, within four months from the date of the advertisement or re-advertisement of an application for registration, give notice in writing in the prescribed manner and on payment of such fee as may be prescribed, to the Registrar, of opposition to the 
+    registration.'''},
+
+    {'malayalam_sent': ''' (2) രജിസ്ട്രാർ ആ നോട്ടീസിന്റെ ഒരു പകർപ്പ് രജിസ്ട്രേഷനുള്ള അപേക്ഷകന് നൽകേണ്ടതും അങ്ങനെയുള്ള എതിർപ് പകർപ്പ് അപേക്ഷകൻ കൈപ്പറ്റി രണ്ടു മാസത്തിനുള്ളിൽ, അപേക്ഷകൻ തന്റെ അപേക്ഷയ്ക്കായി ആശ്രയിക്കുന്ന കാരണങ്ങളുടെ ഒരു എതിർ പ്രസ്താവന നിർണ്ണയിക്കപ്പെടുന്ന രീതിയിൽ രജിസ്ട്രാർക്ക് അയച്ചു കൊടുക്കേണ്ടതും, അയാൾ അപ്രകാരം ചെയ്യാത്തപക്ഷം, അയാൾ തന്റെ അപേക്ഷ ഉപേക്ഷിച്ചതായി കരുതപ്പെടേണ്ടതുമാണ്.''',
+    'translation': ''' (2) The Registrar shall serve a copy of the notice on the applicant for registration and, within two months from the receipt by the applicant of such copy of the notice of opposition, the applicant shall send to the Registrar in the prescribed manner a counterstatement of the grounds on which he relies for his application, and if he does not do so he shall be deemed to have abandoned his application.'''},
+
+    {'malayalam_sent': '''(3) അപേക്ഷകൻ അങ്ങനെയുള്ള എതിർപ്രസ്താവന അയയ്ക്കുന്നപക്ഷം, രജിസ്ട്രാർ അതിന്റെ ഒരു പകർപ്പ് എതിർപ്പ് നോട്ടീസ് നൽകിയ ആൾക്ക് നൽകേണ്ടതാണ്. ''',
+    'translation': '''(3) If the applicant sends such counter-statement, the Registrar shall serve a copy thereof on the person giving notice of opposition.'''},
+
+    {'malayalam_sent': '''(4) എതിർകക്ഷിയും അപേക്ഷകനും ആശ്രയിക്കുന്ന ഏതൊരു തെളിവും നിർണ്ണയിക്കപ്പെട്ട രീതിയിലും നിർണ്ണയിക്കപ്പെട്ട സമയത്തിനുള്ളിലും രജിസ്ട്രാർക്ക് സമർപ്പിക്കേണ്ടതും, അവർ അപ്രകാരം ആഗ്രഹിക്കുന്നുവെങ്കിൽ അവരെ കേൾക്കുന്നതിനുള്ള ഒരു അവസരം രജിസ്ട്രാർ നൽകേണ്ടതുമാണ്. ''',
+    'translation': ''' (4) Any evidence upon which the opponent and the applicant may rely shall be submitted in the prescribed manner and within the prescribed time to the Registrar, and the Registrar shall give an opportunity to them to be heard, if they so desire.'''},
+
+    {'malayalam_sent': '''(5) രജിസ്ട്രാർ, അപ്രകാരം ആവശ്യമുള്ളപക്ഷം, കക്ഷികളെ കേട്ടതിനുശേഷവും തെളിവ് പരിഗണിച്ചതിനുശേഷം രജിസ്ട്രേഷൻ അനുവദിക്കേണ്ടതാണോ എന്നതും ഏതെല്ല-ാം  ഉപാധികൾക്കും പരിമിതികൾക്കും ഏതെങ്കിലും ഉണ്ടെങ്കിൽ, വിധേയമായാണോ അനുവദിക്കേണ്ടത് എന്നതും തീരുമാനിക്കേണ്ടതും ആക്ഷേപത്തിനുള്ള ഒരു കാരണം, എതിർകക്ഷി ആശ്രയിക്കുന്നുണ്ടെങ്കിലും ഇല്ലെങ്കിലും കണക്കിലെടുക്കാവുന്നതുമാണ്. ''',
+    'translation': ''' (5) The Registrar shall, after hearing the parties, if so required, and considering the evidence, decide whether and subject to what conditions or limitations, if any, the registration is to be permitted, and may 
+    take into account a ground of objection whether relied upon by the opponent or not.'''},
+
+    {'malayalam_sent': ''' (6) എതിർപ്പ് നോട്ടീസ് നൽകുന്ന ഒരാളോ അല്ലെങ്കിൽ അങ്ങനെയുള്ള നോട്ടീസിന്റെ പകർപ്പ് കൈപ്പറ്റിയശേഷം എതിർ പ്രസ്താവന അയയ്ക്കുന്ന അപേക്ഷകനോ ഭാരതത്തിൽ താമസിക്കുകയോ ബിസിനസ്സ് നടത്തുകയോ ചെയ്യുന്നില്ലാത്തപക്ഷം, രജിസ്ട്രാർക്ക്, തന്റെ മുൻപാകെയുള്ള നടപടികളുടെ ചിലവിലേക്കായി ഈട് നൽകണമെന്ന് അയാളോട് ആവശ്യപ്പെടാവുന്നതും അങ്ങനെയുള്ള ഈട് യഥാവിധി നൽകുന്നതിൽ വീഴ്ച വരുത്തുന്ന പക്ഷം, എതിർപ്പോ അല്ലെങ്കിൽ അപേക്ഷയോ, അതതുസംഗതിപോലെ, ഉപേക്ഷിച്ചതായി കരുതാവുന്നതാണ്.''',
+    'translation': '''(6) Where a person giving notice of opposition or an applicant sending a counter-statement after receipt of a copy of such notice neither resides nor carries on business in India, the Registrar may require 
+    him to give security for the costs of proceedings before him, and in default of such security being duly given, may treat the opposition or application, as the case may be, as abandoned. '''},
+
+    {'malayalam_sent': ''' (7) രജിസ്ട്രാർക്ക്, അപേക്ഷയിൻമേൽ, അദ്ദേഹത്തിന് ന്യായമെന്ന് തോന്നുന്ന അങ്ങനെയുള്ള നിബന്ധനകളിൻമേൽ ഒരു എതിർപ്പ് നോട്ടീസിലോ അല്ലെങ്കിൽ ഒരു എതിർ പ്രസ്താവനയിലോ ഏതെങ്കിലും തെറ്റ് തിരുത്തലോ അല്ലെങ്കിൽ ഏതെങ്കിലും ഭേദഗതിയോ അനുവദിക്കാവുന്നതാണ്.''',
+    'translation': '''(7) The Registrar may, on request, permit correction of any error in, or any amendment of, a notice of opposition or a counter-statement on such terms as he thinks just. '''},
+
+    {'malayalam_sent': '''തിരുത്തലും ഭേദഗതിയും.
+    രജിസ്ട്രാർക്ക്, അദ്ദേഹത്തിന് ന്യായമെന്ന് തോന്നുന്ന അങ്ങനെ യുള്ള നിബന്ധനകളിൻമേൽ, ഏതുസമയത്തും, 18-ാം  വകുപ്പ് പ്രകാരമുള്ള രജിസ്ട്രഷനുള്ള ഒരു അപേക്ഷ സ്വീകരിക്കുന്നതിന് മുൻപോ അല്ലെങ്കിൽ അതിനുശേഷമോ, അപേക്ഷയിലേയോ അല്ലെങ്കിൽ അതുമായി ബന്ധപ്പെട്ടതോ ആയ ഒരു തെറ്റ് തിരുത്തുന്നതിന് അനുവദിക്കാവുന്നതോ അല്ലെങ്കിൽ അപേക്ഷയിൽ ഒരു ഭേദഗതി വരുത്തുന്നതിന് അനുവദിക്കാവുന്നതോ ആണ്.
+    എന്നാൽ, 18-ാം  വകുപ്പ് (2)-ാം  ഉപവകുപ്പിൽ പരാമർശിച്ചിട്ടുള്ള ഒരൊറ്റ അപേക്ഷയിൽ, അങ്ങനെയുള്ള അപേക്ഷ രണ്ടോ അതിലധികമോ അപേക്ഷകളാലുള്ള വിഭജനമുൾപ്പെടുന്ന ഒരു ഭേദഗതി വരുത്തുന്നു വെങ്കിൽ, ആദ്യ അപേക്ഷ നൽകിയ തീയതിയിൽ തന്നെ അപ്രകാരം വിഭജിക്കപ്പെട്ട് വിഭജിച്ച അപേക്ഷകളും നൽകിയ തീയതിയായി കരുതപ്പെടേണ്ടതാണ്. ''',
+    'translation': '''Correction and amendment.-The Registrar may, on such terms as he thinks just, at any time, whether before or after acceptance of an application for registration under section 18, permit the correction of any error in or in connection with the application or permit an amendment of the application: 
+    Provided that if an amendment is made to a single application referred to in sub-section (2) of section 18 involving division of such application into two or more applications, the date of making of the initial application shall be deemed to be the date of making of the divided applications so divided. '''},
+
+    {'malayalam_sent': ''' രജിസ്ട്രേഷൻ.
+    (1) 19-ാം  വകുപ്പിലെ വ്യവസ്ഥകൾക്ക് വിധേയമായി, ഒരു വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷനുള്ള ഒരു അപേക്ഷ സ്വീകരിക്കപ്പെട്ടിരിക്കുകയും (ക) ആ അപേക്ഷ എതിർക്കപ്പെടാതിരിക്കുകയും എതിർപ്പ് നോട്ടീസിനുള്ള സമയം കഴിഞ്ഞുപോവുകയും ; അല്ലെങ്കിൽ (ഖ) അപേക്ഷ എതിർക്കപ്പെട്ടിരിക്കുകയും എതിർപ്പ് അപേക്ഷകന് അനുകൂലമായി തീരുമാനിക്കപ്പെട്ടിരിക്കുകയും ചെയ്യുമ്പോൾ, രജിസ്ട്രാർ, കേന്ദ്രസർക്കാർ മറ്റുവിധത്തിൽ നിർദ്ദേശിക്കാത്തപക്ഷം, പ്രസ്തുത വ്യപാരമുദ്ര രജിസ്റ്റർ ചെയ്യേണ്ടതും ആ വ്യാപാരമുദ്ര രജിസ്റ്റർ ചെയ്യുമ്പോൾ പ്രസ്തുത അപേക്ഷ നൽകിയ തീയതി വച്ച് രജിസ്റ്റർ ചെയ്യേണ്ടതും ആ തീയതി 154-ാം  വകുപ്പിലെ വ്യവസ്ഥകൾക്ക് വിധേയമായി രജിസ്ട്രേഷൻ തീയതിയായി കരുതപ്പെടേണ്ടതുമാണ്.''',
+    'translation': ''' Registration.-(1) Subject to the provisions of section 19, when an application for registration of a trade mark has been accepted and either- 
+    (a) the application has not been opposed and the time for notice of opposition has expired; or 
+    (b) the application has been opposed and the opposition has been decided in favour of the applicant, the Registrar shall, unless the Central Government otherwise directs, register the said trade mark and the trade mark when registered shall be registered as of the date of the making of the said application and that date shall, subject to the provisions of section 154, be deemed to be the date of registration.'''},
+
+    {'malayalam_sent': ''' (2) ഒരു വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷൻ മേൽ, രജിസ്ട്രാർ, അതിന്റെ രജിസ്ട്രേഷന്റെ ഒരു സർട്ടിഫിക്കറ്റ് നിർണ്ണയിക്കപ്പെട്ട ഫാറത്തിൽ വ്യാപാരമുദ്രകൾ രജിസ്റ്ററിയുടെ മുദ്ര പതിപ്പിച്ച് അപേക്ഷകന് നൽകേണ്ടതാണ്.''',
+    'translation': '''(2) On the registration of a trade mark, the Registrar shall issue to the applicant a certificate in the prescribed form of the registration thereof, sealed with the seal of the Trade Marks Registry. '''},
+
+    {'malayalam_sent': '''(3) അപേക്ഷ നൽകിയ തീയതി മുതൽ പന്ത്രണ്ടുമാസത്തിനകം അപേക്ഷകന്റെ ഭാഗത്തു നിന്നുള്ള വീഴ്ചകാരണം വ്യാപാരമുദ്രയുടെ രജിസ്ട്രേഷൻ പൂർത്തിയാക്കാത്തിടത്ത്, രജിസ്ട്രാർ, നിർണ്ണ യിക്കപ്പെട്ട രീതിയിൽ അപേക്ഷകന് നോട്ടീസ് നൽകിയതിനുശേഷം, ആ നോട്ടീസിൽ അതിലേക്കായി വിനിർദ്ദേശിച്ചിട്ടുള്ള സമയത്തിനുള്ളിൽ അത് പൂർത്തിയാക്കാത്തപക്ഷം, ആ അപേക്ഷ ഉപേക്ഷിച്ചതായി കണക്കാക്കേണ്ടതാണ്. ''',
+    'translation': '''(3) Where registration of a trade mark is not completed within twelve months from the date of the application by reason of default on the part of the applicant, the Registrar may, after giving notice to the applicant in the prescribed manner, treat the application as abandoned unless it is completed within the time specified in that behalf in the notice. '''},
+
+    {'malayalam_sent': ''' (4) രജിസ്ട്രാർക്ക്, ഒരു കൈത്തെറ്റോ അല്ലെങ്കിൽ പ്രകടമായ ഒരു തെറ്റോ തിരുത്തുന്നതിലേ ക്കായി രജിസ്റ്ററോ അല്ലെങ്കിൽ ഒരു രജിസ്ട്രേഷൻ സർട്ടിഫിക്കറ്റോ ഭേദഗതി ചെയ്യാവുന്നതാണ്.''',
+    'translation': '''(4) The Registrar may amend the register or a certificate of registration for the purpose of correcting a 
+    clerical error or an obvious mistake. '''},
+
+    {'malayalam_sent': '''ഭാരത സർക്കാർ നിയമ മന്ത്രാലയം''',
+    'translation': '''Ministry of Law, Government of India'''},
+
+    {'malayalam_sent': '''1882-ലെ മുക്ത്യാർ നാമങ്ങൾ ആക്റ് (1882-ലെ 7-ാം  ആക്റ് (1986 മേയ് 1-ാം  തീയതി നിലവിലിരുന്ന പ്രകാരം)''',
+    'translation': '''The powers of attorney act, 1882 (Act No.7 of 1882) (as on 1st May, 1986)'''},
+
+    {'malayalam_sent': '''യൂണിയൻ സർക്കാരിനു വേണ്ടി കേരള ഗവൺമെൻറ് പ്രസ്സ് സൂപ്രണ്ട് തിരുവനന്തപുരം ഗവൺമെൻറ് പ്രസ്സിൽ അച്ചടിപ്പിച്ച് പ്രസിദ്ധീകരിക്കുന്നത്.''',
+    'translation': '''Printed and published by Superintendent, Kerala Governmnet Press, Thiruananthapuram, for the union government.'''},
+
+    {'malayalam_sent': '''വില''',
+    'translation': '''price'''},
+
+    {'malayalam_sent': '''1986 മേയ 1-ാം  തീയതി നിലവിലിരുന്ന പ്രകാരമുളള 1882-ലെ മുക്ത്യാർ നാമങ്ങൾ ആക്റിൻ (1882ലെ 7-ാം  ആക്റ്) മലയാളത്തിലെ ആധികാരിക പരിഭാഷ ഈ പതിപ്പിൽ അടങ്ങിയിരിക്കുന്നു.''',
+    'translation': '''Official translation of the Powers of Attorney Act of 1882, in Malayalam, as prevalent on May 1st is contained in this print.'''},
+
+    {'malayalam_sent': '''1986 ജൂലൈ 28-ാം  തീയതിയിലെ അസാധാരണ കേന്ദ്ര ഗസറ് XI-ാം  ഭാഗം 1-ാം  വകുപ്പ് 1-ാം  വാല്യം, 1 മുതൽ 3 വരെയുള്ള പുറങ്ങളിൽ ഇത് പ്രസിദ്ധീകരിച്ചിരുന്നു.''',
+    'translation': '''This is published on pages 1 to 3 of the Extraordinary central gazette of July 28, 1986, Part XI, Division 1, Volume 1'''},
+
+    {'malayalam_sent': '''ആമുഖം മലയാളത്തിലെ ഈ ആധികാരിക പരിഭാഷ 1973-ലെ (പാധിക തർജ്ജമകൾ (കേന്ദ നിയമങ്ങൾ ആക്റ്റ് 2-ാം  വകുപ്പ് (ക) ഖണ്ഡം അനുസരിച്ച് പ്രസിഡൻറ് അധികാരപ്പെടു ത്തിയ പ്രകാരം പ്രസിദ്ധീകരിക്കുകയും അങ്ങനെ പ്രസിദ്ധീകരിച്ചതിൻമേൽ അത് ആ ആക്ററിന്റെ മലയാളത്തിലെ ആധികാരിക പരിഭാഷയായിത്തീരുകയും ചെയ്തു.''',
+    'translation': '''This authorised translation in Malayalam was published under the authority of the President under clause (a) of Section 2 of the Authorised Translations (Central Laws) Act, 1973, and on such publication it became the authorised translation of the Act in Malayalam.'''},
+
+    {'malayalam_sent': '''1882-ലെ മുക്താർ നാമങ്ങൾ ആക്ട്''',
+    'translation': '''Powers of Attorney Act of 1882'''},
+
+    {'malayalam_sent': '''നിർവ്വചനം''',
+    'translation': '''Definition'''},
+
+    {'malayalam_sent': '''ഈ ആക്റിന് 1882-ലെ മുക്ത്യാർ നാമങ്ങൾ ആക്റ്, എന്നു പേര് പറയ-ാം  .''',
+    'translation': '''This Act may be called the Powers-of-Attorney Act, 1882.'''},
+
+    {'malayalam_sent': '''തദ്ദേശ വ്യാപ്തി. - ഇത് ഇൻഡ്യക്ക് മുഴുവൻ ബാധകമാണ്.''',
+    'translation': '''Local extent.-It applies to the whole of India'''},
+
+    {'malayalam_sent': '''പ്രാരംഭം.-ഇത് 1882 മേയ് ഒന്ന-ാം  തീയതി പ്രാബല്യത്തിൽ വരുന്നതാണ്.''',
+    'translation': '''Commencement. - it shall come into force on the first day of May, 1882.'''},
+
+    {'malayalam_sent': '''ഈ ആക്ററിൽ മുക്ത്യാർ നാമം എന്നാൽ അത് ഒപ്പിട്ടു പൂർത്തികരിക്കുന്ന വ്യക്തിക്കു വേണ്ടി അയാളുടെ പേരിൽ പ്രവർത്തിക്കുവാൻ ഒരു വ്യക്തിയെ വിനിർദ്ദേശിച്ച് അധികാരപ്പെടുത്തുന്ന ഏതൊരു പ്രമാണവും ഉൾപ്പെടുന്നതാകുന്നു.''',
+    'translation': '''In this Act, “Power-of-Attorney” includes any instrument empowering a specified person to act for and in the name of the person executing it.'''},
+
+    {'malayalam_sent': '''മുക്ത്യാർ നാമത്തിൻറ ആദാതാവിന് ഉചിതമെന്ന് തോന്നുന്നപക്ഷം, മുക്ത്യാർ ദാതാവിന്റെ അധികാരത്തിൽ, തന്റെ തൻറ സ്വന്തം പേരിലും കയ്യൊപ്പോടും, മുദ്ര  ആവശ്യമുളളപക്ഷം, തന്റെ സ്വന്തം മുദ്രയായോടും കൂടി, ഏതൊരു പ്രമാണവും ഒപ്പിട്ട് പൂർത്തീകരിക്കാവുന്നതും ഏതൊരു കാര്യവും ചെയ്യാ വുന്നതും അപ്രകാരം ആദാതാവ് ഒപ്പിട്ടു പൂർത്തീകരിച്ച് ഏതൊരു പ്രമാണത്തിനും ചെയ്ത ഏതൊരു കാര്യത്തിനും ദാതാവിന്റെ പേരിൽ ദാതാവിന്റെ കയ്യൊപ്പോടും മുദ്രയോടും കൂടി ആദാതാവ് ഒപ്പിട്ട് പൂർത്തീകരിക്കുകയോ ചെയ്യു കയോ ചെയ്തിരുന്നാൽ എന്നപോലെ നിയമ പ്രഭാവം ഉണ്ടായിരിക്കുന്നതും ആകുന്നു.''',
+    'translation': '''The donee of a power-of-attorney may, if he thinks fit, execute or do any instrument or thing in and with his own name and signature, 
+    and his own seal, where sealing is required, by the authority of the donor of the power; and every instrument and thing so executed and done, shall be as effectual in law as if it had been executed or done by the donee of the power in the name, and with the signature and seal, of the donor thereof.'''},
+
+    {'malayalam_sent': '''ഈ ആക്റ പ്രാബല്യത്തിൽ വരുന്നതിനു മുൻപും അതിനുശേഷവും ഒപ്പിട്ട് പൂർത്തീകരിച്ച പ്രമാണങ്ങളാൽ ഉണ്ടാക്കിയിട്ടുള്ള മുക്ത്യാർ നാമങ്ങൾക്ക് ഈ വകുപ്പ് ബാധകമാണ്.''',
+    'translation': '''This section applies to powers-of-attorney created by instruments executed either before or after this Act comes into force'''},
+
+    {'malayalam_sent': '''ഒരു മുക്ത്യാർ നാമം അനുസരിച്ച് ഉത്തമവിശ്വാസത്തിൽ ഏതെങ്കിലും തുക നൽകുകയോ പ്രവൃത്തി ചെയ്യുകയോ ചെയ്യുന്ന ഒരാൾക്ക്, ആ തുക നൽകുന്നതിനും പ്രവൃത്തി ചെയ്യുന്നതിനും മുൻപായി, ദാതാവ ദാതാവ് മരിച്ചുപോകുകയോ ചിത്തഭ്രമമുളവനാകുകയോ നിർദ്ധനനാകുകയോ അഥവാ ദാതാവ് മുക്ത്യാർ നാമ പിൻവലിക്കുകയോ ചെയ്ത കാരണത്താൽ ആ തുക നൽകിയ സമയത്തോ പ്രവൃത്തിചെയ്ത സമയത്തോ ദാതാവിന്റെ മരണമോ ചിത്തഭ്രമമോ നിർദ്ധനത്വമോ മുക്ത്യാർനാമത്തിന്റെ പിൻവലിക്കലോ തുക നൽകുകയോ പ്രവൃത്തി ചെയ്യുകയോ ചെയ്യുന്ന ആളിന്റെ അറിവിൽപ്പെട്ടിരുന്നില്ലെങ്കിൽ, ആ തുക നൽകുന്നതോ പ്രവൃത്തി ചെയ്യു ന്നതോ സംബന്ധിച്ച് ബാദ്ധ്യത ഉണ്ടായിരിക്കുന്നതല്ല.''',
+    'translation': '''Any person making or doing any payment or act in good faith, in pursuance of a power-of-attorney, shall not be liable in respect of the payment or act by reason that, before the payment or act, the donor of the power had died or become of unsound mind, or insolvent, or had revoked the 
+    power, if the fact of death, unsoundness of mind, insolvency or revocation was not, at the time of the payment or act, known to the person making or doing the same.'''},
+
+    {'malayalam_sent': '''എന്നാൽ ഈ വകുപ്പ്, അപ്രകാരം നൽകപ്പെട്ട ഏതെങ്കിലും തുകയിൽ അവകാശബന്ധമുളള ഒരാളിന് തുക വാങ്ങിയ ആളിന് എതിരായുള്ള യാതൊരു അവകാശത്തെയും ബാധിക്കുന്നതല്ലാത്തതും ആ ആളിന് തുക നൽകിയിട്ടില്ലായിരു ന്നുവെങ്കിൽ തുക നൽകുന്ന ആളിനെതിരെ ലഭ്യമാകുമായിരുന്ന അതേ പരിഹാരം തുക വാങ്ങിയ ആളിന് എതിരായും ഉണ്ടായിരിക്കുന്നതും ആകുന്നു.''',
+    'translation': '''But this section shall not affect any right against the payee of any person interested in any money so paid; and that person shall have the like remedy against the payee as he would have had against the payer, if the payment had not been made by him.'''},
+
+    {'malayalam_sent': '''ഈ ആക്റ്റ് പ്രാബല്യത്തിൽ വന്നതിനുശേഷം നൽകിയിട്ടുള്ള തുകയ്ക്കും ചെയ്തിട്ടുള്ള പ്രവൃത്തികൾക്കും മാത്രം ഈ വകുപ്പ് ബാധകമാകുന്നതാണ്.''',
+    'translation': '''This section applies only to payments and acts made or done after this Act comes into force.'''},
+
+    {'malayalam_sent': '''ഒരു മുക്ത്യാർ നാമം ഉണ്ടാക്കിക്കൊണ്ടുള്ള ഒരു പ്രമാണം, സത്യവാങ്മൂലമോ നിയമപ്രകാരമുള്ള പ്രഖ്യാപനമോ അഥവാ മറ്റു മതിയായ തെളിവോ കൊണ്ട് അത് എഴുതി കൊടുത്തത് സത്യബോധപ്പെടുത്തിയിട്ടുളളപ്പോൾ, ആ പ്രമാണം, സത്യവാങ്മൂലമോ പ്രഖ്യാപനമോ ഏതെങ്കിലുമുണ്ടെങ്കിൽ, അതുസഹിതം ഏത് ഹൈക്കോടതിയുടേയോ ഡിസ്ട്രിക്റ്റ് കോടതിയുടേയോ വിചാരണാധികാരിതയുടെ തദ്ദേശാതിർത്തികൾക്കുള്ളിലാണോ ആ പ്രമാണം ഉളളത് ആ ഹൈക്കോ ടതിയിൽ നിക്ഷേപിക്കേണ്ടതാണ്.''',
+    'translation': '''An instrument creating a power-of-attorney, its execution being verified by affidavit, statutory declaration or other sufficient evidence, may, with the affidavit or declaration, if any, be deposited in the High Court or District Court within the local limits of whose jurisdiction the instrument may be.'''},
+
+    {'malayalam_sent': '''അപകാരം നിക്ഷേപിക്കുന്ന പ്രമാണങ്ങളുടെ ഒരു പ്രത്യേക ഫയൽ വച്ചുപോരേണ്ടതും, ഏതൊരാളിനും ആ ഫയൽ ശോധന നടത്താവുന്നതും, അപ്രകാരം നിക്ഷേപിക്കുന്ന ഏതൊരു പ്രമാണവും പരിശോധിക്കാവുന്നതും, അപേക്ഷിക്കുന്നതിനുമേൽ അതിന്റെ സർട്ടിഫൈ ചെയ്ത ഒരു പ്രതി അയാൾക്ക ഏൽപ്പിച്ചുകൊടുക്കേണ്ടതും ആകുന്നു.''',
+    'translation': '''A separate file of instruments so deposited shall be kept; and any person May search that file, and inspect every instrument so deposited; and a certified copy thereof shall be delivered out to him on request.'''},
+
+    {'malayalam_sent': '''അപ്രകാരം നിക്ഷേപിക്കുന്ന പ്രമാണത്തിന്റെ ഒരു പ്രതി ആഫീസിൽ ഹാജരാക്കാവുന്നതും സർട്ടിഫൈ ചെയ്ത ഒരു പ്രതിയായി മുദ്രവയ്ക്കാവുന്നതും അടയാളപ്പെടുത്താവുന്നതും, അപകാരം മുദ്രവയ്ക്കുകയോ അടയാളപ്പെടു ത്തുകയോ ചെയ്യുമ്പോൾ അതു ഒരു സർട്ടിഫൈ ചെയ്ത പ്രതിയായിത്തീരുന്നതും ആകുന്നു.''',
+    'translation': '''A copy of an instrument so deposited may be presented at the office and may be stamped or marked as a certified copy, and, when so stamped or marked, shall become and be a certified copy.'''},
+
+    {'malayalam_sent': '''അപ്രകാരം നിക്ഷേപിക്കുന്ന പ്രമാണത്തിന്റെ ഒരു സർട്ടിഫൈ ചെയ്ത പതി, കൂടുതൽ തെളിവു കൂടാതെ, പ്രമാണത്തിന്റെ ഉള്ളടക്കത്തിന്റെയും ഹൈക്കോടതിയിലോ കോടതിയിലോ അത് നിക്ഷേപിച്ചിട്ടുള തിന്റേയും മതിയായ തെളിവായിരിക്കുന്നതാണ്.''',
+    'translation': '''A certified copy of an instrument so deposited shall, without further proof, be sufficient evidence of the contents of the instrument and of the deposit thereof in the High Court or District Court.'''},
+
+    {'malayalam_sent': '''ഈ വകുപ്പിന്റെ ആവശ്യത്തിലേക്കും, സംസ്ഥാന സർക്കാരിന്റെ സമ്മതത്തോടുകൂടി (ക), (ഖ), (ഗ) എന്നീ ഖണ്ഡങ്ങൾ പ്രകാരം ഈടാക്കേണ്ട ഫീസ് നിർണ്ണയിച്ചുകൊണ്ടും ഹൈക്കോടതിക്ക്, അതതുസമയം, ചട്ടങ്ങൾ ഉണ്ടാക്കാ വുന്നതാണ്.''',
+    'translation': '''The High Court may, from time to time, make rules for the purposes of this section, and prescribing, with the concurrence of the State Government, the fees to be taken under clauses (a), (b) and (c)'''},
+
+    {'malayalam_sent': '''ഈ ആക്റ്റ് പ്രാബല്യത്തിൽ വരുന്നതിനു മുൻപും അതിനു ശേഷവും മുക്ത്യാർ നാമങ്ങൾ ഉണ്ടാക്കുന്നതിനുളള ഒപ്പിട്ട് പൂർത്തീകരിച്ച പ്രമാണ ങ്ങൾക്ക ഈ വകുപ്പ് ബാധകമാകുന്നതാണ്.''',
+    'translation': '''This section applies to instruments creating powers-of-attorney executed either before or after this Act comes into force.'''},
+
+    {'malayalam_sent': '''പ്രായപൂർത്തിയെത്തിയ ഒരു വിവാഹിതയായ സ്ത്രീക്ക്, അവൾ അവിവാ ഹിത ആയിരുന്നാലെന്നപോലെ, മരണശാസനപ്രതമല്ലാതെയുള്ള ഒരു പ്രമാണത്താൽ, മരണശാസനപ്രതം അല്ലാതെയുള്ള ഒരു പ്രമാണം ഒപ്പിട്ടു പൂർത്തീകരിക്കുന്നതിനോ, അല്ലെങ്കിൽ അവൾക്ക് നേരിട്ട് ഒപ്പിട്ട് പൂർത്തീകരിക്കാനോ ചെയ്യാനോ കഴിയുന്ന മറേതെങ്കിലും പ്രവൃത്തി ചെയ്യുന്നതിനോ വേണ്ടി, തനിക്കുവേണ്ടി ഒരു മുക്ത്യാർ ഈ ആക്ററിന്റെ ബലത്തിൽ അധികാരമുണ്ടായിരിക്കു ന്നതും മുക്ത്യാർ നാമങ്ങൾ ഉണ്ടാക്കുന്നതിനുള്ള പ്രമാണങ്ങൾ സംബന്ധിച്ച ഈ ആറിലെ വ്യവസ്ഥകൾ അതിന് ബാധകമാകുന്നതും ആകുന്നു.''',
+    'translation': '''A married woman of full age shall, by virtue of this Act, have power, as if she were unmarried, by a non-testamentary instrument, to appoint an attorney on her behalf, for the purpose of executing any non-testamentary instrument or doing any other act which she might herself execute or do; and the provisions of this Act, relating to instruments creating powers-of-attorney, shall apply thereto.'''},
+
+    {'malayalam_sent': '''ഈ ആക് പാബല്യത്തിൽ വന്നതിനുശേഷം എഴുതിക്കൊടുത്ത ങ്ങൾക്കുമാത്രം ഈ വകുപ്പ് ബാധകമായിരിക്കുന്നതാണ്.''',
+    'translation': '''This section applies only to instruments executed after this Act comes into force.'''},
+
+{'malayalam_sent': '''ഈ മുക്ത്യാർ ബലത്തിന്മേൽ മേൽ പ്രകാരം എനിക്കു വേണ്ടി നീ പ്രവർത്തിക്കുന്നതൊക്കെയും ഞാൻ നേരിട്ട് പ്രവർത്തിച്ചതുപോലെ എന്നെന്നും ബലത്തിലും ഫലത്തിലും ഇരിക്കുന്നതാണെന്നും നിശ്ചയിച്ചും സമ്മതിച്ചും ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിന്റെ അധികാര പരിധിയിൽപെട്ട വയത്തൂരംശം ദേശത്ത് വെച്ച് താഴെ ഒപ്പിടുന്ന സാക്ഷികൾ മുമ്പാകെ ഞാൻ ഈ മുക്ത്യാർനാമം ഒപ്പിടുകയും രജിസ്ത്രർ ചെയ്യുവാനായി ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിൽ ഹാജരാക്കുവാൻ തീരുമാനിക്കുകയും ചെയ്തിരിക്കുന്നു. ''',
+    'translation': '''I hereby confirm and agree that all actions you take on the basis of this Power of Attorney will be binding and effective on me for ever as if I had acted directly, and I have signed this Power of Attorney at Vayathuramsom Desam, within the jurisdiction of Ulikkal Sub Registrar Officer, in the presence of the witnesses signing below, and I have decided to present it at the Ulikkal Sub-Registrar's office for registration. '''},
+
+{'malayalam_sent': '''ഈ മുക്ത്യാർ ബലത്തിന്മേൽ മേൽ പ്രകാരം എനിക്കു വേണ്ടി നീ പ്രവർത്തിക്കുന്നതൊക്കെയും ഞാൻ നേരിട്ട് പ്രവർത്തിച്ചതുപോലെ എന്നെന്നും ബലത്തിലും ഫലത്തിലും ഇരിക്കുന്നതാണ്. ''',
+    'translation': '''I hereby confirm and agree that all actions you take on the basis of this Power of Attorney will be binding and effective on me for ever, as if I had acted directly. '''},
+
+
+{'malayalam_sent': '''ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിന്റെ അധികാര പരിധിയിൽപെട്ട വയത്തൂരംശം ദേശത്ത് വെച്ച് താഴെ ഒപ്പിടുന്ന സാക്ഷികൾ മുമ്പാകെ ഞാൻ ഈ മുക്ത്യാർനാമം ഒപ്പിടുന്നു. ''',
+    'translation': '''I have signed this Power of Attorney at Vayathuramsom Desam, within the jurisdiction of Ulikkal Sub Registrar Officer, in the presence of the witnesses signing below. '''},
+
+
+{'malayalam_sent': '''ഈ മുക്ത്യാർനാമം രജിസ്ത്രർ ചെയ്യുവാനായി ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിൽ ഹാജരാക്കുവാൻ തീരുമാനിച്ചിരിക്കുന്നു . ''',
+    'translation': '''Have decided to submit this Power of Attorney at the Ulikkal Sub_Registrar's office for registration. '''},
+
+
+{'malayalam_sent': '''ഈ മുക്ത്യാർ പ്രകാരം എനിക്കു വേണ്ടി നീ പ്രവർത്തിക്കുന്നതൊക്കെയും ഞാൻ നേരിട്ട് പ്രവർത്തിച്ചതുപോലെ എന്നെന്നും ബലത്തിലും ഫലത്തിലും ഇരിക്കുന്നതാണെന്നും സമ്മതിച്ചും ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിന്റെ അധികാര പരിധിയിൽപെട്ട വയത്തൂരംശം ദേശത്ത് വെച്ച് താഴെ ഒപ്പിടുന്ന സാക്ഷികൾ മുമ്പാകെ ഞാൻ ഈ മുക്ത്യാർനാമം ഒപ്പിടുകയും രജിസ്ത്രർ ചെയ്യുവാനായി ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിൽ ഹാജരാക്കുവാൻ തീരുമാനിക്കുകയും ചെയ്തിരിക്കുന്നു. ''',
+    'translation': ''' I hereby agree that all actions you take on the basis of this Power of Attorney will be binding and effective on me for ever as if I had acted directly, and I have signed this Power of Attorney at Vayathuramsom Desam, within the jurisdiction of Ulikkal Sub Registrar Officer, in the presence of the witnesses signing below, and I have decided to present it at the Ulikkal Sub-Registrar's office for registration.'''},
+
+
+{'malayalam_sent': '''ഈ മുക്ത്യാർ പ്രകാരം നീ പ്രവർത്തിക്കുന്നതൊക്കെയും ഞാൻ നേരിട്ട് പ്രവർത്തിച്ചതുപോലെ എന്നെന്നും ബലത്തിലും ഫലത്തിലും ഇരിക്കുന്നതാണെന്ന്  സമ്മതിച്ചു, ഞാൻ ഈ മുക്ത്യാർനാമം ഒപ്പിടുകയും, ഇത്  രജിസ്ത്രർ ചെയ്യുവാനായി ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിൽ ഹാജരാക്കുവാൻ തീരുമാനിക്കുകയും ചെയ്തിരിക്കുന്നു. ''',
+    'translation': ''' I agree that all actions you take on the basis of this Power of Attorney will be binding and effective on me for ever as if I had acted directly, and I have signed this Power of Attorney and I have decided to present it at the Ulikkal Sub-Registrar's office for registration.'''},
+
+{'malayalam_sent': '''ഈ മുക്ത്യാർ പ്രകാരം എനിക്കു വേണ്ടി നീ പ്രവർത്തിക്കുന്നതൊക്കെയും ഞാൻ നേരിട്ട് പ്രവർത്തിച്ചതുപോലെ എന്നെന്നും പ്രബല്യത്തിലിരിക്കുന്നതാണ്. ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിന്റെ അധികാര പരിധിയിൽപെട്ട വയത്തൂരംശം ദേശത്ത് വെച്ച് താഴെ ഒപ്പിടുന്ന സാക്ഷികൾ മുമ്പാകെ ഞാൻ ഈ മുക്ത്യാർനാമം ഒപ്പിടുന്നു. ഇത്  രജിസ്ത്രർ ചെയ്യുവാനായി ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിൽ ഹാജരാക്കുവാൻ തീരുമാനിച്ചിരിക്കുന്നു . ''',
+    'translation': ''' I hereby agree that all actions you take on the basis of this Power of Attorney will be binding and effective on me for ever as if I had acted directly. I have signed this Power of Attorney at Vayathuramsom Desam, within the jurisdiction of Ulikkal Sub Registrar Officer, in the presence of the witnesses signing below. I have decided to present it at the Ulikkal Sub-Registrar's office for registration.'''},
+
+{'malayalam_sent': '''ഈ മുക്ത്യാർ ബലത്തിന്മേൽ''',
+    'translation': '''In the strength of this power of attorney'''},
+
+{'malayalam_sent': '''മേൽ പ്രകാരം എനിക്കു വേണ്ടി നീ പ്രവർത്തിക്കുന്നതൊക്കെയും''',
+    'translation': '''Everything you do on my behalf under the above terms'''},
+
+{'malayalam_sent': '''ഞാൻ നേരിട്ട് പ്രവർത്തിച്ചതുപോലെ എന്നെന്നും ബലത്തിലും ഫലത്തിലും ഇരിക്കുന്നതാണെന്നും''',
+    'translation': '''will always remain in force and effect as if I had acted directly'''},
+
+
+{'malayalam_sent': '''നിശ്ചയിച്ചും സമ്മതിച്ചും''',
+    'translation': '''have decided and agreed'''},
+
+{'malayalam_sent': '''ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസ്സിന്റെ അധികാര പരിധിയിൽപെട്ട വയത്തൂരംശം ദേശത്ത് വെച്ച്''',
+    'translation': '''at Vayathuramsham desam, which comes under the jurisdiction of the Ulikal Sub-Registrar's Office'''},
+
+{'malayalam_sent': ''' താഴെ ഒപ്പിടുന്ന സാക്ഷികൾ മുമ്പാകെ''',
+    'translation': '''in the presence of the witnesses signing below '''},
+
+{'malayalam_sent': '''രജിസ്ത്രർ ചെയ്യുവാനായി ഉളിക്കൽ സബ്ബ്-രജിസ്ത്രാർ ആഫീസിൽ ഹാജരാക്കുവാൻ തീരുമാനിക്കുകയും ചെയ്തിരിക്കുന്നു''',
+    'translation': '''and I have decided to submit it to the Ulikal Sub-Registrar's Office for registration'''},
+
+{'malayalam_sent': '''ആൻറണി വിൽക്കുന്നയാൾ, വി. കെ അബ്ദുൾ വാങ്ങുന്നയാൾ ''',
+    'translation': '''Antony is the seller, V.K. Abdul is the buyer.'''},
+
+{'malayalam_sent': '''19-08-2008 രണ്ടായിരത്തിഎട്ട് ആഗസ്റ്റ് മാസം പത്തൊൻപതാം തീയതി കണയന്നൂർ താലൂക്ക്, മുളവുകാട് വില്ലേജ്, വല്ലാർപാടം ദേശത്ത് കാട്ടുനിലത്ത് ചാനി മകൻ കച്ചവടം, 68 (അറുപത്തിഎട്ട്) വയസ്സ്, ആൻറണി, ആലുവ താലൂക്ക്, ആലുവ വെസ്റ്റ് വില്ലേജ്, ആലുവ കരയിൽ മാർക്കറ്റ് റോഡിൽ, ആലുവ-1 ൽ മാനാടത്ത് ബിൽഡിംഗ്സിൽ രജിസ്ട്രേഡ് ഓഫീസായി 1956 ലെ കംപനീസ് ആക്ട് പ്രകാരം രജിസ്റ്റർ ചെയ്തു പ്രവർത്തിക്കുന്ന സർഗ്ഗം ബിൽഡേഴ്സ് പ്രൈവറ്റ് ലിമിറ്റഡിനു (PAN- AAJCS 0115 J) വേണ്ടി ചെയർമാനും മാനേജിംഗ് ഡയറക്ടറുമായ കണയന്നൂർ താലൂക്ക് എളങ്കുളം വില്ലേജ് കടവന്ത്ര ദേശത്ത്, കൊച്ചി-682020 ൽ വാട്ടർ ലാൻറ് റോഡിൽ സർഗ്ഗം വീട്ടിൽ താമസം വി. കെ. കുഞ്ഞാലി നൈന മകൻ ബിസിനസ്സ്, 60(അറുപത്) വയസ്സ്,  വി. കെ. അബ്ദുൾ റഹീം, പേർക്ക് എഴുതിക്കൊടുത്ത തീറാധാരം. ''',
+    'translation': '''Sale deed executed on 19-08-2008 by Antony, Son of Kattunilathu Chani, aged 68 years, a resident of Vallarpadam Desom, Mulavukadu Village, Kanayannur Taluk in favor of Sarggam Builders Private Limited, a company registered under the Companies Act, 1956, having its registered office at Manadathu Buildings, Market Road, Aluva West village, Aluva Kara, Aluva-1 (PAN-AAJCS 0115 J) represented by its chairman and managing director V.K. Abdul Rahim, a businessman, Son of V.K. Kunjaali Naina, aged 60 years, a resident of Sarggam House, Water Land Road, Kochi-682020. '''},
+
+
+{'malayalam_sent': '''താഴെ പട്ടികയിൽ വിവരിക്കുന്ന മുളവുകാട് വില്ലേജ് സർവ്വെ 817/11ൽ പെട്ട 89,500 സെൻറ് വഹകളുടെ പാലിയംവക  പാട്ടവകാശം എറണാകുളം സബ്ബ് രജിസ്ട്രാഫീസ് 1-ാം പുസ്തകം 1047-ാം വാല്യം 376 മുതൽ 380 വരെ വശങ്ങളിൽ രജിസ്ട്രാക്കിയ 1964 ലെ 765-ാം നംപർ തീറാധാരത്തിൽ 1-ാം നംപർ പട്ടികയായി വിവരിച്ചതും പ്രസ്തുത വഹകളുടെ ജന്മാവകാശം കണയന്നൂർ താലൂക്ക് അഡീഷണൽ തഹസിൽദാർ ഓഫീസിലെ 06-03-2006 ലെ കെഡീസ് 372/06/5-2 നംപർ ഉത്തരവു പ്രകാരവും എനിക്കു സിദ്ധിച്ചും കൈവശം വച്ച് അനുഭവിച്ചു വന്നിരുന്ന റീസർവ്വെ പ്രകാരം ബ്ലോക്ക് രണ്ടിൽ 189/11 ൽ 29.34 ആർ വിസ്തീർണ്ണം  ഉള്ളതും ആയ സ്ഥലത്തിൽ നിന്നും എറണാകുളം രജിസ്ട്രാഫീസിലെ 2007 ലെ 3951-ാം നംപർ തീറാധാരപ്രകാരം നിങ്ങൾക്ക് തീറുതന്ന 04.398 സെൻറ് (01.78 ആർ) കഴിച്ച് ബാക്കി 85.102 സെൻറ് (34,454 ആർ) സ്ഥലം യാതൊരുവിധമായ കടബാദ്ധ്യതയും ന്യൂനതയും കൂടാതെ ഞാൻ കൈവശം വച്ച് കരം മുതലായവ തീർത്ത് അടക്കി അനുഭവിച്ചു വരുന്നതും എനിക്ക് മാത്രം അവകാശപ്പെട്ടതുമാകുന്നു. ''',
+
+    'translation': '''The leasehold rights on the properties in Survey 817/11 of Mulavukadu village, described in the table below, measuring 89.500 cent, is detailed in the first table of 765th number sale deed of 1964,  regisered on pages 376-380 of 1047th volume of first book of Ernakulam Sub Registrar's office. I have received the ownership of the above properties in Resurvey Block 2 189/11, measuring 29.34 are,  as per Order No KDis 372/06/5-2 of the Additional Tahsildar Office, Kanayannur Taluk dated 06-03-2006. Out of this land, I have sold 4.398 cents (01.78 are) to you as per Sale deed no. 3952 of 2007 of Eranakulam Registrar's office. I have been holding the remaining 85.102 cents (34.454 are) of land without any liabilities, after paying all taxes and other dues,  This land belongs to me alone. '''},
+
+{'malayalam_sent': ''' താഴെ പട്ടികയിൽ വിവരിക്കുന്ന മുളവുകാട് വില്ലേജ് സർവ്വെ 817/11ൽ പെട്ട 89,500 സെൻറ് വഹകളുടെ പാലിയംവക പാട്ടവകാശം''',
+    'translation': '''The leasehold right of the 89,500 cents of land in Survey 817/11 of Mulavukadu village, as described in the below table. '''},
+
+
+{'malayalam_sent': ''' എറണാകുളം സബ്ബ് രജിസ്ട്രാഫീസ് 1-ാം പുസ്തകം 1047-ാം വാല്യം 376 മുതൽ 380 വരെ വശങ്ങളിൽ രജിസ്ട്രാക്കിയ 1964 ലെ 765-ാം നംപർ തീറാധാരത്തിൽ 1-ാം നംപർ പട്ടികയായി വിവരിച്ചതും''',
+    'translation': '''As described in the 1st table in the 765th number deed of sale registered in the 1st book, volume 1047 of the Ernakulam sub-registrar's office, from page 376 to page 380 '''},
+
+
+{'malayalam_sent': '''കണയന്നൂർ താലൂക്ക് അഡീഷണൽ തഹസിൽദാർ ഓഫീസിലെ 06-03-2006 ലെ കെഡീസ് 372/06/5-2 നംപർ ഉത്തരവു പ്രകാരവും''',
+    'translation': ''' As per the order number KDIS 372/06/5-2 dated 06-03-2006 of the Additional Tahsildar Office, Kanayannur Taluk.'''},
+
+
+{'malayalam_sent': '''എനിക്കു സിദ്ധിച്ചും കൈവശം വച്ച് അനുഭവിച്ചു വന്നിരുന്ന റീസർവ്വെ പ്രകാരം ബ്ലോക്ക് രണ്ടിൽ 189/11 ൽ 29.34 ആർ വിസ്തീർണ്ണം ഉള്ളതും ആയ സ്ഥലത്തിൽ നിന്നും ''',
+    'translation': '''From the land measuring 29.34 ares in Resurvey Block 2 189/11, which I had acquired and been in possession of and enjoying '''},
+
+{'malayalam_sent': '''എറണാകുളം രജിസ്ട്രാഫീസിലെ 2007 ലെ 3951-ാം നംപർ തീറാധാരപ്രകാരം നിങ്ങൾക്ക് തീറുതന്ന 04.398 സെൻറ് (01.78 ആർ) കഴിച്ച് ബാക്കി 85.102 സെൻറ് (34,454 ആർ) സ്ഥലം യാതൊരുവിധമായ കടബാദ്ധ്യതയും ന്യൂനതയും കൂടാതെ ഞാൻ കൈവശം വച്ച് കരം മുതലായവ തീർത്ത് അടക്കി അനുഭവിച്ചു വരുന്നതും ''',
+    'translation': '''After selling you 04.398 cents (01.78 ares) in accordance with the 3951st number sale deed of 2007 in the Ernakulam Registration Office, the remaining land measuring 85.102 cents (34.454 ares), which I have been in possession of and enjoying, free of any kind of debt or defect, after paying the tax and other dues'''},
+
+
+{'malayalam_sent': '''എനിക്ക് മാത്രം അവകാശപ്പെട്ടതുമാകുന്നു''',
+    'translation': '''Belongs to me absolutely'''},
+
+{'malayalam_sent': '''ഇപ്രകാരം എൻെറ കൈവശാവകാശാനുഭവത്തിൽ ഇരുന്നു വരുന്ന 34.454 ആറിൽ (85.102 സെന്ററിൽ) നിന്നും അളന്ന് തിരിച്ച താഴെ പട്ടികയിൽ വിവരിക്കുന്ന 02.28 ആർ (05.640സെൻറ്) വിസ്തീർണമുള്ള സ്ഥലം കംപനിയുടെ പേരിൽ തീറുതരുന്നതിന് കംപനിയുടെ ചെയർമാൻ, മാനേജിംഗ് ഡയറക്ടർ എന്നീ നിലയിൽ നിങ്ങളും ഞാനും തമ്മിൽ ഉഭയസമ്മത പ്രകാരം 16,00,000(പതിനാറു ലക്ഷം) രൂപ തീറുവില നിശ്ചയിച്ച് സമ്മതിച്ച് തീർത്ഥം ഫെഡറൽ ബാങ്ക്, ആലുവ ഫെഡറൽ ഹൈറ്റ്സ് ശാഖയിലെ 716886-ാം നംപർ ചെക്കിൻ പ്രകാരം 1,00,000 (ഒരു ലക്ഷം) രൂപയും, ഫെഡറൽ ബാങ്ക്, ആലുവ ഫെഡറൽ ഹൈറസ് ശാഖയിലെ 716896-ാം നംപർ ചെക്കിൻപ്രകാരം 10,00,000 (പത്ത് ലക്ഷം) രൂപയും ഫെഡറൽ ബാങ്ക് ആലുവ ഫെഡറൽ ഹൈറ്സ് ശാഖയിലെ 19-08-2008 ലെ 181662-ാം നംപർ ചെക്കിൻ പ്രകാരം കിട്ടിയ 5,00,000(അഞ്ച് ലക്ഷം) രൂപയും കൂടി മൊത്തം 16,00,000(പതിനാറ് ലക്ഷം)രൂപ എനിക്ക് കംപനിയിൽ നിന്നും കിട്ടി ബോദ്ധ്യം വന്ന് താഴെ പട്ടികയിൽ വിവരിക്കുന്ന സ്ഥലത്തിൽ എനിക്കുള്ള സകലവിധമായ അവകാശങ്ങളും ഇതിനാൽ പരിഛേദം വിട്ടൊഴിഞ്ഞ് കംപനിയുടെ പേരിൽ തീറായി നടത്തി കൈവശം തന്നിരിക്കുന്നതാകുന്നു. ''',
+
+    'translation': '''As such, from the 34.454 ares (85.102 cents) that I have been in possession of and enjoying, I have measured and separated the 02.28 ares (05.640 cents) of land, as described in the table below, and sold the same to the company. You, as the chairman and managing director of the Company and I have agreed on a price of ₹16,00,000 (sixteen lakhs) for the sale of the above property. The company has paid me ₹1,00,000 (one lakh) from Federal Bank, Aluva Federal Heights branch by check number 716886; ₹10,00,000 (ten lakhs) from Federal Bank, Aluva Federal Heights branch by check number 716896; and ₹5,00,000 (five lakhs) from Federal Bank, Aluva Federal Heights branch by check number 181662, dated 19-08-2008. In total, I have received ₹16,00,000 (sixteen lakhs) from the company. Therefore, I have hereby transferred all of my rights in the land described in the table to the company and handed over possession to the company.'''},
+
+
+{'malayalam_sent': '''എൻെറ കൈവശാവകാശാനുഭവത്തിൽ ഇരുന്നു വരുന്ന 34.454 ആറിൽ (85.102 സെന്ററിൽ) നിന്നും ''',
+    'translation': '''From the 34.454 ares (85.102 cents) that I have been in possession of and enjoying '''},
+
+{'malayalam_sent': '''അളന്ന് തിരിച്ച താഴെ പട്ടികയിൽ വിവരിക്കുന്ന 02.28 ആർ (05.640സെൻറ്) വിസ്തീർണമുള്ള സ്ഥലം ''',
+    'translation': ''' The 02.28 ares (05.640 cents) of land described in the table below, which I have measured and separated'''},
+
+{'malayalam_sent': '''കംപനിയുടെ പേരിൽ തീറുതരുന്നതിന് ''',
+    'translation': '''To sell to the Company '''},
+
+{'malayalam_sent': '''കംപനിയുടെ ചെയർമാൻ, മാനേജിംഗ് ഡയറക്ടർ എന്നീ നിലയിൽ നിങ്ങളും ഞാനും തമ്മിൽ ഉഭയസമ്മത പ്രകാരം: ''',
+    'translation': '''As, you as the Chairman and Managing Director of the Company and I have, mutually agreed'''},
+
+
+{'malayalam_sent': '''ഫെഡറൽ ബാങ്ക്, ആലുവ ഫെഡറൽ ഹൈറസ് ശാഖയിലെ 716896-ാം നംപർ ചെക്കിൻപ്രകാരം 10,00,000 (പത്ത് ലക്ഷം) രൂപ''',
+    'translation': '''Rs 10,00,000 (Ten Lakhs), as per Check No. 716896 drawn on Federal Bank, Aluva Federal Heights Branch'''},
+
+
+{'malayalam_sent': '''അതനുസരിച്ച് പട്ടികയിൽ വിവരിക്കുന്ന സ്ഥലം ഇന്നുമുതൽ കംപനി തീറായി കൈവശം വച്ചും, പേരിൽ പോക്കുവരവു ചെയ്യിച്ചും, മേലാലുള്ള വില്ലേജ് കരം, മുതലായവ തീർത്തും, ക്രയവിക്രയസർവ്വസ്വാതന്ത്യ്രസഹിതം തീറായി അടക്കി അനുഭവിച്ചു കൊള്ളുന്ന കാര്യത്തിലും, തീറുവിലയെ സംബന്ധിച്ചും മേലാൽ എനിക്കോ എന്റെ പിൻതുടർച്ചാവകാശികൾക്കോ യാതൊരു വിധമായ ചോദ്യവും ബാധ്യതയും അവകാശതേർച്ചകളും ഉണ്ടായിരിക്കുന്നതല്ലെന്ന് ഇതിനാൽ പൂർണമായി സമ്മതിച്ചിരിക്കുന്നു. ''',
+    'translation': '''In accordance with the above, I hereby fully agree that the Company will own and hold possession of the land described in the table from today onwards, register it in its name, pay the village tax and other dues, and enjoy the land with full freedom to transact. I also agree that neither I nor my successors will have any questions, liabilities, or disputes regarding the such rights of the Company or the sale price. '''},
+
+{'malayalam_sent': '''പട്ടികവഹകളിൽ സ്ഥാപിച്ച് യാതൊരുവിധമായ കടബാധ്യതകളുമില്ലെന്നും, കോർട്ടുജി, റവന്യൂ ജപ്തി ജാമ്യബാധ്യത മുതലായ പ്രതി ബന്ധങ്ങളിൽ പെടുകയോ പെടുത്തുകയോ ചെയ്തിട്ടില്ലെന്നും കേരളാ ഭൂപരിഷ്കരണ നിയമ പ്രകാരം പരിധിയിൽ കവിഞ്ഞ വഹകൾ എന്റെ കൈവശത്തിൽ ഇല്ലെന്നും, വഹകൾ ലാൻഡ് സീലിങ്ങ് കേസുകളിൽ പെട്ടിട്ടില്ലെന്നും നിങ്ങ ളെ ഉത്തമവിശ്വാസപ്പെടുത്തിയും ഈ തീറാധാരം എഴുതി തന്ന് തീറർത്ഥം പറ്റി ബോധ്യം വന്നിട്ടുള്ളതാകുന്നു ''',
+    'translation': '''I hereby assure you that there are no liabilities of any kind on the land listed in the table, and that it is not involved in any legal relationships such as court cases, revenue seizures, or pledges. I also assure you that I do not have any land in excess of the limits prescribed by the Kerala Land Reforms Act, and that the land is not involved in land ceiling cases. I have convinced you of the above, and have acknowledged the receipt of the sale consideration. '''},
+
+{'malayalam_sent': '''മേൽ എഴുതിയതിനു വിപരീതമായി വന്ന് വല്ല അവകാശനതകളോ മുൻ ബാദ്ധ്യതകളോ മറേറാ ഉണ്ടായി കണ്ട് ഈ തീറുതരുന്ന വസ്തു വഹകളിൽ സ്ഥാപിച്ച് നിങ്ങൾ വല്ല നഷ്ടങ്ങളോ ഈ ആധാരത്തിനു വല്ല ന്യൂനതയോ മറേറാ സംഭവിക്കുന്നതായാൽ ആയതെല്ലാം എന്റെ ചിലവിലും ഉത്തരവാദിത്ത്വ ത്തിലും ഇതരസ്വത്തുക്കൾ ചാർജാക്കിയും പരിഹരിച്ചു തന്നു കൊള്ളാ മെന്ന് സമ്മതിച്ചിരിക്കുന്നു. ''',
+    'translation': ''' If, contrary to the above, any rights, prior liabilities, or other issues are found to exist in the land being sold, and if you suffer any losses on account of this property or defects in this deed, I hereby agree to resolve all of them at my own expense and responsibility, by charging other assets of mine.'''},
+
+{'malayalam_sent': '''മേൽ പറഞ്ഞ എറണാകുളം സബ് രജിസ്ട്രാർ ഓഫീസ് വക 1964 ലെ 765-ാം നംപർ തീറാധാരം നഷ്ടപെട്ടു പോയിട്ടുള്ളതും ആവിവരം 2005 ജൂലായ് മാസം 30-ാം തീയതിയിലെ മാതൃഭൂമി കൊച്ചിൻ എഡിഷൻ ദിനപത്രത്തിൽ പരസ്യപെടുത്തിയിട്ടുള്ളതും അതിൻപ്രകാരം മേൽ പറഞ്ഞ ആധാരത്തെ കുറിച്ച് എന്തെങ്കിലും വിവരങ്ങൾ ലഭിക്കുകയോ ചെയ്തിട്ടില്ലാത്തതുമാകുന്നു. ''',
+    'translation': '''The above-mentioned sale deed number 765 of 1964 of the Ernakulam sub-registrar's office has been lost, and this information has been published in the Mathrubhumi Kochi edition newspaper on July 30, 2005. According to this, no information has been received about the above-mentioned deed. '''},
+
+{'malayalam_sent': '''ഇതു സംബന്ധ മായി ഞാൻ എഴുതിയ ഇന്നേ ദിവസത്തിലെ സത്യവാങ് മൂലവും പ്രതപരസ്യത്തിന്റെ ഫോട്ടോകോപ്പിയും ഇസഹിതം തനും മേൽ നംപറ ധാരത്തിന്റെ അടയാളസഹിതം പകർപ്പ് എറണാകുളം രജിസ്ട്ര് 2007 3951-ാം നംപർ തീറാധാരത്തോടൊപ്പം തന്നിട്ടുള്ളതും ഇപ്രകാര മെല്ലാം സമ്മതിച്ച് താഴെ എഴുതുന്ന സാക്ഷികൾ കാൺകെ ഞാൻ ഈ തീറാധാരത്തിൽ ഒപ്പിട്ടു തന്നിരിക്കുന്നു. ''',
+    'translation': '''In connection with this, I have submitted my affidavit dated today, and photocopy of the news paper advertisement, along with the copy of the deed number 3951 of 2007 of Eranakulam registrar. I hereby agree to all of this, and I have signed this sale deed in the presence of the witnesses below. '''},
+
+{'malayalam_sent': '''സാക്ഷികൾ. 1) വല്ലാർപാടം കാട്ടുനിലത്തു ആൻറണി മകൻ റോമി ആൻറണി 2) വല്ലാർപാടം പളിക്കവീട്ടിൽ മാസിലി മകൻ പി. എം. ക്ലീറ്റസ് തയ്യാറാക്കിയത് : അഡ്വക്കേറ്റ് പി.കെ.ജോസഫ്, KL 63/66. പുളിക്കകുടിയിൽ ദേശാഭിമാനി റോഡ് കലൂർ, കൊച്ചി 17. ''',
+    'translation': '''Witnesses: (1) Romy Anthony, son of Anthony, Kattunilathu, Vallarpadom (2) P.M. Cleetus, son of Masili, of Palikaveettil, Vallarpadom
+Prepared by: Advocate PK. Joseph, KL 63/66. Pulikakudiyil, Deshabhimani Road, Kaloor, Kochi 17. '''},
 
 ]

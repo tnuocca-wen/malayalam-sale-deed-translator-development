@@ -62,18 +62,36 @@
         <button class="btn btn-warning" id="cancelBtn" type="button">Cancel</button>
     </div>
     </div>
-    <br>    
+    <br>
     <hr>
-    <div class="row justify-content-around">
-        <div class="col">
-        <!-- <h1 id="pdfPath" style="display: none;">{{ pdf_path() }}</h1> -->
-        <embed src="" id="pdfView" height="1000vh" width="700vw">
+    <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pdf-tab" data-bs-toggle="pill" data-bs-target="#pdf-pills" type="button" role="tab" aria-controls="pills-home" aria-selected="true">PDF</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="ocr-tab" data-bs-toggle="pill" data-bs-target="#ocr-pills" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">OCR</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="translation-tab" data-bs-toggle="pill" data-bs-target="#translation-pills" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Translation</button>
+        </li>
+      </ul>
+      <br>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pdf-pills" role="tabpanel" aria-labelledby="pdf-tab" tabindex="0">
+            <div class="row justify-content-around">
+            <div class="col">
+            <!-- <h1 id="pdfPath" style="display: none;">{{ pdf_path() }}</h1> -->
+            <embed src="" id="pdfView" height="1000vh" width="700vw">
+            </div>
+        </div></div>
+        <div class="tab-pane fade" id="ocr-pills" role="tabpanel" aria-labelledby="ocr-tab" tabindex="0">
+            <div class="col">
+                <textarea name="ocrText" id="ocrText" cols="75" rows="40" style="resize: none; border: none;"></textarea>
+            </div>
         </div>
-        <div class="col">
-            <textarea name="ocrText" id="ocrText" cols="75" rows="40" style="resize: none; border: none;"></textarea>
-        </div>
-
-</div>
+        <div class="tab-pane fade" id="translation-pills" role="tabpanel" aria-labelledby="translation-tab" tabindex="0">...</div>
+      </div>
+    <br>
 </body>
 </form>
 <a id="downloadLink" style="display: none;" download="output.txt">Download Text</a>

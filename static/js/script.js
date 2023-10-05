@@ -93,12 +93,24 @@ const loader = document.getElementById("animation");
 
 // if (document.getElementById("translateBtn")){
 function sendDataToTranslate() {
-    console.log("sending Data to translate");
+    // console.log("sending Data to translate");
     text = document.getElementById("ocrText").value;
+    document.getElementById("ocrText").readOnly = true;
+    document.getElementById("submitBtn").disabled = true;
+    if (document.getElementById('translateBtn')){
+        document.getElementById('translateBtn').disabled = true;
+    }
     // console.log(text);
     cool = JSON.stringify({sentences:text})
     console.log(cool)
     textarr = text.split('`~>');
+    console.log(textarr.length);
+    for (i=0;i<textarr.length;i++){
+        if (textarr[i]==='' || textarr[i]==='/\n*/'){
+            textarr.splice(i,1);
+        }
+    }
+    console.log(textarr.length);
     fetch('/translate',{
         method: 'POST',
         headers: {
@@ -111,12 +123,26 @@ function sendDataToTranslate() {
         console.log(data);
         if (data.status === 'success')
         {
+            document.getElementById("ocrText").readOnly = false;
             document.getElementById("result").textContent = data.message;
             translatedTxt = data.translated;
             for(let i=0; i<translatedTxt.length; i++){
-                console.log("ദി:" + translatedTxt[i]);
+                // console.log("ദി:" + translatedTxt[i]);
+                // textarr.splice(i+1, 0, translatedTxt[i]);
+                if (i==0){
+                    document.getElementById("ocrText").value = textarr[i];
+                    document.getElementById("ocrText").value += translatedTxt[i];
+                }
+                else{
+                document.getElementById("ocrText").value += textarr[i];
+                document.getElementById("ocrText").value += translatedTxt[i];
             }
-            document.getElementById("ocrText").value = data.translated;
+            }
+            document.getElementById("submitBtn").disabled = false;
+            if (document.getElementById('translateBtn')){
+                document.getElementById('translateBtn').disabled = false;
+            }
+            // document.getElementById("ocrText").value = ;
         }
     });
     // .catch(error => {
