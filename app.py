@@ -144,11 +144,16 @@ def convert_pdf():
 
 @app.route('/translate', methods=['POST'])
 def translate():
+    global cancel_task
+    cancel_task = False
     data = request.get_json()
     print(data)
     sentences = data['sentences']
     translated = []
     for sent in sentences:
+        if cancel_task:
+            print('breaked')
+            break
         print(sent)
         clnd = chatGPT_Trans(sent)
         translated.append(clnd)

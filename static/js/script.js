@@ -105,6 +105,9 @@ document.getElementById("cancelBtn").addEventListener("click", function() {
         document.getElementById("result").textContent = data.message;
         hideLoading();
         document.getElementById("submitBtn").disabled = false;
+        if (document.getElementById('translateBtn')){
+            document.getElementById('translateBtn').disabled = false;
+        }
     });
 });
 
