@@ -35,6 +35,76 @@
             75%  {background-color:rgb(31, 236, 31); left:0px; top:30px;}
             100% {background-color:red; left:0px; top:0px;}
         }
+        /* For the Checkboxes */
+        /* The container */
+        .chk-container {
+        /* display: block; */
+        position: relative;
+        /* padding-left: 35px; */
+        margin-bottom: 12px;
+        cursor: pointer;
+        /* font-size: 22px; */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+
+        /* Hide the browser's default checkbox */
+        .chk-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: auto;
+        padding: 7px 11px 7px 11px;
+        background-color: #00000000;
+        }
+
+        /* On mouse-over, add a grey background color */
+        .chk-container:hover input ~ .checkmark {
+        background-color: #fff;
+        }
+
+        /* When the checkbox is checked, add a blue background */
+        .chk-container input:checked ~ .checkmark {
+        color: #fff;
+        background-color: rgba(250, 95, 34, 0.888);
+        }
+
+        /* Create the checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .chk-container input:checked ~ .checkmark:after {
+        display: none;
+        }
+
+        /* Style the checkmark/indicator */
+        .chk-container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        }        
     </style>
 </head>
 <body>
@@ -66,31 +136,41 @@
     <hr>
     <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pdf-tab" data-bs-toggle="pill" data-bs-target="#pdf-pills" type="button" role="tab" aria-controls="pills-home" aria-selected="true">PDF</button>
+            <label class="chk-container">
+                <input type="checkbox" checked id="pdf-check">
+                <span class="btn btn-outline-secondary checkmark">PDF</span>
+              </label>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="ocr-tab" data-bs-toggle="pill" data-bs-target="#ocr-pills" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">OCR</button>
+            <label class="chk-container">
+                <input type="checkbox" checked id="ocr-check">
+                <span class="btn btn-outline-secondary checkmark">OCR</span>
+              </label>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="translation-tab" data-bs-toggle="pill" data-bs-target="#translation-pills" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Translation</button>
+            <label class="chk-container">
+                <input type="checkbox" id="trans-check">
+                <span class="btn btn-outline-secondary checkmark">Translation</span>
+              </label>
         </li>
       </ul>
-      <br>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pdf-pills" role="tabpanel" aria-labelledby="pdf-tab" tabindex="0">
-            <div class="row justify-content-around">
-            <div class="col">
+      <br><br>
+      <!-- <div class="tab-content" id="pills-tabContent"> -->
+        <div class="row justify-content-around">
+        <div class="col" id="pdf-pills" role="tabpanel" aria-labelledby="pdf-tab" tabindex="0">
+            <!-- <div class="col"> -->
             <!-- <h1 id="pdfPath" style="display: none;">{{ pdf_path() }}</h1> -->
             <embed src="" id="pdfView" height="1000vh" width="700vw">
-            </div>
-        </div></div>
-        <div class="tab-pane fade" id="ocr-pills" role="tabpanel" aria-labelledby="ocr-tab" tabindex="0">
-            <div class="col">
-                <textarea name="ocrText" id="ocrText" cols="75" rows="40" style="resize: none; border: none;"></textarea>
-            </div>
+            <!-- </div> -->
         </div>
-        <div class="tab-pane fade" id="translation-pills" role="tabpanel" aria-labelledby="translation-tab" tabindex="0">...</div>
+        <div class="col" id="ocr-pills" role="tabpanel" aria-labelledby="ocr-tab" tabindex="0">
+            <textarea name="ocrText" id="ocrText" cols="75" rows="40" style="resize: none; border: none;"></textarea>
+        </div>
+        <div class="col d-none" id="translation-pills" role="tabpanel" aria-labelledby="translation-tab" tabindex="0">
+            <textarea name="transText" id="transText" cols="75" rows="40" style="resize: none; border: none;"></textarea>
+        </div>
       </div>
+    <!-- </div> -->
     <br>
 </body>
 </form>

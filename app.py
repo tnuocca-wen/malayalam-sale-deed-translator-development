@@ -137,7 +137,7 @@ def convert_pdf():
 
         # Print the resulting sentences
         for i, sentence in enumerate(sentences):
-            senti += sentence + '\n`~>\n\n'
+            senti += f"Sentence {i+1}\n"+sentence + '\n`~>\n'
             print(f"Sentence {i+1}: {sentence}")
         ocr_done = True
         return

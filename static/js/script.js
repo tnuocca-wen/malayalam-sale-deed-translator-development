@@ -8,6 +8,40 @@
 //         console.error(error);
 //     }
 // }
+const pdfchk = document.getElementById('pdf-check');
+const ocrchk = document.getElementById('ocr-check');
+const transchk = document.getElementById('trans-check');
+
+const pdfbox = document.getElementById('pdf-pills');
+const ocrbox = document.getElementById('ocr-pills');
+const transbox = document.getElementById('translation-pills');
+
+pdfchk.addEventListener('change', (e) => {
+    if(pdfchk.checked == true){
+        pdfbox.classList.remove('d-none');
+    }
+    else{
+        pdfbox.classList.add('d-none');
+    }
+})
+
+ocrchk.addEventListener('change', (e) => {
+    if(ocrchk.checked == true){
+        ocrbox.classList.remove('d-none');
+    }
+    else{
+        ocrbox.classList.add('d-none');
+    }
+})
+
+transchk.addEventListener('change', (e) => {
+    if(transchk.checked == true){
+        transbox.classList.remove('d-none');
+    }
+    else{
+        transbox.classList.add('d-none');
+    }
+})
 
 
 var textArea = document.getElementById("ocrText");
@@ -129,13 +163,14 @@ function sendDataToTranslate() {
             for(let i=0; i<translatedTxt.length; i++){
                 // console.log("ദി:" + translatedTxt[i]);
                 // textarr.splice(i+1, 0, translatedTxt[i]);
+                c = i+1;
                 if (i==0){
-                    document.getElementById("ocrText").value = textarr[i];
-                    document.getElementById("ocrText").value += translatedTxt[i];
+                    // document.getElementById("transText").value = textarr[i];
+                    document.getElementById("transText").value = 'Sentence '+ c + '\n' + translatedTxt[i];
                 }
                 else{
-                document.getElementById("ocrText").value += textarr[i];
-                document.getElementById("ocrText").value += translatedTxt[i];
+                // document.getElementById("ocrText").value += textarr[i];
+                document.getElementById("transText").value += 'Sentence '+ c + '\n' + translatedTxt[i];
             }
             }
             document.getElementById("submitBtn").disabled = false;
