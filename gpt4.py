@@ -68,7 +68,7 @@ def example_select(sentence):
   input_sentence = sentence
   
   # Find the three most similar dictionaries
-  most_similar = find_most_similar(input_list, input_sentence, num_results=1)#int(len(examples_list)/2)
+  most_similar = find_most_similar(input_list, input_sentence, num_results=3)#int(len(examples_list)/2)
 
   # Print the results
   # for idx, entry in enumerate(most_similar, start=1):
@@ -184,22 +184,22 @@ def chatGPT_Trans(text):
     phrases += item['translation'] + "\n\n"
 
 
-  # example_prompt = PromptTemplate(input_variables=["malayalam_sent", "translation"], template="Translate to English : {malayalam_sent}\n{translation}")
+  example_prompt = PromptTemplate(input_variables=["malayalam_sent", "translation"], template="Translate to English : {malayalam_sent}\n{translation}")
 
   # dictionary = dictionary_search(text)
 
-  # prompt = FewShotPromptTemplate(
-  #   examples = example_select(text),
-  #   example_prompt=example_prompt,
-  #   suffix='''{phrases}
-  #   You are an expert translator of legal documents and sale deeds from malayalam to english.
-  #   Rely entirely on the examples given wherever possible.
-  #    translate: {input}''',
-  #   input_variables=["input","phrases"])
+  prompt = FewShotPromptTemplate(
+    examples = example_select(text),
+    example_prompt=example_prompt,
+    suffix='''{phrases}
+    You are an expert translator of legal documents and sale deeds from malayalam to english.
+    Rely entirely on the examples given wherever possible.
+     translate: {input}''',
+    input_variables=["input","phrases"])
 
-  prompt = PromptTemplate(input_variables=["input", "phrases"], template='''{phrases}
-  Do not Hallucinate or make up information. Do not append descriptions.
-  Now Translate the entire text from Malayalam to English : {input}''')
+  # prompt = PromptTemplate(input_variables=["input", "phrases"], template='''{phrases}
+  # Do not Hallucinate or make up information. Do not append descriptions.
+  # Now Translate the entire text from Malayalam to English : {input}''')
 
   comp_prompt = prompt.format(input=text, phrases=phrases)
   print(comp_prompt)
