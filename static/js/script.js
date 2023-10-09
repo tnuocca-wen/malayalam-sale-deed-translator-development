@@ -115,7 +115,10 @@ const loader = document.getElementById("animation");
         
 // showing loading
    function displayLoading() {
-        loader.classList.add("loading");
+    loader.innerHTML=`<div class="spinner-border" role="status" style="z-index:1; position:absolute;">
+    <span class="visually-hidden">Loading...</span>
+  </div>`;
+        // loader.classList.add("loading");
        // to stop loading after some time
     //    setTimeout(() => {
     //        loader.classList.remove("display");
@@ -125,7 +128,7 @@ const loader = document.getElementById("animation");
 
 // hide loading
    function hideLoading() {
-        loader.classList.remove("loading");
+    loader.innerHTML="";
    }  
 
 // if (document.getElementById("translateBtn")){
