@@ -8,6 +8,149 @@
 //         console.error(error);
 //     }
 // }
+
+let translated;
+let ocrdata;
+
+document.getElementById('downloadTransbtn').addEventListener('click', (e) => {
+    console.log(translated.length);
+    if (translated.length != 0){
+        console.log(ocrdata.length);
+        let fileContent = '';
+        for (i=0;i<translated.length;i++){
+            // if (textarr[i]==='' || textarr[i]==='/\n+$/'){
+            //     textarr.splice(i,1);
+            //     continue;
+            // }
+            ocrdata[i] = ocrdata[i].replace(/^(Sentence\s\d+\s*)?/, '');
+            if (i==0){
+            fileContent +='[{malayalam_sent: ' + '\'\'\'' + ocrdata[i] + '\'\'\'' + ',\n' + 'translation: ' + '\'\'\'' + translated[i] + '\'\'\'},\n';
+            }
+            else if(i!=translated.length-1){
+                fileContent +='\n{malayalam_sent: ' + '\'\'\'' + ocrdata[i] + '\'\'\'' + ',\n' + 'translation:' + '\'\'\'' + translated[i] + '\'\'\'},\n';
+            }
+            else{
+                fileContent +='\n{malayalam_sent: ' + '\'\'\'' + ocrdata[i] + '\'\'\'' + ',\n' + 'translation: ' + '\'\'\'' + translated[i] + '\'\'\'}]';
+            }
+        }
+        // Create a Blob from the content
+        const blob = new Blob([fileContent], { type: 'text/plain' });
+
+        fn = pdf_path.split('/');
+        fna = fn.at(-1).split('.');
+        fname = fna[0];
+        console.log(fname);
+        
+        // Create a URL for the Blob
+        const blobURL = window.URL.createObjectURL(blob);
+
+        // Create an anchor element to trigger the download
+        const downloadLink = document.createElement('a');
+        downloadLink.href = blobURL;
+        downloadLink.download = fname + '_dataset' + '.txt'; // Specify the filename here
+
+        // Trigger the download
+        downloadLink.click();
+
+        // Clean up by revoking the Blob URL
+        window.URL.revokeObjectURL(blobURL);
+    }
+});
+
+
+const ocrfileSelect = document.getElementById("ocrfileSelect");
+const ocrfileElem = document.getElementById("ocrFile");
+
+ocrfileSelect.addEventListener(
+  "click",
+  (e) => {
+    if (ocrfileElem) {
+      ocrfileElem.click();
+    }
+  },
+  false,
+);
+
+ocrfileElem.addEventListener(
+    "change", (e) => {
+        var pdfFileInput = document.getElementById("ocrFile");
+        var pdfFile = pdfFileInput.files[0];
+        console.log(pdfFile.name)
+        if(pdfFile){
+            document.getElementById("ocrfileSelect").innerHTML = "<mark style=\"background-color: beige;\">" + pdfFile.name + "</mark>";
+        }
+    },
+    false,
+);
+
+document.getElementById('uploadOCRbtn').addEventListener('click', (e) => {
+    var ocrFileInput = document.getElementById("ocrFile");
+    var ocrFile = ocrFileInput.files[0];
+    console.log(ocrFile.name)
+    if (ocrFile) {
+        // Create a FileReader object
+        const reader = new FileReader();
+
+        // Define an event listener for when the file is loaded
+        reader.onload = (event) => {
+        const fileContents = event.target.result; // The contents of the file
+        const filecntnts = fileContents.split('\n\n');
+        console.log(filecntnts);
+        document.getElementById('ocrText').value = fileContents; // Display the contents in a <div>
+        };
+
+        reader.readAsText(ocrFile);
+    }
+});
+
+
+let pdf_path = '';
+document.getElementById('downloadOCRbtn').addEventListener('click', (e) => {
+    // console.log('hello');
+    if (document.getElementById('ocrText').value != ''){
+        text = document.getElementById("ocrText").value;
+        // document.getElementById("ocrText").readOnly = true;
+        // document.getElementById("submitBtn").disabled = true;
+        // if (document.getElementById('translateBtn')){
+        //     document.getElementById('translateBtn').disabled = true;
+        // }
+        // console.log(text);
+        textarr = text.split('\n\n');
+        console.log(textarr.length);
+        let fileContent = '';
+        for (i=0;i<textarr.length;i++){
+            if (textarr[i]==='' || textarr[i]==='/\n+$/'){
+                textarr.splice(i,1);
+                continue;
+            }
+            fileContent += textarr[i];
+        }
+
+        // Create a Blob from the content
+        const blob = new Blob([fileContent], { type: 'text/plain' });
+
+        fn = pdf_path.split('/');
+        fna = fn.at(-1).split('.');
+        fname = fna[0];
+        console.log(fname);
+        
+        // Create a URL for the Blob
+        const blobURL = window.URL.createObjectURL(blob);
+
+        // Create an anchor element to trigger the download
+        const downloadLink = document.createElement('a');
+        downloadLink.href = blobURL;
+        downloadLink.download = fname + '.txt'; // Specify the filename here
+
+        // Trigger the download
+        downloadLink.click();
+
+        // Clean up by revoking the Blob URL
+        window.URL.revokeObjectURL(blobURL);
+    }
+});
+
+
 const pdfchk = document.getElementById('pdf-check');
 const ocrchk = document.getElementById('ocr-check');
 const transchk = document.getElementById('trans-check');
@@ -108,6 +251,7 @@ document.getElementById("cancelBtn").addEventListener("click", function() {
         if (document.getElementById('translateBtn')){
             document.getElementById('translateBtn').disabled = false;
         }
+        document.getElementById("ocrText").readOnly = false;
     });
 });
 
@@ -143,14 +287,16 @@ function sendDataToTranslate() {
     // console.log(text);
     cool = JSON.stringify({sentences:text})
     console.log(cool)
-    textarr = text.split('`~>');
+    textarr = text.split('\n\n');
+    ocrdata = textarr;
     console.log(textarr.length);
     for (i=0;i<textarr.length;i++){
-        if (textarr[i]==='' || textarr[i]==='/\n*/'){
+        if (textarr[i]===""){
+            console.log("hi");
             textarr.splice(i,1);
         }
     }
-    console.log(textarr.length);
+    console.log(textarr);
     fetch('/translate',{
         method: 'POST',
         headers: {
@@ -166,6 +312,7 @@ function sendDataToTranslate() {
             document.getElementById("ocrText").readOnly = false;
             document.getElementById("result").textContent = data.message;
             translatedTxt = data.translated;
+            translated = data.translated;
             for(let i=0; i<translatedTxt.length; i++){
                 // console.log("ദി:" + translatedTxt[i]);
                 // textarr.splice(i+1, 0, translatedTxt[i]);
@@ -176,7 +323,7 @@ function sendDataToTranslate() {
                 }
                 else{
                 // document.getElementById("ocrText").value += textarr[i];
-                document.getElementById("transText").value += 'Sentence '+ c + '\n' + translatedTxt[i];
+                document.getElementById("transText").value += '\n\nSentence '+ c + '\n' + translatedTxt[i];
             }
             }
             document.getElementById("submitBtn").disabled = false;
@@ -216,6 +363,7 @@ function sendDataToTranslate() {
             if (data.status === 'success') {
                 // path = "static/documents/"+pdfFile.name.toString();
                 pdf_view.src = data.pdf_path;
+                pdf_path = data.pdf_path;
                 document.getElementById("result").textContent = data.message;
                     fetch('/doc_ocr', {
                     method: 'POST',
