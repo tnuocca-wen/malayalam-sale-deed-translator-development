@@ -123,7 +123,7 @@ document.getElementById('downloadOCRbtn').addEventListener('click', (e) => {
                 textarr.splice(i,1);
                 continue;
             }
-            fileContent += textarr[i];
+            fileContent += textarr[i] + '\n\n';
         }
 
         // Create a Blob from the content
