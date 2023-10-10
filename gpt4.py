@@ -47,18 +47,30 @@ def calculate_similarity(sentence1, sentence2):
     return len(common_tokens)
 
 
-def find_most_similar(sentences, input_sentence, num_results=3):
+def find_most_similar(sentences, input_sentence):
     similarities = []
     for entry in sentences:
         malayalam_sent = entry['malayalam_sent']
         translation = entry['translation']
-        similarity = calculate_similarity(input_sentence, malayalam_sent) 
+        similarity = calculate_similarity(input_sentence, malayalam_sent)
         if similarity > 0:  # Ignore entries with similarity 0
             similarities.append({'malayalam_sent': malayalam_sent, 'translation': translation})
         # if len(similarity) == len(tokens2) or len(similarity) > len(tokens2)/2:
 
     similarities.sort(key=lambda x: calculate_similarity(input_sentence, x['malayalam_sent']), reverse=True)
-    
+
+    length = 0
+    num_results=0
+    for entry in similarities:
+      malayalam_sent = entry['malayalam_sent']
+      translation = entry['translation']
+      length += num_tokens_from_string(malayalam_sent, "cl100k_base")
+      length += num_tokens_from_string(translation, "cl100k_base")
+      num_results = num_results + 1
+      if length > len(input_sentence)+2000:
+        break
+
+    print("Total number of similar examples:", len(similarities), "\n", "Total number of taken examples", num_results,"\n", "Total number of tokens", length)
     return similarities[:num_results]
 
 
@@ -68,7 +80,7 @@ def example_select(sentence):
   input_sentence = sentence
   
   # Find the three most similar dictionaries
-  most_similar = find_most_similar(input_list, input_sentence, num_results=3)#int(len(examples_list)/2)
+  most_similar = find_most_similar(input_list, input_sentence)#int(len(examples_list)/2)
 
   # Print the results
   # for idx, entry in enumerate(most_similar, start=1):
