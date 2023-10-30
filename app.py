@@ -137,18 +137,23 @@ def convert_pdf():
 
         # Print the resulting sentences
         for i, sentence in enumerate(sentences):
-            senti += f"Sentence {i+1}\n"+sentence + '\n`~>\n'
+            senti += f"Sentence {i+1}\n"+sentence + '\n\n'
             print(f"Sentence {i+1}: {sentence}")
         ocr_done = True
         return
 
 @app.route('/translate', methods=['POST'])
 def translate():
+    global cancel_task
+    cancel_task = False
     data = request.get_json()
     print(data)
     sentences = data['sentences']
     translated = []
     for sent in sentences:
+        if cancel_task:
+            print('breaked')
+            break
         print(sent)
         clnd = chatGPT_Trans(sent)
         translated.append(clnd)

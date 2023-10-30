@@ -130,7 +130,7 @@ def example_select_phrases(sentence):
 
 
 # Translation function using GPT-4
-def chatGPT_Trans_ft(text):
+def chatGPT_Trans(text):
   global examples_list
   make_examples_list()
 
@@ -163,7 +163,7 @@ def chatGPT_Trans_ft(text):
 
 
 # Translation function using custom fine-tuned model
-def chatGPT_Trans(text):
+def chatGPT_Trans_ft(text):
   llm = ChatOpenAI(model = 'ft:gpt-3.5-turbo-0613:personal::86bad9JC', temperature=0)
   # template = '''Return all the named Entities and their english transliteration as python lists. Return two lists one for named entities and the other for
   # english transliteration.
