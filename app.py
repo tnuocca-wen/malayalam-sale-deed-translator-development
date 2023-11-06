@@ -62,10 +62,11 @@ def upload():
 def start_ocr():
     global cancel_task, senti, pdf_path, sentences
     cancel_task = False
-    ocr_thread = threading.Thread(target=convert_pdf)
-    ocr_thread.daemon = True
-    ocr_thread.start()
-    ocr_thread.join()
+    # ocr_thread = threading.Thread(target=convert_pdf)
+    # ocr_thread.daemon = True
+    # ocr_thread.start()
+    # ocr_thread.join()
+    convert_pdf()
     if ocr_done == True and cancel_task == False:
         return jsonify({'status': 'success', 'message': 'OCR done successfully','sentences':senti, 'sentences_list':sentences, 'pdf_path':pdf_path})
     elif ocr_done == True and cancel_task == True:

@@ -375,6 +375,7 @@ function sendDataToTranslate() {
                         hideLoading();
                         document.getElementById("result").textContent = data.message;
                         document.getElementById("ocrText").value = data.sentences;
+                        console.log(data.sentences);
                         var sentences_list = data.sentences_list;
                         document.getElementById("submitBtn").disabled = false;
                         if (document.getElementById('translateBtn')){
@@ -393,9 +394,25 @@ function sendDataToTranslate() {
                             tran.innerHTML = "Translate to English";
                             document.getElementById("tranDiv").appendChild(tran);
                             translate_btn_press = document.getElementById("translateBtn").addEventListener("click", sendDataToTranslate);
+                            data.sentences = ''
                     }
                         // alert(data.message);
                     } else {
+                        hideLoading();
+                        fetch('/cancel_task',{
+                            method: 'POST',
+                            body: {},
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            document.getElementById("result").textContent = data.message;
+                            hideLoading();
+                            document.getElementById("submitBtn").disabled = false;
+                            if (document.getElementById('translateBtn')){
+                                document.getElementById('translateBtn').disabled = false;
+                            }
+                            document.getElementById("ocrText").readOnly = false;
+                        });
                         alert('Failed to update text area');
                     }
                 })
